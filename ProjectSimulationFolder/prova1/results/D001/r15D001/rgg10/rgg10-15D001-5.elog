@@ -1,0 +1,2664 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1030 rid rgg10-5-20150605-00:38:08-10200 b 1000
+KF p -1 c "" s ""
+MC id 1 c cModule t prova1.net.randomgeometricgraph.RandomGeometricGraph n RandomGeometricGraph cm 1
+MS id 1 d ""
+MC id 2 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[0]
+MS id 2 d i=misc/node_vs;is=vs
+MC id 3 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[1]
+MS id 3 d i=misc/node_vs;is=vs
+MC id 4 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[2]
+MS id 4 d i=misc/node_vs;is=vs
+MC id 5 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[3]
+MS id 5 d i=misc/node_vs;is=vs
+MC id 6 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[4]
+MS id 6 d i=misc/node_vs;is=vs
+MC id 7 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[5]
+MS id 7 d i=misc/node_vs;is=vs
+MC id 8 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[6]
+MS id 8 d i=misc/node_vs;is=vs
+MC id 9 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[7]
+MS id 9 d i=misc/node_vs;is=vs
+MC id 10 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[8]
+MS id 10 d i=misc/node_vs;is=vs
+MC id 11 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[9]
+MS id 11 d i=misc/node_vs;is=vs
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 4 dg 1048576
+CS sm 2 sg 1572864 d ""
+CC sm 4 sg 1572864 dm 2 dg 1048576
+CS sm 4 sg 1572864 d ""
+GC m 2 g 1048577 n gate$i i 1 o 0
+GC m 2 g 1572865 n gate$o i 1 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572865 dm 6 dg 1048576
+CS sm 2 sg 1572865 d ""
+CC sm 6 sg 1572864 dm 2 dg 1048577
+CS sm 6 sg 1572864 d ""
+GC m 2 g 1048578 n gate$i i 2 o 0
+GC m 2 g 1572866 n gate$o i 2 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572866 dm 7 dg 1048576
+CS sm 2 sg 1572866 d ""
+CC sm 7 sg 1572864 dm 2 dg 1048578
+CS sm 7 sg 1572864 d ""
+GC m 2 g 1048579 n gate$i i 3 o 0
+GC m 2 g 1572867 n gate$o i 3 o 1
+GC m 8 g 1048576 n gate$i i 0 o 0
+GC m 8 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572867 dm 8 dg 1048576
+CS sm 2 sg 1572867 d ""
+CC sm 8 sg 1572864 dm 2 dg 1048579
+CS sm 8 sg 1572864 d ""
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572864 dm 5 dg 1048576
+CS sm 3 sg 1572864 d ""
+CC sm 5 sg 1572864 dm 3 dg 1048576
+CS sm 5 sg 1572864 d ""
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 9 g 1048576 n gate$i i 0 o 0
+GC m 9 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572865 dm 9 dg 1048576
+CS sm 3 sg 1572865 d ""
+CC sm 9 sg 1572864 dm 3 dg 1048577
+CS sm 9 sg 1572864 d ""
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 10 g 1048576 n gate$i i 0 o 0
+GC m 10 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 10 dg 1048576
+CS sm 3 sg 1572866 d ""
+CC sm 10 sg 1572864 dm 3 dg 1048578
+CS sm 10 sg 1572864 d ""
+GC m 3 g 1048579 n gate$i i 3 o 0
+GC m 3 g 1572867 n gate$o i 3 o 1
+GC m 11 g 1048576 n gate$i i 0 o 0
+GC m 11 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572867 dm 11 dg 1048576
+CS sm 3 sg 1572867 d ""
+CC sm 11 sg 1572864 dm 3 dg 1048579
+CS sm 11 sg 1572864 d ""
+GC m 4 g 1048577 n gate$i i 1 o 0
+GC m 4 g 1572865 n gate$o i 1 o 1
+GC m 6 g 1048577 n gate$i i 1 o 0
+GC m 6 g 1572865 n gate$o i 1 o 1
+CC sm 4 sg 1572865 dm 6 dg 1048577
+CS sm 4 sg 1572865 d ""
+CC sm 6 sg 1572865 dm 4 dg 1048577
+CS sm 6 sg 1572865 d ""
+GC m 4 g 1048578 n gate$i i 2 o 0
+GC m 4 g 1572866 n gate$o i 2 o 1
+GC m 7 g 1048577 n gate$i i 1 o 0
+GC m 7 g 1572865 n gate$o i 1 o 1
+CC sm 4 sg 1572866 dm 7 dg 1048577
+CS sm 4 sg 1572866 d ""
+CC sm 7 sg 1572865 dm 4 dg 1048578
+CS sm 7 sg 1572865 d ""
+GC m 4 g 1048579 n gate$i i 3 o 0
+GC m 4 g 1572867 n gate$o i 3 o 1
+GC m 8 g 1048577 n gate$i i 1 o 0
+GC m 8 g 1572865 n gate$o i 1 o 1
+CC sm 4 sg 1572867 dm 8 dg 1048577
+CS sm 4 sg 1572867 d ""
+CC sm 8 sg 1572865 dm 4 dg 1048579
+CS sm 8 sg 1572865 d ""
+GC m 5 g 1048577 n gate$i i 1 o 0
+GC m 5 g 1572865 n gate$o i 1 o 1
+GC m 10 g 1048577 n gate$i i 1 o 0
+GC m 10 g 1572865 n gate$o i 1 o 1
+CC sm 5 sg 1572865 dm 10 dg 1048577
+CS sm 5 sg 1572865 d ""
+CC sm 10 sg 1572865 dm 5 dg 1048577
+CS sm 10 sg 1572865 d ""
+GC m 5 g 1048578 n gate$i i 2 o 0
+GC m 5 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048577 n gate$i i 1 o 0
+GC m 11 g 1572865 n gate$o i 1 o 1
+CC sm 5 sg 1572866 dm 11 dg 1048577
+CS sm 5 sg 1572866 d ""
+CC sm 11 sg 1572865 dm 5 dg 1048578
+CS sm 11 sg 1572865 d ""
+GC m 6 g 1048578 n gate$i i 2 o 0
+GC m 6 g 1572866 n gate$o i 2 o 1
+GC m 7 g 1048578 n gate$i i 2 o 0
+GC m 7 g 1572866 n gate$o i 2 o 1
+CC sm 6 sg 1572866 dm 7 dg 1048578
+CS sm 6 sg 1572866 d ""
+CC sm 7 sg 1572866 dm 6 dg 1048578
+CS sm 7 sg 1572866 d ""
+GC m 6 g 1048579 n gate$i i 3 o 0
+GC m 6 g 1572867 n gate$o i 3 o 1
+GC m 8 g 1048578 n gate$i i 2 o 0
+GC m 8 g 1572866 n gate$o i 2 o 1
+CC sm 6 sg 1572867 dm 8 dg 1048578
+CS sm 6 sg 1572867 d ""
+CC sm 8 sg 1572866 dm 6 dg 1048579
+CS sm 8 sg 1572866 d ""
+GC m 7 g 1048579 n gate$i i 3 o 0
+GC m 7 g 1572867 n gate$o i 3 o 1
+GC m 8 g 1048579 n gate$i i 3 o 0
+GC m 8 g 1572867 n gate$o i 3 o 1
+CC sm 7 sg 1572867 dm 8 dg 1048579
+CS sm 7 sg 1572867 d ""
+CC sm 8 sg 1572867 dm 7 dg 1048579
+CS sm 8 sg 1572867 d ""
+GC m 8 g 1048580 n gate$i i 4 o 0
+GC m 8 g 1572868 n gate$o i 4 o 1
+GC m 9 g 1048577 n gate$i i 1 o 0
+GC m 9 g 1572865 n gate$o i 1 o 1
+CC sm 8 sg 1572868 dm 9 dg 1048577
+CS sm 8 sg 1572868 d ""
+CC sm 9 sg 1572865 dm 8 dg 1048580
+CS sm 9 sg 1572865 d ""
+GC m 9 g 1048578 n gate$i i 2 o 0
+GC m 9 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048578 n gate$i i 2 o 0
+GC m 11 g 1572866 n gate$o i 2 o 1
+CC sm 9 sg 1572866 dm 11 dg 1048578
+CS sm 9 sg 1572866 d ""
+CC sm 11 sg 1572866 dm 9 dg 1048578
+CS sm 11 sg 1572866 d ""
+GC m 10 g 1048578 n gate$i i 2 o 0
+GC m 10 g 1572866 n gate$o i 2 o 1
+GC m 11 g 1048579 n gate$i i 3 o 0
+GC m 11 g 1572867 n gate$o i 3 o 1
+CC sm 10 sg 1572866 dm 11 dg 1048579
+CS sm 10 sg 1572866 d ""
+CC sm 11 sg 1572867 dm 10 dg 1048578
+CS sm 11 sg 1572867 d ""
+MB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe -1
+CM id 1 tid 1 eid 1 etid 1 c cMessage n timeout pe -1
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 3 m initialize(0)
+CM id 2 tid 2 eid 2 etid 2 c cMessage n "periodic actions" pe -1
+CM id 3 tid 3 eid 3 etid 3 c cMessage n timeout pe -1
+BS id 2 tid 2 eid 2 etid 2 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 4 m initialize(0)
+CM id 4 tid 4 eid 4 etid 4 c cMessage n "periodic actions" pe -1
+CM id 5 tid 5 eid 5 etid 5 c cMessage n timeout pe -1
+BS id 4 tid 4 eid 4 etid 4 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 5 m initialize(0)
+CM id 6 tid 6 eid 6 etid 6 c cMessage n "periodic actions" pe -1
+CM id 7 tid 7 eid 7 etid 7 c cMessage n timeout pe -1
+BS id 6 tid 6 eid 6 etid 6 c cMessage n "periodic actions" pe 0
+ES t 0.3
+CM id 8 tid 8 eid 8 etid 8 c cMessage n DATA k 6 pe -1
+BS id 7 tid 7 eid 7 etid 7 c cMessage n "timer Start" pe 0
+ES t 1
+ME
+MB sm 1 tm 6 m initialize(0)
+CM id 9 tid 9 eid 9 etid 9 c cMessage n "periodic actions" pe -1
+CM id 10 tid 10 eid 10 etid 10 c cMessage n timeout pe -1
+BS id 9 tid 9 eid 9 etid 9 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 7 m initialize(0)
+CM id 11 tid 11 eid 11 etid 11 c cMessage n "periodic actions" pe -1
+CM id 12 tid 12 eid 12 etid 12 c cMessage n timeout pe -1
+BS id 11 tid 11 eid 11 etid 11 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 8 m initialize(0)
+CM id 13 tid 13 eid 13 etid 13 c cMessage n "periodic actions" pe -1
+CM id 14 tid 14 eid 14 etid 14 c cMessage n timeout pe -1
+BS id 13 tid 13 eid 13 etid 13 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 9 m initialize(0)
+CM id 15 tid 15 eid 15 etid 15 c cMessage n "periodic actions" pe -1
+CM id 16 tid 16 eid 16 etid 16 c cMessage n timeout pe -1
+BS id 15 tid 15 eid 15 etid 15 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 10 m initialize(0)
+CM id 17 tid 17 eid 17 etid 17 c cMessage n "periodic actions" pe -1
+CM id 18 tid 18 eid 18 etid 18 c cMessage n timeout pe -1
+BS id 17 tid 17 eid 17 etid 17 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 11 m initialize(0)
+CM id 19 tid 19 eid 19 etid 19 c cMessage n "periodic actions" pe -1
+CM id 20 tid 20 eid 20 etid 20 c cMessage n timeout pe -1
+BS id 19 tid 19 eid 19 etid 19 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+
+E # 1 t 0.3 m 2 ce 0 msg 0
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe 1
+ES t 30.3
+
+E # 2 t 0.3 m 3 ce 0 msg 2
+BS id 2 tid 2 eid 2 etid 2 c cMessage n "periodic actions" pe 2
+ES t 30.3
+
+E # 3 t 0.3 m 4 ce 0 msg 4
+BS id 4 tid 4 eid 4 etid 4 c cMessage n "periodic actions" pe 3
+ES t 30.3
+
+E # 4 t 0.3 m 5 ce 0 msg 6
+BS id 6 tid 6 eid 6 etid 6 c cMessage n "periodic actions" pe 4
+ES t 30.3
+
+E # 5 t 0.3 m 6 ce 0 msg 9
+BS id 9 tid 9 eid 9 etid 9 c cMessage n "periodic actions" pe 5
+ES t 30.3
+
+E # 6 t 0.3 m 7 ce 0 msg 11
+BS id 11 tid 11 eid 11 etid 11 c cMessage n "periodic actions" pe 6
+ES t 30.3
+
+E # 7 t 0.3 m 8 ce 0 msg 13
+BS id 13 tid 13 eid 13 etid 13 c cMessage n "periodic actions" pe 7
+ES t 30.3
+
+E # 8 t 0.3 m 9 ce 0 msg 15
+BS id 15 tid 15 eid 15 etid 15 c cMessage n "periodic actions" pe 8
+ES t 30.3
+
+E # 9 t 0.3 m 10 ce 0 msg 17
+BS id 17 tid 17 eid 17 etid 17 c cMessage n "periodic actions" pe 9
+ES t 30.3
+
+E # 10 t 0.3 m 11 ce 0 msg 19
+BS id 19 tid 19 eid 19 etid 19 c cMessage n "periodic actions" pe 10
+ES t 30.3
+
+E # 11 t 1 m 5 ce 0 msg 7
+CM id 21 tid 21 eid 21 etid 21 c cMessage n ADV_IND k 4 pe -1
+CL id 21 tid 21 eid 21 etid 21 c BTMessage n ADV_IND k 4 l 288 pe 11 cid 22
+BS id 22 tid 21 eid 22 etid 21 c BTMessage n ADV_IND k 4 l 288 pe 11
+SH sm 5 sg 1572866 pd 0.01
+ES t 1.01
+CL id 21 tid 21 eid 21 etid 21 c BTMessage n ADV_IND k 4 l 288 pe 11 cid 23
+BS id 23 tid 21 eid 23 etid 21 c BTMessage n ADV_IND k 4 l 288 pe 11
+SH sm 5 sg 1572865 pd 0.01
+ES t 1.01
+CL id 21 tid 21 eid 21 etid 21 c BTMessage n ADV_IND k 4 l 288 pe 11 cid 24
+BS id 24 tid 21 eid 24 etid 21 c BTMessage n ADV_IND k 4 l 288 pe 11
+SH sm 5 sg 1572864 pd 0.01
+ES t 1.01
+DM id 21 tid 21 eid 21 etid 21 c cMessage n ADV_IND k 4 pe 11
+BS id 7 tid 7 eid 7 etid 7 c cMessage n "timer advertising" pe 11
+ES t 6
+
+E # 12 t 1.01 m 11 ce 11 msg 22
+CM id 25 tid 25 eid 25 etid 25 c cMessage n CONN_REQ k 2 pe -1
+CL id 25 tid 25 eid 25 etid 25 c BTMessage n CONN_REQ k 2 l 352 pe 12 cid 26
+BS id 26 tid 25 eid 26 etid 25 c BTMessage n CONN_REQ k 2 l 352 pe 12
+SH sm 11 sg 1572865 pd 0.01
+ES t 1.02
+DM id 25 tid 25 eid 25 etid 25 c cMessage n CONN_REQ k 2 pe 12
+DM id 22 tid 21 eid 22 etid 21 c cMessage n ADV_IND k 4 pe 12
+CM id 27 tid 27 eid 27 etid 27 c cMessage n START_TX k 5 pe -1
+CL id 27 tid 27 eid 27 etid 27 c BTMessage n START_TX k 5 l 80 pe 12 cid 28
+BS id 28 tid 27 eid 28 etid 27 c BTMessage n START_TX k 5 l 80 pe 12
+SH sm 11 sg 1572865 pd 0.01
+ES t 2.27
+DM id 27 tid 27 eid 27 etid 27 c cMessage n START_TX k 5 pe 12
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "timer conn_mester" pe 0
+ES t 4.26
+
+E # 13 t 1.01 m 10 ce 11 msg 23
+CM id 29 tid 29 eid 29 etid 29 c cMessage n CONN_REQ k 2 pe -1
+CL id 29 tid 29 eid 29 etid 29 c BTMessage n CONN_REQ k 2 l 352 pe 13 cid 30
+BS id 30 tid 29 eid 30 etid 29 c BTMessage n CONN_REQ k 2 l 352 pe 13
+SH sm 10 sg 1572865 pd 0.01
+ES t 1.02
+DM id 29 tid 29 eid 29 etid 29 c cMessage n CONN_REQ k 2 pe 13
+DM id 23 tid 21 eid 23 etid 21 c cMessage n ADV_IND k 4 pe 13
+CM id 31 tid 31 eid 31 etid 31 c cMessage n START_TX k 5 pe -1
+CL id 31 tid 31 eid 31 etid 31 c BTMessage n START_TX k 5 l 80 pe 13 cid 32
+BS id 32 tid 31 eid 32 etid 31 c BTMessage n START_TX k 5 l 80 pe 13
+SH sm 10 sg 1572865 pd 0.01
+ES t 2.27
+DM id 31 tid 31 eid 31 etid 31 c cMessage n START_TX k 5 pe 13
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "timer conn_mester" pe 0
+ES t 4.26
+
+E # 14 t 1.01 m 3 ce 11 msg 24
+CM id 33 tid 33 eid 33 etid 33 c cMessage n CONN_REQ k 2 pe -1
+CL id 33 tid 33 eid 33 etid 33 c BTMessage n CONN_REQ k 2 l 352 pe 14 cid 34
+BS id 34 tid 33 eid 34 etid 33 c BTMessage n CONN_REQ k 2 l 352 pe 14
+SH sm 3 sg 1572864 pd 0.01
+ES t 1.02
+DM id 33 tid 33 eid 33 etid 33 c cMessage n CONN_REQ k 2 pe 14
+DM id 24 tid 21 eid 24 etid 21 c cMessage n ADV_IND k 4 pe 14
+CM id 35 tid 35 eid 35 etid 35 c cMessage n START_TX k 5 pe -1
+CL id 35 tid 35 eid 35 etid 35 c BTMessage n START_TX k 5 l 80 pe 14 cid 36
+BS id 36 tid 35 eid 36 etid 35 c BTMessage n START_TX k 5 l 80 pe 14
+SH sm 3 sg 1572864 pd 0.01
+ES t 2.27
+DM id 35 tid 35 eid 35 etid 35 c cMessage n START_TX k 5 pe 14
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer conn_mester" pe 0
+ES t 4.26
+
+E # 15 t 1.02 m 5 ce 12 msg 26
+CE id 7 tid 7 eid 7 etid 7 c cMessage n "timer advertising" pe 11
+DM id 26 tid 25 eid 26 etid 25 c cMessage n CONN_REQ k 2 pe 15
+
+E # 16 t 1.02 m 5 ce 13 msg 30
+
+E # 17 t 1.02 m 5 ce 14 msg 34
+
+E # 18 t 2.27 m 5 ce 12 msg 28
+CM id 37 tid 37 eid 37 etid 37 c cMessage n START_TX k 5 pe -1
+CL id 37 tid 37 eid 37 etid 37 c BTMessage n START_TX k 5 l 80 pe 18 cid 38
+BS id 38 tid 37 eid 38 etid 37 c BTMessage n START_TX k 5 l 80 pe 18
+SH sm 5 sg 1572866 pd 0.01
+ES t 2.28
+DM id 37 tid 37 eid 37 etid 37 c cMessage n START_TX k 5 pe 18
+CL id 8 tid 8 eid 8 etid 8 c BTMessage n DATA k 6 l 10930944 pe 0 cid 39
+BS id 39 tid 8 eid 39 etid 8 c BTMessage n DATA k 6 l 10930944 pe 18
+SH sm 5 sg 1572866 pd 0.01 td 10.93
+ES t 13.21
+DM id 28 tid 27 eid 28 etid 27 c cMessage n START_TX k 5 pe 18
+
+E # 19 t 2.27 m 5 ce 13 msg 32
+
+E # 20 t 2.27 m 5 ce 14 msg 36
+
+E # 21 t 2.28 m 11 ce 18 msg 38
+CE id 20 tid 20 eid 20 etid 20 c cMessage n "timer conn_mester" pe 12
+DM id 38 tid 37 eid 38 etid 37 c cMessage n START_TX k 5 pe 21
+
+E # 22 t 4.26 m 10 ce 13 msg 18
+
+E # 23 t 4.26 m 3 ce 14 msg 3
+
+E # 24 t 13.21 m 11 ce 18 msg 39
+CL id 39 tid 8 eid 39 etid 8 c BTMessage n DATA k 6 l 10930944 pe 24 cid 40
+CM id 41 tid 41 eid 41 etid 41 c cMessage n ACK pe -1
+CL id 41 tid 41 eid 41 etid 41 c BTMessage n ACK l 80 pe 24 cid 42
+BS id 42 tid 41 eid 42 etid 41 c BTMessage n ACK l 80 pe 24
+SH sm 11 sg 1572865 pd 0.01
+ES t 13.22
+DM id 39 tid 8 eid 39 etid 8 c cMessage n DATA k 6 pe 24
+DM id 41 tid 41 eid 41 etid 41 c cMessage n ACK pe 24
+
+E # 25 t 13.22 m 5 ce 24 msg 42
+CM id 43 tid 43 eid 43 etid 43 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 43 tid 43 eid 43 etid 43 c BTMessage n TERMINATE_TX k 5 l 80 pe 25 cid 44
+BS id 44 tid 43 eid 44 etid 43 c BTMessage n TERMINATE_TX k 5 l 80 pe 25
+SH sm 5 sg 1572866 pd 0.01
+ES t 13.23
+DM id 43 tid 43 eid 43 etid 43 c cMessage n TERMINATE_TX k 5 pe 25
+DM id 42 tid 41 eid 42 etid 41 c cMessage n ACK pe 25
+
+E # 26 t 13.23 m 11 ce 25 msg 44
+CM id 45 tid 45 eid 45 etid 45 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 45 tid 45 eid 45 etid 45 c BTMessage n TERMINATE_TX k 5 l 80 pe 26 cid 46
+BS id 46 tid 45 eid 46 etid 45 c BTMessage n TERMINATE_TX k 5 l 80 pe 26
+SH sm 11 sg 1572865 pd 0.01
+ES t 13.24
+DM id 45 tid 45 eid 45 etid 45 c cMessage n TERMINATE_TX k 5 pe 26
+DM id 44 tid 43 eid 44 etid 43 c cMessage n TERMINATE_TX k 5 pe 26
+CM id 47 tid 47 eid 47 etid 47 c cMessage n ADV_IND k 4 pe -1
+CL id 47 tid 47 eid 47 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26 cid 48
+BS id 48 tid 47 eid 48 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26
+SH sm 11 sg 1572866 pd 0.01
+ES t 13.24
+CL id 47 tid 47 eid 47 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26 cid 49
+BS id 49 tid 47 eid 49 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26
+SH sm 11 sg 1572865 pd 0.01
+ES t 13.24
+CL id 47 tid 47 eid 47 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26 cid 50
+BS id 50 tid 47 eid 50 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26
+SH sm 11 sg 1572867 pd 0.01
+ES t 13.24
+CL id 47 tid 47 eid 47 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26 cid 51
+BS id 51 tid 47 eid 51 etid 47 c BTMessage n ADV_IND k 4 l 288 pe 26
+SH sm 11 sg 1572864 pd 0.01
+ES t 13.24
+DM id 47 tid 47 eid 47 etid 47 c cMessage n ADV_IND k 4 pe 26
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "timer advertising" pe 21
+ES t 18.23
+
+E # 27 t 13.24 m 5 ce 26 msg 46
+DM id 46 tid 45 eid 46 etid 45 c cMessage n TERMINATE_TX k 5 pe 27
+CM id 52 tid 52 eid 52 etid 52 c cMessage n ADV_IND k 4 pe -1
+CL id 52 tid 52 eid 52 etid 52 c BTMessage n ADV_IND k 4 l 288 pe 27 cid 53
+BS id 53 tid 52 eid 53 etid 52 c BTMessage n ADV_IND k 4 l 288 pe 27
+SH sm 5 sg 1572865 pd 0.01
+ES t 13.25
+CL id 52 tid 52 eid 52 etid 52 c BTMessage n ADV_IND k 4 l 288 pe 27 cid 54
+BS id 54 tid 52 eid 54 etid 52 c BTMessage n ADV_IND k 4 l 288 pe 27
+SH sm 5 sg 1572866 pd 0.01
+ES t 13.25
+CL id 52 tid 52 eid 52 etid 52 c BTMessage n ADV_IND k 4 l 288 pe 27 cid 55
+BS id 55 tid 52 eid 55 etid 52 c BTMessage n ADV_IND k 4 l 288 pe 27
+SH sm 5 sg 1572864 pd 0.01
+ES t 13.25
+DM id 52 tid 52 eid 52 etid 52 c cMessage n ADV_IND k 4 pe 27
+BS id 7 tid 7 eid 7 etid 7 c cMessage n "timer advertising" pe 15
+ES t 18.24
+
+E # 28 t 13.24 m 9 ce 26 msg 48
+CM id 56 tid 56 eid 56 etid 56 c cMessage n CONN_REQ k 2 pe -1
+CL id 56 tid 56 eid 56 etid 56 c BTMessage n CONN_REQ k 2 l 352 pe 28 cid 57
+BS id 57 tid 56 eid 57 etid 56 c BTMessage n CONN_REQ k 2 l 352 pe 28
+SH sm 9 sg 1572866 pd 0.01
+ES t 13.25
+DM id 56 tid 56 eid 56 etid 56 c cMessage n CONN_REQ k 2 pe 28
+DM id 48 tid 47 eid 48 etid 47 c cMessage n ADV_IND k 4 pe 28
+CM id 58 tid 58 eid 58 etid 58 c cMessage n START_TX k 5 pe -1
+CL id 58 tid 58 eid 58 etid 58 c BTMessage n START_TX k 5 l 80 pe 28 cid 59
+BS id 59 tid 58 eid 59 etid 58 c BTMessage n START_TX k 5 l 80 pe 28
+SH sm 9 sg 1572866 pd 0.01
+ES t 14.5
+DM id 58 tid 58 eid 58 etid 58 c cMessage n START_TX k 5 pe 28
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "timer conn_mester" pe 0
+ES t 16.49
+
+E # 29 t 13.24 m 5 ce 26 msg 49
+DM id 49 tid 47 eid 49 etid 47 c cMessage n ADV_IND k 4 pe 29
+
+E # 30 t 13.24 m 10 ce 26 msg 50
+CM id 60 tid 60 eid 60 etid 60 c cMessage n CONN_REQ k 2 pe -1
+CL id 60 tid 60 eid 60 etid 60 c BTMessage n CONN_REQ k 2 l 352 pe 30 cid 61
+BS id 61 tid 60 eid 61 etid 60 c BTMessage n CONN_REQ k 2 l 352 pe 30
+SH sm 10 sg 1572866 pd 0.01
+ES t 13.25
+DM id 60 tid 60 eid 60 etid 60 c cMessage n CONN_REQ k 2 pe 30
+DM id 50 tid 47 eid 50 etid 47 c cMessage n ADV_IND k 4 pe 30
+CM id 62 tid 62 eid 62 etid 62 c cMessage n START_TX k 5 pe -1
+CL id 62 tid 62 eid 62 etid 62 c BTMessage n START_TX k 5 l 80 pe 30 cid 63
+BS id 63 tid 62 eid 63 etid 62 c BTMessage n START_TX k 5 l 80 pe 30
+SH sm 10 sg 1572866 pd 0.01
+ES t 14.5
+DM id 62 tid 62 eid 62 etid 62 c cMessage n START_TX k 5 pe 30
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "timer conn_mester" pe 22
+ES t 16.49
+
+E # 31 t 13.24 m 3 ce 26 msg 51
+CM id 64 tid 64 eid 64 etid 64 c cMessage n CONN_REQ k 2 pe -1
+CL id 64 tid 64 eid 64 etid 64 c BTMessage n CONN_REQ k 2 l 352 pe 31 cid 65
+BS id 65 tid 64 eid 65 etid 64 c BTMessage n CONN_REQ k 2 l 352 pe 31
+SH sm 3 sg 1572867 pd 0.01
+ES t 13.25
+DM id 64 tid 64 eid 64 etid 64 c cMessage n CONN_REQ k 2 pe 31
+DM id 51 tid 47 eid 51 etid 47 c cMessage n ADV_IND k 4 pe 31
+CM id 66 tid 66 eid 66 etid 66 c cMessage n START_TX k 5 pe -1
+CL id 66 tid 66 eid 66 etid 66 c BTMessage n START_TX k 5 l 80 pe 31 cid 67
+BS id 67 tid 66 eid 67 etid 66 c BTMessage n START_TX k 5 l 80 pe 31
+SH sm 3 sg 1572867 pd 0.01
+ES t 14.5
+DM id 66 tid 66 eid 66 etid 66 c cMessage n START_TX k 5 pe 31
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer conn_mester" pe 23
+ES t 16.49
+
+E # 32 t 13.25 m 10 ce 27 msg 53
+
+E # 33 t 13.25 m 11 ce 27 msg 54
+DM id 54 tid 52 eid 54 etid 52 c cMessage n ADV_IND k 4 pe 33
+
+E # 34 t 13.25 m 3 ce 27 msg 55
+
+E # 35 t 13.25 m 11 ce 28 msg 57
+CE id 20 tid 20 eid 20 etid 20 c cMessage n "timer advertising" pe 26
+DM id 57 tid 56 eid 57 etid 56 c cMessage n CONN_REQ k 2 pe 35
+
+E # 36 t 13.25 m 11 ce 30 msg 61
+
+E # 37 t 13.25 m 11 ce 31 msg 65
+
+E # 38 t 14.5 m 11 ce 28 msg 59
+CM id 68 tid 68 eid 68 etid 68 c cMessage n START_TX k 5 pe -1
+CL id 68 tid 68 eid 68 etid 68 c BTMessage n START_TX k 5 l 80 pe 38 cid 69
+BS id 69 tid 68 eid 69 etid 68 c BTMessage n START_TX k 5 l 80 pe 38
+SH sm 11 sg 1572866 pd 0.01
+ES t 14.51
+DM id 68 tid 68 eid 68 etid 68 c cMessage n START_TX k 5 pe 38
+CL id 40 tid 8 eid 40 etid 8 c BTMessage n DATA k 6 l 10930944 pe 24 cid 70
+BS id 70 tid 8 eid 70 etid 8 c BTMessage n DATA k 6 l 10930944 pe 38
+SH sm 11 sg 1572866 pd 0.01 td 10.93
+ES t 25.44
+DM id 59 tid 58 eid 59 etid 58 c cMessage n START_TX k 5 pe 38
+
+E # 39 t 14.5 m 11 ce 30 msg 63
+
+E # 40 t 14.5 m 11 ce 31 msg 67
+
+E # 41 t 14.51 m 9 ce 38 msg 69
+CE id 16 tid 16 eid 16 etid 16 c cMessage n "timer conn_mester" pe 28
+DM id 69 tid 68 eid 69 etid 68 c cMessage n START_TX k 5 pe 41
+
+E # 42 t 16.49 m 10 ce 30 msg 18
+
+E # 43 t 16.49 m 3 ce 31 msg 3
+
+E # 44 t 18.24 m 5 ce 27 msg 7
+CM id 71 tid 71 eid 71 etid 71 c cMessage n ADV_IND k 4 pe -1
+CL id 71 tid 71 eid 71 etid 71 c BTMessage n ADV_IND k 4 l 288 pe 44 cid 72
+BS id 72 tid 71 eid 72 etid 71 c BTMessage n ADV_IND k 4 l 288 pe 44
+SH sm 5 sg 1572865 pd 0.01
+ES t 18.25
+CL id 71 tid 71 eid 71 etid 71 c BTMessage n ADV_IND k 4 l 288 pe 44 cid 73
+BS id 73 tid 71 eid 73 etid 71 c BTMessage n ADV_IND k 4 l 288 pe 44
+SH sm 5 sg 1572864 pd 0.01
+ES t 18.25
+CL id 71 tid 71 eid 71 etid 71 c BTMessage n ADV_IND k 4 l 288 pe 44 cid 74
+BS id 74 tid 71 eid 74 etid 71 c BTMessage n ADV_IND k 4 l 288 pe 44
+SH sm 5 sg 1572866 pd 0.01
+ES t 18.25
+DM id 71 tid 71 eid 71 etid 71 c cMessage n ADV_IND k 4 pe 44
+BS id 7 tid 7 eid 7 etid 7 c cMessage n "timer advertising" pe 44
+ES t 23.24
+
+E # 45 t 18.25 m 10 ce 44 msg 72
+CM id 75 tid 75 eid 75 etid 75 c cMessage n CONN_REQ k 2 pe -1
+CL id 75 tid 75 eid 75 etid 75 c BTMessage n CONN_REQ k 2 l 352 pe 45 cid 76
+BS id 76 tid 75 eid 76 etid 75 c BTMessage n CONN_REQ k 2 l 352 pe 45
+SH sm 10 sg 1572865 pd 0.01
+ES t 18.26
+DM id 75 tid 75 eid 75 etid 75 c cMessage n CONN_REQ k 2 pe 45
+DM id 72 tid 71 eid 72 etid 71 c cMessage n ADV_IND k 4 pe 45
+CM id 77 tid 77 eid 77 etid 77 c cMessage n START_TX k 5 pe -1
+CL id 77 tid 77 eid 77 etid 77 c BTMessage n START_TX k 5 l 80 pe 45 cid 78
+BS id 78 tid 77 eid 78 etid 77 c BTMessage n START_TX k 5 l 80 pe 45
+SH sm 10 sg 1572865 pd 0.01
+ES t 19.51
+DM id 77 tid 77 eid 77 etid 77 c cMessage n START_TX k 5 pe 45
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "timer conn_mester" pe 42
+ES t 21.5
+
+E # 46 t 18.25 m 3 ce 44 msg 73
+CM id 79 tid 79 eid 79 etid 79 c cMessage n CONN_REQ k 2 pe -1
+CL id 79 tid 79 eid 79 etid 79 c BTMessage n CONN_REQ k 2 l 352 pe 46 cid 80
+BS id 80 tid 79 eid 80 etid 79 c BTMessage n CONN_REQ k 2 l 352 pe 46
+SH sm 3 sg 1572864 pd 0.01
+ES t 18.26
+DM id 79 tid 79 eid 79 etid 79 c cMessage n CONN_REQ k 2 pe 46
+DM id 73 tid 71 eid 73 etid 71 c cMessage n ADV_IND k 4 pe 46
+CM id 81 tid 81 eid 81 etid 81 c cMessage n START_TX k 5 pe -1
+CL id 81 tid 81 eid 81 etid 81 c BTMessage n START_TX k 5 l 80 pe 46 cid 82
+BS id 82 tid 81 eid 82 etid 81 c BTMessage n START_TX k 5 l 80 pe 46
+SH sm 3 sg 1572864 pd 0.01
+ES t 19.51
+DM id 81 tid 81 eid 81 etid 81 c cMessage n START_TX k 5 pe 46
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer conn_mester" pe 43
+ES t 21.5
+
+E # 47 t 18.25 m 11 ce 44 msg 74
+
+E # 48 t 18.26 m 5 ce 45 msg 76
+CE id 7 tid 7 eid 7 etid 7 c cMessage n "timer advertising" pe 44
+DM id 76 tid 75 eid 76 etid 75 c cMessage n CONN_REQ k 2 pe 48
+
+E # 49 t 18.26 m 5 ce 46 msg 80
+
+E # 50 t 19.51 m 5 ce 45 msg 78
+CM id 83 tid 83 eid 83 etid 83 c cMessage n START_TX k 5 pe -1
+CL id 83 tid 83 eid 83 etid 83 c BTMessage n START_TX k 5 l 80 pe 50 cid 84
+BS id 84 tid 83 eid 84 etid 83 c BTMessage n START_TX k 5 l 80 pe 50
+SH sm 5 sg 1572865 pd 0.01
+ES t 19.52
+DM id 83 tid 83 eid 83 etid 83 c cMessage n START_TX k 5 pe 50
+CL id 8 tid 8 eid 8 etid 8 c BTMessage n DATA k 6 l 10930944 pe 18 cid 85
+BS id 85 tid 8 eid 85 etid 8 c BTMessage n DATA k 6 l 10930944 pe 50
+SH sm 5 sg 1572865 pd 0.01 td 10.93
+ES t 30.45
+DM id 78 tid 77 eid 78 etid 77 c cMessage n START_TX k 5 pe 50
+
+E # 51 t 19.51 m 5 ce 46 msg 82
+
+E # 52 t 19.52 m 10 ce 50 msg 84
+CE id 18 tid 18 eid 18 etid 18 c cMessage n "timer conn_mester" pe 45
+DM id 84 tid 83 eid 84 etid 83 c cMessage n START_TX k 5 pe 52
+
+E # 53 t 21.5 m 3 ce 46 msg 3
+
+E # 54 t 25.44 m 9 ce 38 msg 70
+CL id 70 tid 8 eid 70 etid 8 c BTMessage n DATA k 6 l 10930944 pe 54 cid 86
+CM id 87 tid 87 eid 87 etid 87 c cMessage n ACK pe -1
+CL id 87 tid 87 eid 87 etid 87 c BTMessage n ACK l 80 pe 54 cid 88
+BS id 88 tid 87 eid 88 etid 87 c BTMessage n ACK l 80 pe 54
+SH sm 9 sg 1572866 pd 0.01
+ES t 25.45
+DM id 70 tid 8 eid 70 etid 8 c cMessage n DATA k 6 pe 54
+DM id 87 tid 87 eid 87 etid 87 c cMessage n ACK pe 54
+
+E # 55 t 25.45 m 11 ce 54 msg 88
+CM id 89 tid 89 eid 89 etid 89 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 89 tid 89 eid 89 etid 89 c BTMessage n TERMINATE_TX k 5 l 80 pe 55 cid 90
+BS id 90 tid 89 eid 90 etid 89 c BTMessage n TERMINATE_TX k 5 l 80 pe 55
+SH sm 11 sg 1572866 pd 0.01
+ES t 25.46
+DM id 89 tid 89 eid 89 etid 89 c cMessage n TERMINATE_TX k 5 pe 55
+DM id 88 tid 87 eid 88 etid 87 c cMessage n ACK pe 55
+
+E # 56 t 25.46 m 9 ce 55 msg 90
+CM id 91 tid 91 eid 91 etid 91 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 91 tid 91 eid 91 etid 91 c BTMessage n TERMINATE_TX k 5 l 80 pe 56 cid 92
+BS id 92 tid 91 eid 92 etid 91 c BTMessage n TERMINATE_TX k 5 l 80 pe 56
+SH sm 9 sg 1572866 pd 0.01
+ES t 25.47
+DM id 91 tid 91 eid 91 etid 91 c cMessage n TERMINATE_TX k 5 pe 56
+DM id 90 tid 89 eid 90 etid 89 c cMessage n TERMINATE_TX k 5 pe 56
+CM id 93 tid 93 eid 93 etid 93 c cMessage n ADV_IND k 4 pe -1
+CL id 93 tid 93 eid 93 etid 93 c BTMessage n ADV_IND k 4 l 288 pe 56 cid 94
+BS id 94 tid 93 eid 94 etid 93 c BTMessage n ADV_IND k 4 l 288 pe 56
+SH sm 9 sg 1572864 pd 0.01
+ES t 25.47
+CL id 93 tid 93 eid 93 etid 93 c BTMessage n ADV_IND k 4 l 288 pe 56 cid 95
+BS id 95 tid 93 eid 95 etid 93 c BTMessage n ADV_IND k 4 l 288 pe 56
+SH sm 9 sg 1572865 pd 0.01
+ES t 25.47
+CL id 93 tid 93 eid 93 etid 93 c BTMessage n ADV_IND k 4 l 288 pe 56 cid 96
+BS id 96 tid 93 eid 96 etid 93 c BTMessage n ADV_IND k 4 l 288 pe 56
+SH sm 9 sg 1572866 pd 0.01
+ES t 25.47
+DM id 93 tid 93 eid 93 etid 93 c cMessage n ADV_IND k 4 pe 56
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 41
+ES t 30.46
+
+E # 57 t 25.47 m 11 ce 56 msg 92
+DM id 92 tid 91 eid 92 etid 91 c cMessage n TERMINATE_TX k 5 pe 57
+CM id 97 tid 97 eid 97 etid 97 c cMessage n ADV_IND k 4 pe -1
+CL id 97 tid 97 eid 97 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57 cid 98
+BS id 98 tid 97 eid 98 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57
+SH sm 11 sg 1572866 pd 0.01
+ES t 25.48
+CL id 97 tid 97 eid 97 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57 cid 99
+BS id 99 tid 97 eid 99 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57
+SH sm 11 sg 1572864 pd 0.01
+ES t 25.48
+CL id 97 tid 97 eid 97 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57 cid 100
+BS id 100 tid 97 eid 100 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57
+SH sm 11 sg 1572865 pd 0.01
+ES t 25.48
+CL id 97 tid 97 eid 97 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57 cid 101
+BS id 101 tid 97 eid 101 etid 97 c BTMessage n ADV_IND k 4 l 288 pe 57
+SH sm 11 sg 1572867 pd 0.01
+ES t 25.48
+DM id 97 tid 97 eid 97 etid 97 c cMessage n ADV_IND k 4 pe 57
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "timer advertising" pe 35
+ES t 30.47
+
+E # 58 t 25.47 m 3 ce 56 msg 94
+CM id 102 tid 102 eid 102 etid 102 c cMessage n CONN_REQ k 2 pe -1
+CL id 102 tid 102 eid 102 etid 102 c BTMessage n CONN_REQ k 2 l 352 pe 58 cid 103
+BS id 103 tid 102 eid 103 etid 102 c BTMessage n CONN_REQ k 2 l 352 pe 58
+SH sm 3 sg 1572865 pd 0.01
+ES t 25.48
+DM id 102 tid 102 eid 102 etid 102 c cMessage n CONN_REQ k 2 pe 58
+DM id 94 tid 93 eid 94 etid 93 c cMessage n ADV_IND k 4 pe 58
+CM id 104 tid 104 eid 104 etid 104 c cMessage n START_TX k 5 pe -1
+CL id 104 tid 104 eid 104 etid 104 c BTMessage n START_TX k 5 l 80 pe 58 cid 105
+BS id 105 tid 104 eid 105 etid 104 c BTMessage n START_TX k 5 l 80 pe 58
+SH sm 3 sg 1572865 pd 0.01
+ES t 26.73
+DM id 104 tid 104 eid 104 etid 104 c cMessage n START_TX k 5 pe 58
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer conn_mester" pe 53
+ES t 28.72
+
+E # 59 t 25.47 m 8 ce 56 msg 95
+CM id 106 tid 106 eid 106 etid 106 c cMessage n CONN_REQ k 2 pe -1
+CL id 106 tid 106 eid 106 etid 106 c BTMessage n CONN_REQ k 2 l 352 pe 59 cid 107
+BS id 107 tid 106 eid 107 etid 106 c BTMessage n CONN_REQ k 2 l 352 pe 59
+SH sm 8 sg 1572868 pd 0.01
+ES t 25.48
+DM id 106 tid 106 eid 106 etid 106 c cMessage n CONN_REQ k 2 pe 59
+DM id 95 tid 93 eid 95 etid 93 c cMessage n ADV_IND k 4 pe 59
+CM id 108 tid 108 eid 108 etid 108 c cMessage n START_TX k 5 pe -1
+CL id 108 tid 108 eid 108 etid 108 c BTMessage n START_TX k 5 l 80 pe 59 cid 109
+BS id 109 tid 108 eid 109 etid 108 c BTMessage n START_TX k 5 l 80 pe 59
+SH sm 8 sg 1572868 pd 0.01
+ES t 26.73
+DM id 108 tid 108 eid 108 etid 108 c cMessage n START_TX k 5 pe 59
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer conn_mester" pe 0
+ES t 28.72
+
+E # 60 t 25.47 m 11 ce 56 msg 96
+DM id 96 tid 93 eid 96 etid 93 c cMessage n ADV_IND k 4 pe 60
+
+E # 61 t 25.48 m 9 ce 57 msg 98
+DM id 98 tid 97 eid 98 etid 97 c cMessage n ADV_IND k 4 pe 61
+
+E # 62 t 25.48 m 3 ce 57 msg 99
+
+E # 63 t 25.48 m 5 ce 57 msg 100
+
+E # 64 t 25.48 m 10 ce 57 msg 101
+
+E # 65 t 25.48 m 9 ce 58 msg 103
+CE id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 56
+DM id 103 tid 102 eid 103 etid 102 c cMessage n CONN_REQ k 2 pe 65
+
+E # 66 t 25.48 m 9 ce 59 msg 107
+
+E # 67 t 26.73 m 9 ce 58 msg 105
+CM id 110 tid 110 eid 110 etid 110 c cMessage n START_TX k 5 pe -1
+CL id 110 tid 110 eid 110 etid 110 c BTMessage n START_TX k 5 l 80 pe 67 cid 111
+BS id 111 tid 110 eid 111 etid 110 c BTMessage n START_TX k 5 l 80 pe 67
+SH sm 9 sg 1572864 pd 0.01
+ES t 26.74
+DM id 110 tid 110 eid 110 etid 110 c cMessage n START_TX k 5 pe 67
+CL id 86 tid 8 eid 86 etid 8 c BTMessage n DATA k 6 l 10930944 pe 54 cid 112
+BS id 112 tid 8 eid 112 etid 8 c BTMessage n DATA k 6 l 10930944 pe 67
+SH sm 9 sg 1572864 pd 0.01 td 10.93
+ES t 37.67
+DM id 105 tid 104 eid 105 etid 104 c cMessage n START_TX k 5 pe 67
+
+E # 68 t 26.73 m 9 ce 59 msg 109
+
+E # 69 t 26.74 m 3 ce 67 msg 111
+CE id 3 tid 3 eid 3 etid 3 c cMessage n "timer conn_mester" pe 58
+DM id 111 tid 110 eid 111 etid 110 c cMessage n START_TX k 5 pe 69
+
+E # 70 t 28.72 m 8 ce 59 msg 14
+
+E # 71 t 30.3 m 2 ce 1 msg 0
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe 71
+ES t 60.3
+
+E # 72 t 30.3 m 3 ce 2 msg 2
+BS id 2 tid 2 eid 2 etid 2 c cMessage n "periodic actions" pe 72
+ES t 60.3
+
+E # 73 t 30.3 m 4 ce 3 msg 4
+BS id 4 tid 4 eid 4 etid 4 c cMessage n "periodic actions" pe 73
+ES t 60.3
+
+E # 74 t 30.3 m 5 ce 4 msg 6
+BS id 6 tid 6 eid 6 etid 6 c cMessage n "periodic actions" pe 74
+ES t 60.3
+
+E # 75 t 30.3 m 6 ce 5 msg 9
+BS id 9 tid 9 eid 9 etid 9 c cMessage n "periodic actions" pe 75
+ES t 60.3
+
+E # 76 t 30.3 m 7 ce 6 msg 11
+BS id 11 tid 11 eid 11 etid 11 c cMessage n "periodic actions" pe 76
+ES t 60.3
+
+E # 77 t 30.3 m 8 ce 7 msg 13
+BS id 13 tid 13 eid 13 etid 13 c cMessage n "periodic actions" pe 77
+ES t 60.3
+
+E # 78 t 30.3 m 9 ce 8 msg 15
+BS id 15 tid 15 eid 15 etid 15 c cMessage n "periodic actions" pe 78
+ES t 60.3
+
+E # 79 t 30.3 m 10 ce 9 msg 17
+BS id 17 tid 17 eid 17 etid 17 c cMessage n "periodic actions" pe 79
+ES t 60.3
+
+E # 80 t 30.3 m 11 ce 10 msg 19
+BS id 19 tid 19 eid 19 etid 19 c cMessage n "periodic actions" pe 80
+ES t 60.3
+
+E # 81 t 30.45 m 10 ce 50 msg 85
+CL id 85 tid 8 eid 85 etid 8 c BTMessage n DATA k 6 l 10930944 pe 81 cid 113
+CM id 114 tid 114 eid 114 etid 114 c cMessage n ACK pe -1
+CL id 114 tid 114 eid 114 etid 114 c BTMessage n ACK l 80 pe 81 cid 115
+BS id 115 tid 114 eid 115 etid 114 c BTMessage n ACK l 80 pe 81
+SH sm 10 sg 1572865 pd 0.01
+ES t 30.46
+DM id 85 tid 8 eid 85 etid 8 c cMessage n DATA k 6 pe 81
+DM id 114 tid 114 eid 114 etid 114 c cMessage n ACK pe 81
+
+E # 82 t 30.46 m 5 ce 81 msg 115
+CM id 116 tid 116 eid 116 etid 116 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 116 tid 116 eid 116 etid 116 c BTMessage n TERMINATE_TX k 5 l 80 pe 82 cid 117
+BS id 117 tid 116 eid 117 etid 116 c BTMessage n TERMINATE_TX k 5 l 80 pe 82
+SH sm 5 sg 1572865 pd 0.01
+ES t 30.47
+DM id 116 tid 116 eid 116 etid 116 c cMessage n TERMINATE_TX k 5 pe 82
+DM id 115 tid 114 eid 115 etid 114 c cMessage n ACK pe 82
+
+E # 83 t 30.47 m 11 ce 57 msg 20
+CM id 118 tid 118 eid 118 etid 118 c cMessage n ADV_IND k 4 pe -1
+CL id 118 tid 118 eid 118 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83 cid 119
+BS id 119 tid 118 eid 119 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83
+SH sm 11 sg 1572866 pd 0.01
+ES t 30.48
+CL id 118 tid 118 eid 118 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83 cid 120
+BS id 120 tid 118 eid 120 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83
+SH sm 11 sg 1572864 pd 0.01
+ES t 30.48
+CL id 118 tid 118 eid 118 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83 cid 121
+BS id 121 tid 118 eid 121 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83
+SH sm 11 sg 1572867 pd 0.01
+ES t 30.48
+CL id 118 tid 118 eid 118 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83 cid 122
+BS id 122 tid 118 eid 122 etid 118 c BTMessage n ADV_IND k 4 l 288 pe 83
+SH sm 11 sg 1572865 pd 0.01
+ES t 30.48
+DM id 118 tid 118 eid 118 etid 118 c cMessage n ADV_IND k 4 pe 83
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "timer advertising" pe 83
+ES t 35.47
+
+E # 84 t 30.47 m 10 ce 82 msg 117
+CM id 123 tid 123 eid 123 etid 123 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 123 tid 123 eid 123 etid 123 c BTMessage n TERMINATE_TX k 5 l 80 pe 84 cid 124
+BS id 124 tid 123 eid 124 etid 123 c BTMessage n TERMINATE_TX k 5 l 80 pe 84
+SH sm 10 sg 1572865 pd 0.01
+ES t 30.48
+DM id 123 tid 123 eid 123 etid 123 c cMessage n TERMINATE_TX k 5 pe 84
+DM id 117 tid 116 eid 117 etid 116 c cMessage n TERMINATE_TX k 5 pe 84
+CM id 125 tid 125 eid 125 etid 125 c cMessage n ADV_IND k 4 pe -1
+CL id 125 tid 125 eid 125 etid 125 c BTMessage n ADV_IND k 4 l 288 pe 84 cid 126
+BS id 126 tid 125 eid 126 etid 125 c BTMessage n ADV_IND k 4 l 288 pe 84
+SH sm 10 sg 1572866 pd 0.01
+ES t 30.48
+CL id 125 tid 125 eid 125 etid 125 c BTMessage n ADV_IND k 4 l 288 pe 84 cid 127
+BS id 127 tid 125 eid 127 etid 125 c BTMessage n ADV_IND k 4 l 288 pe 84
+SH sm 10 sg 1572864 pd 0.01
+ES t 30.48
+CL id 125 tid 125 eid 125 etid 125 c BTMessage n ADV_IND k 4 l 288 pe 84 cid 128
+BS id 128 tid 125 eid 128 etid 125 c BTMessage n ADV_IND k 4 l 288 pe 84
+SH sm 10 sg 1572865 pd 0.01
+ES t 30.48
+DM id 125 tid 125 eid 125 etid 125 c cMessage n ADV_IND k 4 pe 84
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "timer advertising" pe 52
+ES t 35.47
+
+E # 85 t 30.48 m 9 ce 83 msg 119
+
+E # 86 t 30.48 m 3 ce 83 msg 120
+
+E # 87 t 30.48 m 10 ce 83 msg 121
+DM id 121 tid 118 eid 121 etid 118 c cMessage n ADV_IND k 4 pe 87
+
+E # 88 t 30.48 m 5 ce 83 msg 122
+
+E # 89 t 30.48 m 5 ce 84 msg 124
+DM id 124 tid 123 eid 124 etid 123 c cMessage n TERMINATE_TX k 5 pe 89
+
+E # 90 t 30.48 m 11 ce 84 msg 126
+DM id 126 tid 125 eid 126 etid 125 c cMessage n ADV_IND k 4 pe 90
+
+E # 91 t 30.48 m 3 ce 84 msg 127
+
+E # 92 t 30.48 m 5 ce 84 msg 128
+DM id 128 tid 125 eid 128 etid 125 c cMessage n ADV_IND k 4 pe 92
+
+E # 93 t 35.47 m 11 ce 83 msg 20
+CM id 129 tid 129 eid 129 etid 129 c cMessage n ADV_IND k 4 pe -1
+CL id 129 tid 129 eid 129 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93 cid 130
+BS id 130 tid 129 eid 130 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93
+SH sm 11 sg 1572865 pd 0.01
+ES t 35.48
+CL id 129 tid 129 eid 129 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93 cid 131
+BS id 131 tid 129 eid 131 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93
+SH sm 11 sg 1572867 pd 0.01
+ES t 35.48
+CL id 129 tid 129 eid 129 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93 cid 132
+BS id 132 tid 129 eid 132 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93
+SH sm 11 sg 1572866 pd 0.01
+ES t 35.48
+CL id 129 tid 129 eid 129 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93 cid 133
+BS id 133 tid 129 eid 133 etid 129 c BTMessage n ADV_IND k 4 l 288 pe 93
+SH sm 11 sg 1572864 pd 0.01
+ES t 35.48
+DM id 129 tid 129 eid 129 etid 129 c cMessage n ADV_IND k 4 pe 93
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "timer advertising" pe 93
+ES t 40.47
+
+E # 94 t 35.47 m 10 ce 84 msg 18
+CM id 134 tid 134 eid 134 etid 134 c cMessage n ADV_IND k 4 pe -1
+CL id 134 tid 134 eid 134 etid 134 c BTMessage n ADV_IND k 4 l 288 pe 94 cid 135
+BS id 135 tid 134 eid 135 etid 134 c BTMessage n ADV_IND k 4 l 288 pe 94
+SH sm 10 sg 1572864 pd 0.01
+ES t 35.48
+CL id 134 tid 134 eid 134 etid 134 c BTMessage n ADV_IND k 4 l 288 pe 94 cid 136
+BS id 136 tid 134 eid 136 etid 134 c BTMessage n ADV_IND k 4 l 288 pe 94
+SH sm 10 sg 1572865 pd 0.01
+ES t 35.48
+CL id 134 tid 134 eid 134 etid 134 c BTMessage n ADV_IND k 4 l 288 pe 94 cid 137
+BS id 137 tid 134 eid 137 etid 134 c BTMessage n ADV_IND k 4 l 288 pe 94
+SH sm 10 sg 1572866 pd 0.01
+ES t 35.48
+DM id 134 tid 134 eid 134 etid 134 c cMessage n ADV_IND k 4 pe 94
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "timer advertising" pe 94
+ES t 40.47
+
+E # 95 t 35.48 m 5 ce 93 msg 130
+DM id 130 tid 129 eid 130 etid 129 c cMessage n ADV_IND k 4 pe 95
+
+E # 96 t 35.48 m 10 ce 93 msg 131
+DM id 131 tid 129 eid 131 etid 129 c cMessage n ADV_IND k 4 pe 96
+
+E # 97 t 35.48 m 9 ce 93 msg 132
+
+E # 98 t 35.48 m 3 ce 93 msg 133
+
+E # 99 t 35.48 m 3 ce 94 msg 135
+
+E # 100 t 35.48 m 5 ce 94 msg 136
+DM id 136 tid 134 eid 136 etid 134 c cMessage n ADV_IND k 4 pe 100
+
+E # 101 t 35.48 m 11 ce 94 msg 137
+DM id 137 tid 134 eid 137 etid 134 c cMessage n ADV_IND k 4 pe 101
+
+E # 102 t 37.67 m 3 ce 67 msg 112
+CL id 112 tid 8 eid 112 etid 8 c BTMessage n DATA k 6 l 10930944 pe 102 cid 138
+CM id 139 tid 139 eid 139 etid 139 c cMessage n ACK pe -1
+CL id 139 tid 139 eid 139 etid 139 c BTMessage n ACK l 80 pe 102 cid 140
+BS id 140 tid 139 eid 140 etid 139 c BTMessage n ACK l 80 pe 102
+SH sm 3 sg 1572865 pd 0.01
+ES t 37.68
+DM id 112 tid 8 eid 112 etid 8 c cMessage n DATA k 6 pe 102
+DM id 139 tid 139 eid 139 etid 139 c cMessage n ACK pe 102
+
+E # 103 t 37.68 m 9 ce 102 msg 140
+CM id 141 tid 141 eid 141 etid 141 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 141 tid 141 eid 141 etid 141 c BTMessage n TERMINATE_TX k 5 l 80 pe 103 cid 142
+BS id 142 tid 141 eid 142 etid 141 c BTMessage n TERMINATE_TX k 5 l 80 pe 103
+SH sm 9 sg 1572864 pd 0.01
+ES t 37.69
+DM id 141 tid 141 eid 141 etid 141 c cMessage n TERMINATE_TX k 5 pe 103
+DM id 140 tid 139 eid 140 etid 139 c cMessage n ACK pe 103
+
+E # 104 t 37.69 m 3 ce 103 msg 142
+CM id 143 tid 143 eid 143 etid 143 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 143 tid 143 eid 143 etid 143 c BTMessage n TERMINATE_TX k 5 l 80 pe 104 cid 144
+BS id 144 tid 143 eid 144 etid 143 c BTMessage n TERMINATE_TX k 5 l 80 pe 104
+SH sm 3 sg 1572865 pd 0.01
+ES t 37.7
+DM id 143 tid 143 eid 143 etid 143 c cMessage n TERMINATE_TX k 5 pe 104
+DM id 142 tid 141 eid 142 etid 141 c cMessage n TERMINATE_TX k 5 pe 104
+CM id 145 tid 145 eid 145 etid 145 c cMessage n ADV_IND k 4 pe -1
+CL id 145 tid 145 eid 145 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104 cid 146
+BS id 146 tid 145 eid 146 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104
+SH sm 3 sg 1572866 pd 0.01
+ES t 37.7
+CL id 145 tid 145 eid 145 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104 cid 147
+BS id 147 tid 145 eid 147 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104
+SH sm 3 sg 1572867 pd 0.01
+ES t 37.7
+CL id 145 tid 145 eid 145 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104 cid 148
+BS id 148 tid 145 eid 148 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104
+SH sm 3 sg 1572865 pd 0.01
+ES t 37.7
+CL id 145 tid 145 eid 145 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104 cid 149
+BS id 149 tid 145 eid 149 etid 145 c BTMessage n ADV_IND k 4 l 288 pe 104
+SH sm 3 sg 1572864 pd 0.01
+ES t 37.7
+DM id 145 tid 145 eid 145 etid 145 c cMessage n ADV_IND k 4 pe 104
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer advertising" pe 69
+ES t 42.69
+
+E # 105 t 37.7 m 9 ce 104 msg 144
+DM id 144 tid 143 eid 144 etid 143 c cMessage n TERMINATE_TX k 5 pe 105
+CM id 150 tid 150 eid 150 etid 150 c cMessage n ADV_IND k 4 pe -1
+CL id 150 tid 150 eid 150 etid 150 c BTMessage n ADV_IND k 4 l 288 pe 105 cid 151
+BS id 151 tid 150 eid 151 etid 150 c BTMessage n ADV_IND k 4 l 288 pe 105
+SH sm 9 sg 1572864 pd 0.01
+ES t 37.71
+CL id 150 tid 150 eid 150 etid 150 c BTMessage n ADV_IND k 4 l 288 pe 105 cid 152
+BS id 152 tid 150 eid 152 etid 150 c BTMessage n ADV_IND k 4 l 288 pe 105
+SH sm 9 sg 1572866 pd 0.01
+ES t 37.71
+CL id 150 tid 150 eid 150 etid 150 c BTMessage n ADV_IND k 4 l 288 pe 105 cid 153
+BS id 153 tid 150 eid 153 etid 150 c BTMessage n ADV_IND k 4 l 288 pe 105
+SH sm 9 sg 1572865 pd 0.01
+ES t 37.71
+DM id 150 tid 150 eid 150 etid 150 c cMessage n ADV_IND k 4 pe 105
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 65
+ES t 42.7
+
+E # 106 t 37.7 m 10 ce 104 msg 146
+DM id 146 tid 145 eid 146 etid 145 c cMessage n ADV_IND k 4 pe 106
+
+E # 107 t 37.7 m 11 ce 104 msg 147
+DM id 147 tid 145 eid 147 etid 145 c cMessage n ADV_IND k 4 pe 107
+
+E # 108 t 37.7 m 9 ce 104 msg 148
+DM id 148 tid 145 eid 148 etid 145 c cMessage n ADV_IND k 4 pe 108
+
+E # 109 t 37.7 m 5 ce 104 msg 149
+DM id 149 tid 145 eid 149 etid 145 c cMessage n ADV_IND k 4 pe 109
+
+E # 110 t 37.71 m 3 ce 105 msg 151
+DM id 151 tid 150 eid 151 etid 150 c cMessage n ADV_IND k 4 pe 110
+
+E # 111 t 37.71 m 11 ce 105 msg 152
+DM id 152 tid 150 eid 152 etid 150 c cMessage n ADV_IND k 4 pe 111
+
+E # 112 t 37.71 m 8 ce 105 msg 153
+CM id 154 tid 154 eid 154 etid 154 c cMessage n CONN_REQ k 2 pe -1
+CL id 154 tid 154 eid 154 etid 154 c BTMessage n CONN_REQ k 2 l 352 pe 112 cid 155
+BS id 155 tid 154 eid 155 etid 154 c BTMessage n CONN_REQ k 2 l 352 pe 112
+SH sm 8 sg 1572868 pd 0.01
+ES t 37.72
+DM id 154 tid 154 eid 154 etid 154 c cMessage n CONN_REQ k 2 pe 112
+DM id 153 tid 150 eid 153 etid 150 c cMessage n ADV_IND k 4 pe 112
+CM id 156 tid 156 eid 156 etid 156 c cMessage n START_TX k 5 pe -1
+CL id 156 tid 156 eid 156 etid 156 c BTMessage n START_TX k 5 l 80 pe 112 cid 157
+BS id 157 tid 156 eid 157 etid 156 c BTMessage n START_TX k 5 l 80 pe 112
+SH sm 8 sg 1572868 pd 0.01
+ES t 38.97
+DM id 156 tid 156 eid 156 etid 156 c cMessage n START_TX k 5 pe 112
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer conn_mester" pe 70
+ES t 40.96
+
+E # 113 t 37.72 m 9 ce 112 msg 155
+CE id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 105
+DM id 155 tid 154 eid 155 etid 154 c cMessage n CONN_REQ k 2 pe 113
+
+E # 114 t 38.97 m 9 ce 112 msg 157
+CM id 158 tid 158 eid 158 etid 158 c cMessage n START_TX k 5 pe -1
+CL id 158 tid 158 eid 158 etid 158 c BTMessage n START_TX k 5 l 80 pe 114 cid 159
+BS id 159 tid 158 eid 159 etid 158 c BTMessage n START_TX k 5 l 80 pe 114
+SH sm 9 sg 1572865 pd 0.01
+ES t 38.98
+DM id 158 tid 158 eid 158 etid 158 c cMessage n START_TX k 5 pe 114
+CL id 86 tid 8 eid 86 etid 8 c BTMessage n DATA k 6 l 10930944 pe 67 cid 160
+BS id 160 tid 8 eid 160 etid 8 c BTMessage n DATA k 6 l 10930944 pe 114
+SH sm 9 sg 1572865 pd 0.01 td 10.93
+ES t 49.91
+DM id 157 tid 156 eid 157 etid 156 c cMessage n START_TX k 5 pe 114
+
+E # 115 t 38.98 m 8 ce 114 msg 159
+CE id 14 tid 14 eid 14 etid 14 c cMessage n "timer conn_mester" pe 112
+DM id 159 tid 158 eid 159 etid 158 c cMessage n START_TX k 5 pe 115
+
+E # 116 t 40.47 m 11 ce 93 msg 20
+CM id 161 tid 161 eid 161 etid 161 c cMessage n ADV_IND k 4 pe -1
+CL id 161 tid 161 eid 161 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116 cid 162
+BS id 162 tid 161 eid 162 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116
+SH sm 11 sg 1572867 pd 0.01
+ES t 40.48
+CL id 161 tid 161 eid 161 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116 cid 163
+BS id 163 tid 161 eid 163 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116
+SH sm 11 sg 1572866 pd 0.01
+ES t 40.48
+CL id 161 tid 161 eid 161 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116 cid 164
+BS id 164 tid 161 eid 164 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116
+SH sm 11 sg 1572865 pd 0.01
+ES t 40.48
+CL id 161 tid 161 eid 161 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116 cid 165
+BS id 165 tid 161 eid 165 etid 161 c BTMessage n ADV_IND k 4 l 288 pe 116
+SH sm 11 sg 1572864 pd 0.01
+ES t 40.48
+DM id 161 tid 161 eid 161 etid 161 c cMessage n ADV_IND k 4 pe 116
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "timer advertising" pe 116
+ES t 45.47
+
+E # 117 t 40.47 m 10 ce 94 msg 18
+CM id 166 tid 166 eid 166 etid 166 c cMessage n ADV_IND k 4 pe -1
+CL id 166 tid 166 eid 166 etid 166 c BTMessage n ADV_IND k 4 l 288 pe 117 cid 167
+BS id 167 tid 166 eid 167 etid 166 c BTMessage n ADV_IND k 4 l 288 pe 117
+SH sm 10 sg 1572865 pd 0.01
+ES t 40.48
+CL id 166 tid 166 eid 166 etid 166 c BTMessage n ADV_IND k 4 l 288 pe 117 cid 168
+BS id 168 tid 166 eid 168 etid 166 c BTMessage n ADV_IND k 4 l 288 pe 117
+SH sm 10 sg 1572866 pd 0.01
+ES t 40.48
+CL id 166 tid 166 eid 166 etid 166 c BTMessage n ADV_IND k 4 l 288 pe 117 cid 169
+BS id 169 tid 166 eid 169 etid 166 c BTMessage n ADV_IND k 4 l 288 pe 117
+SH sm 10 sg 1572864 pd 0.01
+ES t 40.48
+DM id 166 tid 166 eid 166 etid 166 c cMessage n ADV_IND k 4 pe 117
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "timer advertising" pe 117
+ES t 45.47
+
+E # 118 t 40.48 m 10 ce 116 msg 162
+DM id 162 tid 161 eid 162 etid 161 c cMessage n ADV_IND k 4 pe 118
+
+E # 119 t 40.48 m 9 ce 116 msg 163
+
+E # 120 t 40.48 m 5 ce 116 msg 164
+DM id 164 tid 161 eid 164 etid 161 c cMessage n ADV_IND k 4 pe 120
+
+E # 121 t 40.48 m 3 ce 116 msg 165
+DM id 165 tid 161 eid 165 etid 161 c cMessage n ADV_IND k 4 pe 121
+
+E # 122 t 40.48 m 5 ce 117 msg 167
+DM id 167 tid 166 eid 167 etid 166 c cMessage n ADV_IND k 4 pe 122
+
+E # 123 t 40.48 m 11 ce 117 msg 168
+DM id 168 tid 166 eid 168 etid 166 c cMessage n ADV_IND k 4 pe 123
+
+E # 124 t 40.48 m 3 ce 117 msg 169
+DM id 169 tid 166 eid 169 etid 166 c cMessage n ADV_IND k 4 pe 124
+
+E # 125 t 42.69 m 3 ce 104 msg 3
+CM id 170 tid 170 eid 170 etid 170 c cMessage n ADV_IND k 4 pe -1
+CL id 170 tid 170 eid 170 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125 cid 171
+BS id 171 tid 170 eid 171 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125
+SH sm 3 sg 1572867 pd 0.01
+ES t 42.7
+CL id 170 tid 170 eid 170 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125 cid 172
+BS id 172 tid 170 eid 172 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125
+SH sm 3 sg 1572864 pd 0.01
+ES t 42.7
+CL id 170 tid 170 eid 170 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125 cid 173
+BS id 173 tid 170 eid 173 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125
+SH sm 3 sg 1572865 pd 0.01
+ES t 42.7
+CL id 170 tid 170 eid 170 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125 cid 174
+BS id 174 tid 170 eid 174 etid 170 c BTMessage n ADV_IND k 4 l 288 pe 125
+SH sm 3 sg 1572866 pd 0.01
+ES t 42.7
+DM id 170 tid 170 eid 170 etid 170 c cMessage n ADV_IND k 4 pe 125
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer advertising" pe 125
+ES t 47.69
+
+E # 126 t 42.7 m 11 ce 125 msg 171
+DM id 171 tid 170 eid 171 etid 170 c cMessage n ADV_IND k 4 pe 126
+
+E # 127 t 42.7 m 5 ce 125 msg 172
+DM id 172 tid 170 eid 172 etid 170 c cMessage n ADV_IND k 4 pe 127
+
+E # 128 t 42.7 m 9 ce 125 msg 173
+
+E # 129 t 42.7 m 10 ce 125 msg 174
+DM id 174 tid 170 eid 174 etid 170 c cMessage n ADV_IND k 4 pe 129
+
+E # 130 t 45.47 m 11 ce 116 msg 20
+
+E # 131 t 45.47 m 10 ce 117 msg 18
+
+E # 132 t 47.69 m 3 ce 125 msg 3
+CM id 175 tid 175 eid 175 etid 175 c cMessage n ADV_IND k 4 pe -1
+CL id 175 tid 175 eid 175 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132 cid 176
+BS id 176 tid 175 eid 176 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132
+SH sm 3 sg 1572866 pd 0.01
+ES t 47.7
+CL id 175 tid 175 eid 175 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132 cid 177
+BS id 177 tid 175 eid 177 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132
+SH sm 3 sg 1572865 pd 0.01
+ES t 47.7
+CL id 175 tid 175 eid 175 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132 cid 178
+BS id 178 tid 175 eid 178 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132
+SH sm 3 sg 1572864 pd 0.01
+ES t 47.7
+CL id 175 tid 175 eid 175 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132 cid 179
+BS id 179 tid 175 eid 179 etid 175 c BTMessage n ADV_IND k 4 l 288 pe 132
+SH sm 3 sg 1572867 pd 0.01
+ES t 47.7
+DM id 175 tid 175 eid 175 etid 175 c cMessage n ADV_IND k 4 pe 132
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer advertising" pe 132
+ES t 52.69
+
+E # 133 t 47.7 m 10 ce 132 msg 176
+DM id 176 tid 175 eid 176 etid 175 c cMessage n ADV_IND k 4 pe 133
+
+E # 134 t 47.7 m 9 ce 132 msg 177
+
+E # 135 t 47.7 m 5 ce 132 msg 178
+DM id 178 tid 175 eid 178 etid 175 c cMessage n ADV_IND k 4 pe 135
+
+E # 136 t 47.7 m 11 ce 132 msg 179
+DM id 179 tid 175 eid 179 etid 175 c cMessage n ADV_IND k 4 pe 136
+
+E # 137 t 49.91 m 8 ce 114 msg 160
+CL id 160 tid 8 eid 160 etid 8 c BTMessage n DATA k 6 l 10930944 pe 137 cid 180
+CM id 181 tid 181 eid 181 etid 181 c cMessage n ACK pe -1
+CL id 181 tid 181 eid 181 etid 181 c BTMessage n ACK l 80 pe 137 cid 182
+BS id 182 tid 181 eid 182 etid 181 c BTMessage n ACK l 80 pe 137
+SH sm 8 sg 1572868 pd 0.01
+ES t 49.92
+DM id 160 tid 8 eid 160 etid 8 c cMessage n DATA k 6 pe 137
+DM id 181 tid 181 eid 181 etid 181 c cMessage n ACK pe 137
+
+E # 138 t 49.92 m 9 ce 137 msg 182
+CM id 183 tid 183 eid 183 etid 183 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 183 tid 183 eid 183 etid 183 c BTMessage n TERMINATE_TX k 5 l 80 pe 138 cid 184
+BS id 184 tid 183 eid 184 etid 183 c BTMessage n TERMINATE_TX k 5 l 80 pe 138
+SH sm 9 sg 1572865 pd 0.01
+ES t 49.93
+DM id 183 tid 183 eid 183 etid 183 c cMessage n TERMINATE_TX k 5 pe 138
+DM id 182 tid 181 eid 182 etid 181 c cMessage n ACK pe 138
+
+E # 139 t 49.93 m 8 ce 138 msg 184
+CM id 185 tid 185 eid 185 etid 185 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 185 tid 185 eid 185 etid 185 c BTMessage n TERMINATE_TX k 5 l 80 pe 139 cid 186
+BS id 186 tid 185 eid 186 etid 185 c BTMessage n TERMINATE_TX k 5 l 80 pe 139
+SH sm 8 sg 1572868 pd 0.01
+ES t 49.94
+DM id 185 tid 185 eid 185 etid 185 c cMessage n TERMINATE_TX k 5 pe 139
+DM id 184 tid 183 eid 184 etid 183 c cMessage n TERMINATE_TX k 5 pe 139
+CM id 187 tid 187 eid 187 etid 187 c cMessage n ADV_IND k 4 pe -1
+CL id 187 tid 187 eid 187 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139 cid 188
+BS id 188 tid 187 eid 188 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139
+SH sm 8 sg 1572864 pd 0.01
+ES t 49.94
+CL id 187 tid 187 eid 187 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139 cid 189
+BS id 189 tid 187 eid 189 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139
+SH sm 8 sg 1572866 pd 0.01
+ES t 49.94
+CL id 187 tid 187 eid 187 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139 cid 190
+BS id 190 tid 187 eid 190 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139
+SH sm 8 sg 1572868 pd 0.01
+ES t 49.94
+CL id 187 tid 187 eid 187 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139 cid 191
+BS id 191 tid 187 eid 191 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139
+SH sm 8 sg 1572867 pd 0.01
+ES t 49.94
+CL id 187 tid 187 eid 187 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139 cid 192
+BS id 192 tid 187 eid 192 etid 187 c BTMessage n ADV_IND k 4 l 288 pe 139
+SH sm 8 sg 1572865 pd 0.01
+ES t 49.94
+DM id 187 tid 187 eid 187 etid 187 c cMessage n ADV_IND k 4 pe 139
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 115
+ES t 54.93
+
+E # 140 t 49.94 m 9 ce 139 msg 186
+DM id 186 tid 185 eid 186 etid 185 c cMessage n TERMINATE_TX k 5 pe 140
+CM id 193 tid 193 eid 193 etid 193 c cMessage n ADV_IND k 4 pe -1
+CL id 193 tid 193 eid 193 etid 193 c BTMessage n ADV_IND k 4 l 288 pe 140 cid 194
+BS id 194 tid 193 eid 194 etid 193 c BTMessage n ADV_IND k 4 l 288 pe 140
+SH sm 9 sg 1572864 pd 0.01
+ES t 49.95
+CL id 193 tid 193 eid 193 etid 193 c BTMessage n ADV_IND k 4 l 288 pe 140 cid 195
+BS id 195 tid 193 eid 195 etid 193 c BTMessage n ADV_IND k 4 l 288 pe 140
+SH sm 9 sg 1572866 pd 0.01
+ES t 49.95
+CL id 193 tid 193 eid 193 etid 193 c BTMessage n ADV_IND k 4 l 288 pe 140 cid 196
+BS id 196 tid 193 eid 196 etid 193 c BTMessage n ADV_IND k 4 l 288 pe 140
+SH sm 9 sg 1572865 pd 0.01
+ES t 49.95
+DM id 193 tid 193 eid 193 etid 193 c cMessage n ADV_IND k 4 pe 140
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 113
+ES t 54.94
+
+E # 141 t 49.94 m 2 ce 139 msg 188
+CM id 197 tid 197 eid 197 etid 197 c cMessage n CONN_REQ k 2 pe -1
+CL id 197 tid 197 eid 197 etid 197 c BTMessage n CONN_REQ k 2 l 352 pe 141 cid 198
+BS id 198 tid 197 eid 198 etid 197 c BTMessage n CONN_REQ k 2 l 352 pe 141
+SH sm 2 sg 1572867 pd 0.01
+ES t 49.95
+DM id 197 tid 197 eid 197 etid 197 c cMessage n CONN_REQ k 2 pe 141
+DM id 188 tid 187 eid 188 etid 187 c cMessage n ADV_IND k 4 pe 141
+CM id 199 tid 199 eid 199 etid 199 c cMessage n START_TX k 5 pe -1
+CL id 199 tid 199 eid 199 etid 199 c BTMessage n START_TX k 5 l 80 pe 141 cid 200
+BS id 200 tid 199 eid 200 etid 199 c BTMessage n START_TX k 5 l 80 pe 141
+SH sm 2 sg 1572867 pd 0.01
+ES t 51.2
+DM id 199 tid 199 eid 199 etid 199 c cMessage n START_TX k 5 pe 141
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "timer conn_mester" pe 0
+ES t 53.19
+
+E # 142 t 49.94 m 6 ce 139 msg 189
+CM id 201 tid 201 eid 201 etid 201 c cMessage n CONN_REQ k 2 pe -1
+CL id 201 tid 201 eid 201 etid 201 c BTMessage n CONN_REQ k 2 l 352 pe 142 cid 202
+BS id 202 tid 201 eid 202 etid 201 c BTMessage n CONN_REQ k 2 l 352 pe 142
+SH sm 6 sg 1572867 pd 0.01
+ES t 49.95
+DM id 201 tid 201 eid 201 etid 201 c cMessage n CONN_REQ k 2 pe 142
+DM id 189 tid 187 eid 189 etid 187 c cMessage n ADV_IND k 4 pe 142
+CM id 203 tid 203 eid 203 etid 203 c cMessage n START_TX k 5 pe -1
+CL id 203 tid 203 eid 203 etid 203 c BTMessage n START_TX k 5 l 80 pe 142 cid 204
+BS id 204 tid 203 eid 204 etid 203 c BTMessage n START_TX k 5 l 80 pe 142
+SH sm 6 sg 1572867 pd 0.01
+ES t 51.2
+DM id 203 tid 203 eid 203 etid 203 c cMessage n START_TX k 5 pe 142
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer conn_mester" pe 0
+ES t 53.19
+
+E # 143 t 49.94 m 9 ce 139 msg 190
+DM id 190 tid 187 eid 190 etid 187 c cMessage n ADV_IND k 4 pe 143
+
+E # 144 t 49.94 m 7 ce 139 msg 191
+CM id 205 tid 205 eid 205 etid 205 c cMessage n CONN_REQ k 2 pe -1
+CL id 205 tid 205 eid 205 etid 205 c BTMessage n CONN_REQ k 2 l 352 pe 144 cid 206
+BS id 206 tid 205 eid 206 etid 205 c BTMessage n CONN_REQ k 2 l 352 pe 144
+SH sm 7 sg 1572867 pd 0.01
+ES t 49.95
+DM id 205 tid 205 eid 205 etid 205 c cMessage n CONN_REQ k 2 pe 144
+DM id 191 tid 187 eid 191 etid 187 c cMessage n ADV_IND k 4 pe 144
+CM id 207 tid 207 eid 207 etid 207 c cMessage n START_TX k 5 pe -1
+CL id 207 tid 207 eid 207 etid 207 c BTMessage n START_TX k 5 l 80 pe 144 cid 208
+BS id 208 tid 207 eid 208 etid 207 c BTMessage n START_TX k 5 l 80 pe 144
+SH sm 7 sg 1572867 pd 0.01
+ES t 51.2
+DM id 207 tid 207 eid 207 etid 207 c cMessage n START_TX k 5 pe 144
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer conn_mester" pe 0
+ES t 53.19
+
+E # 145 t 49.94 m 4 ce 139 msg 192
+CM id 209 tid 209 eid 209 etid 209 c cMessage n CONN_REQ k 2 pe -1
+CL id 209 tid 209 eid 209 etid 209 c BTMessage n CONN_REQ k 2 l 352 pe 145 cid 210
+BS id 210 tid 209 eid 210 etid 209 c BTMessage n CONN_REQ k 2 l 352 pe 145
+SH sm 4 sg 1572867 pd 0.01
+ES t 49.95
+DM id 209 tid 209 eid 209 etid 209 c cMessage n CONN_REQ k 2 pe 145
+DM id 192 tid 187 eid 192 etid 187 c cMessage n ADV_IND k 4 pe 145
+CM id 211 tid 211 eid 211 etid 211 c cMessage n START_TX k 5 pe -1
+CL id 211 tid 211 eid 211 etid 211 c BTMessage n START_TX k 5 l 80 pe 145 cid 212
+BS id 212 tid 211 eid 212 etid 211 c BTMessage n START_TX k 5 l 80 pe 145
+SH sm 4 sg 1572867 pd 0.01
+ES t 51.2
+DM id 211 tid 211 eid 211 etid 211 c cMessage n START_TX k 5 pe 145
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer conn_mester" pe 0
+ES t 53.19
+
+E # 146 t 49.95 m 3 ce 140 msg 194
+DM id 194 tid 193 eid 194 etid 193 c cMessage n ADV_IND k 4 pe 146
+
+E # 147 t 49.95 m 11 ce 140 msg 195
+DM id 195 tid 193 eid 195 etid 193 c cMessage n ADV_IND k 4 pe 147
+
+E # 148 t 49.95 m 8 ce 140 msg 196
+DM id 196 tid 193 eid 196 etid 193 c cMessage n ADV_IND k 4 pe 148
+
+E # 149 t 49.95 m 8 ce 141 msg 198
+CE id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 139
+DM id 198 tid 197 eid 198 etid 197 c cMessage n CONN_REQ k 2 pe 149
+
+E # 150 t 49.95 m 8 ce 142 msg 202
+
+E # 151 t 49.95 m 8 ce 144 msg 206
+
+E # 152 t 49.95 m 8 ce 145 msg 210
+
+E # 153 t 51.2 m 8 ce 141 msg 200
+CM id 213 tid 213 eid 213 etid 213 c cMessage n START_TX k 5 pe -1
+CL id 213 tid 213 eid 213 etid 213 c BTMessage n START_TX k 5 l 80 pe 153 cid 214
+BS id 214 tid 213 eid 214 etid 213 c BTMessage n START_TX k 5 l 80 pe 153
+SH sm 8 sg 1572864 pd 0.01
+ES t 51.21
+DM id 213 tid 213 eid 213 etid 213 c cMessage n START_TX k 5 pe 153
+CL id 180 tid 8 eid 180 etid 8 c BTMessage n DATA k 6 l 10930944 pe 137 cid 215
+BS id 215 tid 8 eid 215 etid 8 c BTMessage n DATA k 6 l 10930944 pe 153
+SH sm 8 sg 1572864 pd 0.01 td 10.93
+ES t 62.14
+DM id 200 tid 199 eid 200 etid 199 c cMessage n START_TX k 5 pe 153
+
+E # 154 t 51.2 m 8 ce 142 msg 204
+
+E # 155 t 51.2 m 8 ce 144 msg 208
+
+E # 156 t 51.2 m 8 ce 145 msg 212
+
+E # 157 t 51.21 m 2 ce 153 msg 214
+CE id 1 tid 1 eid 1 etid 1 c cMessage n "timer conn_mester" pe 141
+DM id 214 tid 213 eid 214 etid 213 c cMessage n START_TX k 5 pe 157
+
+E # 158 t 52.69 m 3 ce 132 msg 3
+CM id 216 tid 216 eid 216 etid 216 c cMessage n ADV_IND k 4 pe -1
+CL id 216 tid 216 eid 216 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158 cid 217
+BS id 217 tid 216 eid 217 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158
+SH sm 3 sg 1572867 pd 0.01
+ES t 52.7
+CL id 216 tid 216 eid 216 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158 cid 218
+BS id 218 tid 216 eid 218 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158
+SH sm 3 sg 1572864 pd 0.01
+ES t 52.7
+CL id 216 tid 216 eid 216 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158 cid 219
+BS id 219 tid 216 eid 219 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158
+SH sm 3 sg 1572866 pd 0.01
+ES t 52.7
+CL id 216 tid 216 eid 216 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158 cid 220
+BS id 220 tid 216 eid 220 etid 216 c BTMessage n ADV_IND k 4 l 288 pe 158
+SH sm 3 sg 1572865 pd 0.01
+ES t 52.7
+DM id 216 tid 216 eid 216 etid 216 c cMessage n ADV_IND k 4 pe 158
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer advertising" pe 158
+ES t 57.69
+
+E # 159 t 52.7 m 11 ce 158 msg 217
+DM id 217 tid 216 eid 217 etid 216 c cMessage n ADV_IND k 4 pe 159
+
+E # 160 t 52.7 m 5 ce 158 msg 218
+DM id 218 tid 216 eid 218 etid 216 c cMessage n ADV_IND k 4 pe 160
+
+E # 161 t 52.7 m 10 ce 158 msg 219
+DM id 219 tid 216 eid 219 etid 216 c cMessage n ADV_IND k 4 pe 161
+
+E # 162 t 52.7 m 9 ce 158 msg 220
+DM id 220 tid 216 eid 220 etid 216 c cMessage n ADV_IND k 4 pe 162
+
+E # 163 t 53.19 m 6 ce 142 msg 10
+
+E # 164 t 53.19 m 7 ce 144 msg 12
+
+E # 165 t 53.19 m 4 ce 145 msg 5
+
+E # 166 t 54.94 m 9 ce 140 msg 16
+CM id 221 tid 221 eid 221 etid 221 c cMessage n ADV_IND k 4 pe -1
+CL id 221 tid 221 eid 221 etid 221 c BTMessage n ADV_IND k 4 l 288 pe 166 cid 222
+BS id 222 tid 221 eid 222 etid 221 c BTMessage n ADV_IND k 4 l 288 pe 166
+SH sm 9 sg 1572864 pd 0.01
+ES t 54.95
+CL id 221 tid 221 eid 221 etid 221 c BTMessage n ADV_IND k 4 l 288 pe 166 cid 223
+BS id 223 tid 221 eid 223 etid 221 c BTMessage n ADV_IND k 4 l 288 pe 166
+SH sm 9 sg 1572865 pd 0.01
+ES t 54.95
+CL id 221 tid 221 eid 221 etid 221 c BTMessage n ADV_IND k 4 l 288 pe 166 cid 224
+BS id 224 tid 221 eid 224 etid 221 c BTMessage n ADV_IND k 4 l 288 pe 166
+SH sm 9 sg 1572866 pd 0.01
+ES t 54.95
+DM id 221 tid 221 eid 221 etid 221 c cMessage n ADV_IND k 4 pe 166
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 166
+ES t 59.94
+
+E # 167 t 54.95 m 3 ce 166 msg 222
+DM id 222 tid 221 eid 222 etid 221 c cMessage n ADV_IND k 4 pe 167
+
+E # 168 t 54.95 m 8 ce 166 msg 223
+
+E # 169 t 54.95 m 11 ce 166 msg 224
+DM id 224 tid 221 eid 224 etid 221 c cMessage n ADV_IND k 4 pe 169
+
+E # 170 t 57.69 m 3 ce 158 msg 3
+
+E # 171 t 59.94 m 9 ce 166 msg 16
+CM id 225 tid 225 eid 225 etid 225 c cMessage n ADV_IND k 4 pe -1
+CL id 225 tid 225 eid 225 etid 225 c BTMessage n ADV_IND k 4 l 288 pe 171 cid 226
+BS id 226 tid 225 eid 226 etid 225 c BTMessage n ADV_IND k 4 l 288 pe 171
+SH sm 9 sg 1572866 pd 0.01
+ES t 59.95
+CL id 225 tid 225 eid 225 etid 225 c BTMessage n ADV_IND k 4 l 288 pe 171 cid 227
+BS id 227 tid 225 eid 227 etid 225 c BTMessage n ADV_IND k 4 l 288 pe 171
+SH sm 9 sg 1572865 pd 0.01
+ES t 59.95
+CL id 225 tid 225 eid 225 etid 225 c BTMessage n ADV_IND k 4 l 288 pe 171 cid 228
+BS id 228 tid 225 eid 228 etid 225 c BTMessage n ADV_IND k 4 l 288 pe 171
+SH sm 9 sg 1572864 pd 0.01
+ES t 59.95
+DM id 225 tid 225 eid 225 etid 225 c cMessage n ADV_IND k 4 pe 171
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "timer advertising" pe 171
+ES t 64.94
+
+E # 172 t 59.95 m 11 ce 171 msg 226
+DM id 226 tid 225 eid 226 etid 225 c cMessage n ADV_IND k 4 pe 172
+
+E # 173 t 59.95 m 8 ce 171 msg 227
+
+E # 174 t 59.95 m 3 ce 171 msg 228
+DM id 228 tid 225 eid 228 etid 225 c cMessage n ADV_IND k 4 pe 174
+
+E # 175 t 60.3 m 2 ce 71 msg 0
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe 175
+ES t 90.3
+
+E # 176 t 60.3 m 3 ce 72 msg 2
+
+E # 177 t 60.3 m 4 ce 73 msg 4
+BS id 4 tid 4 eid 4 etid 4 c cMessage n "periodic actions" pe 177
+ES t 90.3
+
+E # 178 t 60.3 m 5 ce 74 msg 6
+
+E # 179 t 60.3 m 6 ce 75 msg 9
+BS id 9 tid 9 eid 9 etid 9 c cMessage n "periodic actions" pe 179
+ES t 90.3
+
+E # 180 t 60.3 m 7 ce 76 msg 11
+BS id 11 tid 11 eid 11 etid 11 c cMessage n "periodic actions" pe 180
+ES t 90.3
+
+E # 181 t 60.3 m 8 ce 77 msg 13
+BS id 13 tid 13 eid 13 etid 13 c cMessage n "periodic actions" pe 181
+ES t 90.3
+
+E # 182 t 60.3 m 9 ce 78 msg 15
+BS id 15 tid 15 eid 15 etid 15 c cMessage n "periodic actions" pe 182
+ES t 90.3
+
+E # 183 t 60.3 m 10 ce 79 msg 17
+
+E # 184 t 60.3 m 11 ce 80 msg 19
+
+E # 185 t 62.14 m 2 ce 153 msg 215
+CL id 215 tid 8 eid 215 etid 8 c BTMessage n DATA k 6 l 10930944 pe 185 cid 229
+CM id 230 tid 230 eid 230 etid 230 c cMessage n ACK pe -1
+CL id 230 tid 230 eid 230 etid 230 c BTMessage n ACK l 80 pe 185 cid 231
+BS id 231 tid 230 eid 231 etid 230 c BTMessage n ACK l 80 pe 185
+SH sm 2 sg 1572867 pd 0.01
+ES t 62.15
+DM id 215 tid 8 eid 215 etid 8 c cMessage n DATA k 6 pe 185
+DM id 230 tid 230 eid 230 etid 230 c cMessage n ACK pe 185
+
+E # 186 t 62.15 m 8 ce 185 msg 231
+CM id 232 tid 232 eid 232 etid 232 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 232 tid 232 eid 232 etid 232 c BTMessage n TERMINATE_TX k 5 l 80 pe 186 cid 233
+BS id 233 tid 232 eid 233 etid 232 c BTMessage n TERMINATE_TX k 5 l 80 pe 186
+SH sm 8 sg 1572864 pd 0.01
+ES t 62.16
+DM id 232 tid 232 eid 232 etid 232 c cMessage n TERMINATE_TX k 5 pe 186
+DM id 231 tid 230 eid 231 etid 230 c cMessage n ACK pe 186
+
+E # 187 t 62.16 m 2 ce 186 msg 233
+CM id 234 tid 234 eid 234 etid 234 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 234 tid 234 eid 234 etid 234 c BTMessage n TERMINATE_TX k 5 l 80 pe 187 cid 235
+BS id 235 tid 234 eid 235 etid 234 c BTMessage n TERMINATE_TX k 5 l 80 pe 187
+SH sm 2 sg 1572867 pd 0.01
+ES t 62.17
+DM id 234 tid 234 eid 234 etid 234 c cMessage n TERMINATE_TX k 5 pe 187
+DM id 233 tid 232 eid 233 etid 232 c cMessage n TERMINATE_TX k 5 pe 187
+CM id 236 tid 236 eid 236 etid 236 c cMessage n ADV_IND k 4 pe -1
+CL id 236 tid 236 eid 236 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187 cid 237
+BS id 237 tid 236 eid 237 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187
+SH sm 2 sg 1572866 pd 0.01
+ES t 62.17
+CL id 236 tid 236 eid 236 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187 cid 238
+BS id 238 tid 236 eid 238 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187
+SH sm 2 sg 1572864 pd 0.01
+ES t 62.17
+CL id 236 tid 236 eid 236 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187 cid 239
+BS id 239 tid 236 eid 239 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187
+SH sm 2 sg 1572867 pd 0.01
+ES t 62.17
+CL id 236 tid 236 eid 236 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187 cid 240
+BS id 240 tid 236 eid 240 etid 236 c BTMessage n ADV_IND k 4 l 288 pe 187
+SH sm 2 sg 1572865 pd 0.01
+ES t 62.17
+DM id 236 tid 236 eid 236 etid 236 c cMessage n ADV_IND k 4 pe 187
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "timer advertising" pe 157
+ES t 67.16
+
+E # 188 t 62.17 m 8 ce 187 msg 235
+DM id 235 tid 234 eid 235 etid 234 c cMessage n TERMINATE_TX k 5 pe 188
+CM id 241 tid 241 eid 241 etid 241 c cMessage n ADV_IND k 4 pe -1
+CL id 241 tid 241 eid 241 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188 cid 242
+BS id 242 tid 241 eid 242 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188
+SH sm 8 sg 1572867 pd 0.01
+ES t 62.18
+CL id 241 tid 241 eid 241 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188 cid 243
+BS id 243 tid 241 eid 243 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188
+SH sm 8 sg 1572864 pd 0.01
+ES t 62.18
+CL id 241 tid 241 eid 241 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188 cid 244
+BS id 244 tid 241 eid 244 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188
+SH sm 8 sg 1572865 pd 0.01
+ES t 62.18
+CL id 241 tid 241 eid 241 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188 cid 245
+BS id 245 tid 241 eid 245 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188
+SH sm 8 sg 1572866 pd 0.01
+ES t 62.18
+CL id 241 tid 241 eid 241 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188 cid 246
+BS id 246 tid 241 eid 246 etid 241 c BTMessage n ADV_IND k 4 l 288 pe 188
+SH sm 8 sg 1572868 pd 0.01
+ES t 62.18
+DM id 241 tid 241 eid 241 etid 241 c cMessage n ADV_IND k 4 pe 188
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 149
+ES t 67.17
+
+E # 189 t 62.17 m 7 ce 187 msg 237
+CM id 247 tid 247 eid 247 etid 247 c cMessage n CONN_REQ k 2 pe -1
+CL id 247 tid 247 eid 247 etid 247 c BTMessage n CONN_REQ k 2 l 352 pe 189 cid 248
+BS id 248 tid 247 eid 248 etid 247 c BTMessage n CONN_REQ k 2 l 352 pe 189
+SH sm 7 sg 1572864 pd 0.01
+ES t 62.18
+DM id 247 tid 247 eid 247 etid 247 c cMessage n CONN_REQ k 2 pe 189
+DM id 237 tid 236 eid 237 etid 236 c cMessage n ADV_IND k 4 pe 189
+CM id 249 tid 249 eid 249 etid 249 c cMessage n START_TX k 5 pe -1
+CL id 249 tid 249 eid 249 etid 249 c BTMessage n START_TX k 5 l 80 pe 189 cid 250
+BS id 250 tid 249 eid 250 etid 249 c BTMessage n START_TX k 5 l 80 pe 189
+SH sm 7 sg 1572864 pd 0.01
+ES t 63.43
+DM id 249 tid 249 eid 249 etid 249 c cMessage n START_TX k 5 pe 189
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer conn_mester" pe 164
+ES t 65.42
+
+E # 190 t 62.17 m 4 ce 187 msg 238
+CM id 251 tid 251 eid 251 etid 251 c cMessage n CONN_REQ k 2 pe -1
+CL id 251 tid 251 eid 251 etid 251 c BTMessage n CONN_REQ k 2 l 352 pe 190 cid 252
+BS id 252 tid 251 eid 252 etid 251 c BTMessage n CONN_REQ k 2 l 352 pe 190
+SH sm 4 sg 1572864 pd 0.01
+ES t 62.18
+DM id 251 tid 251 eid 251 etid 251 c cMessage n CONN_REQ k 2 pe 190
+DM id 238 tid 236 eid 238 etid 236 c cMessage n ADV_IND k 4 pe 190
+CM id 253 tid 253 eid 253 etid 253 c cMessage n START_TX k 5 pe -1
+CL id 253 tid 253 eid 253 etid 253 c BTMessage n START_TX k 5 l 80 pe 190 cid 254
+BS id 254 tid 253 eid 254 etid 253 c BTMessage n START_TX k 5 l 80 pe 190
+SH sm 4 sg 1572864 pd 0.01
+ES t 63.43
+DM id 253 tid 253 eid 253 etid 253 c cMessage n START_TX k 5 pe 190
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer conn_mester" pe 165
+ES t 65.42
+
+E # 191 t 62.17 m 8 ce 187 msg 239
+DM id 239 tid 236 eid 239 etid 236 c cMessage n ADV_IND k 4 pe 191
+
+E # 192 t 62.17 m 6 ce 187 msg 240
+CM id 255 tid 255 eid 255 etid 255 c cMessage n CONN_REQ k 2 pe -1
+CL id 255 tid 255 eid 255 etid 255 c BTMessage n CONN_REQ k 2 l 352 pe 192 cid 256
+BS id 256 tid 255 eid 256 etid 255 c BTMessage n CONN_REQ k 2 l 352 pe 192
+SH sm 6 sg 1572864 pd 0.01
+ES t 62.18
+DM id 255 tid 255 eid 255 etid 255 c cMessage n CONN_REQ k 2 pe 192
+DM id 240 tid 236 eid 240 etid 236 c cMessage n ADV_IND k 4 pe 192
+CM id 257 tid 257 eid 257 etid 257 c cMessage n START_TX k 5 pe -1
+CL id 257 tid 257 eid 257 etid 257 c BTMessage n START_TX k 5 l 80 pe 192 cid 258
+BS id 258 tid 257 eid 258 etid 257 c BTMessage n START_TX k 5 l 80 pe 192
+SH sm 6 sg 1572864 pd 0.01
+ES t 63.43
+DM id 257 tid 257 eid 257 etid 257 c cMessage n START_TX k 5 pe 192
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer conn_mester" pe 163
+ES t 65.42
+
+E # 193 t 62.18 m 7 ce 188 msg 242
+
+E # 194 t 62.18 m 2 ce 188 msg 243
+DM id 243 tid 241 eid 243 etid 241 c cMessage n ADV_IND k 4 pe 194
+
+E # 195 t 62.18 m 4 ce 188 msg 244
+
+E # 196 t 62.18 m 6 ce 188 msg 245
+
+E # 197 t 62.18 m 9 ce 188 msg 246
+DM id 246 tid 241 eid 246 etid 241 c cMessage n ADV_IND k 4 pe 197
+
+E # 198 t 62.18 m 2 ce 189 msg 248
+CE id 1 tid 1 eid 1 etid 1 c cMessage n "timer advertising" pe 187
+DM id 248 tid 247 eid 248 etid 247 c cMessage n CONN_REQ k 2 pe 198
+
+E # 199 t 62.18 m 2 ce 190 msg 252
+
+E # 200 t 62.18 m 2 ce 192 msg 256
+
+E # 201 t 63.43 m 2 ce 189 msg 250
+CM id 259 tid 259 eid 259 etid 259 c cMessage n START_TX k 5 pe -1
+CL id 259 tid 259 eid 259 etid 259 c BTMessage n START_TX k 5 l 80 pe 201 cid 260
+BS id 260 tid 259 eid 260 etid 259 c BTMessage n START_TX k 5 l 80 pe 201
+SH sm 2 sg 1572866 pd 0.01
+ES t 63.44
+DM id 259 tid 259 eid 259 etid 259 c cMessage n START_TX k 5 pe 201
+CL id 229 tid 8 eid 229 etid 8 c BTMessage n DATA k 6 l 10930944 pe 185 cid 261
+BS id 261 tid 8 eid 261 etid 8 c BTMessage n DATA k 6 l 10930944 pe 201
+SH sm 2 sg 1572866 pd 0.01 td 10.93
+ES t 74.37
+DM id 250 tid 249 eid 250 etid 249 c cMessage n START_TX k 5 pe 201
+
+E # 202 t 63.43 m 2 ce 190 msg 254
+
+E # 203 t 63.43 m 2 ce 192 msg 258
+
+E # 204 t 63.44 m 7 ce 201 msg 260
+CE id 12 tid 12 eid 12 etid 12 c cMessage n "timer conn_mester" pe 189
+DM id 260 tid 259 eid 260 etid 259 c cMessage n START_TX k 5 pe 204
+
+E # 205 t 64.94 m 9 ce 171 msg 16
+
+E # 206 t 65.42 m 4 ce 190 msg 5
+
+E # 207 t 65.42 m 6 ce 192 msg 10
+
+E # 208 t 67.17 m 8 ce 188 msg 14
+CM id 262 tid 262 eid 262 etid 262 c cMessage n ADV_IND k 4 pe -1
+CL id 262 tid 262 eid 262 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208 cid 263
+BS id 263 tid 262 eid 263 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208
+SH sm 8 sg 1572868 pd 0.01
+ES t 67.18
+CL id 262 tid 262 eid 262 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208 cid 264
+BS id 264 tid 262 eid 264 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208
+SH sm 8 sg 1572866 pd 0.01
+ES t 67.18
+CL id 262 tid 262 eid 262 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208 cid 265
+BS id 265 tid 262 eid 265 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208
+SH sm 8 sg 1572865 pd 0.01
+ES t 67.18
+CL id 262 tid 262 eid 262 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208 cid 266
+BS id 266 tid 262 eid 266 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208
+SH sm 8 sg 1572864 pd 0.01
+ES t 67.18
+CL id 262 tid 262 eid 262 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208 cid 267
+BS id 267 tid 262 eid 267 etid 262 c BTMessage n ADV_IND k 4 l 288 pe 208
+SH sm 8 sg 1572867 pd 0.01
+ES t 67.18
+DM id 262 tid 262 eid 262 etid 262 c cMessage n ADV_IND k 4 pe 208
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 208
+ES t 72.17
+
+E # 209 t 67.18 m 9 ce 208 msg 263
+DM id 263 tid 262 eid 263 etid 262 c cMessage n ADV_IND k 4 pe 209
+
+E # 210 t 67.18 m 6 ce 208 msg 264
+CM id 268 tid 268 eid 268 etid 268 c cMessage n CONN_REQ k 2 pe -1
+CL id 268 tid 268 eid 268 etid 268 c BTMessage n CONN_REQ k 2 l 352 pe 210 cid 269
+BS id 269 tid 268 eid 269 etid 268 c BTMessage n CONN_REQ k 2 l 352 pe 210
+SH sm 6 sg 1572867 pd 0.01
+ES t 67.19
+DM id 268 tid 268 eid 268 etid 268 c cMessage n CONN_REQ k 2 pe 210
+DM id 264 tid 262 eid 264 etid 262 c cMessage n ADV_IND k 4 pe 210
+CM id 270 tid 270 eid 270 etid 270 c cMessage n START_TX k 5 pe -1
+CL id 270 tid 270 eid 270 etid 270 c BTMessage n START_TX k 5 l 80 pe 210 cid 271
+BS id 271 tid 270 eid 271 etid 270 c BTMessage n START_TX k 5 l 80 pe 210
+SH sm 6 sg 1572867 pd 0.01
+ES t 68.44
+DM id 270 tid 270 eid 270 etid 270 c cMessage n START_TX k 5 pe 210
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer conn_mester" pe 207
+ES t 70.43
+
+E # 211 t 67.18 m 4 ce 208 msg 265
+CM id 272 tid 272 eid 272 etid 272 c cMessage n CONN_REQ k 2 pe -1
+CL id 272 tid 272 eid 272 etid 272 c BTMessage n CONN_REQ k 2 l 352 pe 211 cid 273
+BS id 273 tid 272 eid 273 etid 272 c BTMessage n CONN_REQ k 2 l 352 pe 211
+SH sm 4 sg 1572867 pd 0.01
+ES t 67.19
+DM id 272 tid 272 eid 272 etid 272 c cMessage n CONN_REQ k 2 pe 211
+DM id 265 tid 262 eid 265 etid 262 c cMessage n ADV_IND k 4 pe 211
+CM id 274 tid 274 eid 274 etid 274 c cMessage n START_TX k 5 pe -1
+CL id 274 tid 274 eid 274 etid 274 c BTMessage n START_TX k 5 l 80 pe 211 cid 275
+BS id 275 tid 274 eid 275 etid 274 c BTMessage n START_TX k 5 l 80 pe 211
+SH sm 4 sg 1572867 pd 0.01
+ES t 68.44
+DM id 274 tid 274 eid 274 etid 274 c cMessage n START_TX k 5 pe 211
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer conn_mester" pe 206
+ES t 70.43
+
+E # 212 t 67.18 m 2 ce 208 msg 266
+
+E # 213 t 67.18 m 7 ce 208 msg 267
+
+E # 214 t 67.19 m 8 ce 210 msg 269
+CE id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 208
+DM id 269 tid 268 eid 269 etid 268 c cMessage n CONN_REQ k 2 pe 214
+
+E # 215 t 67.19 m 8 ce 211 msg 273
+
+E # 216 t 68.44 m 8 ce 210 msg 271
+CM id 276 tid 276 eid 276 etid 276 c cMessage n START_TX k 5 pe -1
+CL id 276 tid 276 eid 276 etid 276 c BTMessage n START_TX k 5 l 80 pe 216 cid 277
+BS id 277 tid 276 eid 277 etid 276 c BTMessage n START_TX k 5 l 80 pe 216
+SH sm 8 sg 1572866 pd 0.01
+ES t 68.45
+DM id 276 tid 276 eid 276 etid 276 c cMessage n START_TX k 5 pe 216
+CL id 180 tid 8 eid 180 etid 8 c BTMessage n DATA k 6 l 10930944 pe 153 cid 278
+BS id 278 tid 8 eid 278 etid 8 c BTMessage n DATA k 6 l 10930944 pe 216
+SH sm 8 sg 1572866 pd 0.01 td 10.93
+ES t 79.38
+DM id 271 tid 270 eid 271 etid 270 c cMessage n START_TX k 5 pe 216
+
+E # 217 t 68.44 m 8 ce 211 msg 275
+
+E # 218 t 68.45 m 6 ce 216 msg 277
+CE id 10 tid 10 eid 10 etid 10 c cMessage n "timer conn_mester" pe 210
+DM id 277 tid 276 eid 277 etid 276 c cMessage n START_TX k 5 pe 218
+
+E # 219 t 70.43 m 4 ce 211 msg 5
+
+E # 220 t 74.37 m 7 ce 201 msg 261
+CL id 261 tid 8 eid 261 etid 8 c BTMessage n DATA k 6 l 10930944 pe 220 cid 279
+CM id 280 tid 280 eid 280 etid 280 c cMessage n ACK pe -1
+CL id 280 tid 280 eid 280 etid 280 c BTMessage n ACK l 80 pe 220 cid 281
+BS id 281 tid 280 eid 281 etid 280 c BTMessage n ACK l 80 pe 220
+SH sm 7 sg 1572864 pd 0.01
+ES t 74.38
+DM id 261 tid 8 eid 261 etid 8 c cMessage n DATA k 6 pe 220
+DM id 280 tid 280 eid 280 etid 280 c cMessage n ACK pe 220
+
+E # 221 t 74.38 m 2 ce 220 msg 281
+CM id 282 tid 282 eid 282 etid 282 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 282 tid 282 eid 282 etid 282 c BTMessage n TERMINATE_TX k 5 l 80 pe 221 cid 283
+BS id 283 tid 282 eid 283 etid 282 c BTMessage n TERMINATE_TX k 5 l 80 pe 221
+SH sm 2 sg 1572866 pd 0.01
+ES t 74.39
+DM id 282 tid 282 eid 282 etid 282 c cMessage n TERMINATE_TX k 5 pe 221
+DM id 281 tid 280 eid 281 etid 280 c cMessage n ACK pe 221
+
+E # 222 t 74.39 m 7 ce 221 msg 283
+CM id 284 tid 284 eid 284 etid 284 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 284 tid 284 eid 284 etid 284 c BTMessage n TERMINATE_TX k 5 l 80 pe 222 cid 285
+BS id 285 tid 284 eid 285 etid 284 c BTMessage n TERMINATE_TX k 5 l 80 pe 222
+SH sm 7 sg 1572864 pd 0.01
+ES t 74.4
+DM id 284 tid 284 eid 284 etid 284 c cMessage n TERMINATE_TX k 5 pe 222
+DM id 283 tid 282 eid 283 etid 282 c cMessage n TERMINATE_TX k 5 pe 222
+CM id 286 tid 286 eid 286 etid 286 c cMessage n ADV_IND k 4 pe -1
+CL id 286 tid 286 eid 286 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222 cid 287
+BS id 287 tid 286 eid 287 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222
+SH sm 7 sg 1572865 pd 0.01
+ES t 74.4
+CL id 286 tid 286 eid 286 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222 cid 288
+BS id 288 tid 286 eid 288 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222
+SH sm 7 sg 1572866 pd 0.01
+ES t 74.4
+CL id 286 tid 286 eid 286 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222 cid 289
+BS id 289 tid 286 eid 289 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222
+SH sm 7 sg 1572864 pd 0.01
+ES t 74.4
+CL id 286 tid 286 eid 286 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222 cid 290
+BS id 290 tid 286 eid 290 etid 286 c BTMessage n ADV_IND k 4 l 288 pe 222
+SH sm 7 sg 1572867 pd 0.01
+ES t 74.4
+DM id 286 tid 286 eid 286 etid 286 c cMessage n ADV_IND k 4 pe 222
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer advertising" pe 204
+ES t 79.39
+
+E # 223 t 74.4 m 2 ce 222 msg 285
+DM id 285 tid 284 eid 285 etid 284 c cMessage n TERMINATE_TX k 5 pe 223
+CM id 291 tid 291 eid 291 etid 291 c cMessage n ADV_IND k 4 pe -1
+CL id 291 tid 291 eid 291 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223 cid 292
+BS id 292 tid 291 eid 292 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223
+SH sm 2 sg 1572865 pd 0.01
+ES t 74.41
+CL id 291 tid 291 eid 291 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223 cid 293
+BS id 293 tid 291 eid 293 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223
+SH sm 2 sg 1572867 pd 0.01
+ES t 74.41
+CL id 291 tid 291 eid 291 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223 cid 294
+BS id 294 tid 291 eid 294 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223
+SH sm 2 sg 1572864 pd 0.01
+ES t 74.41
+CL id 291 tid 291 eid 291 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223 cid 295
+BS id 295 tid 291 eid 295 etid 291 c BTMessage n ADV_IND k 4 l 288 pe 223
+SH sm 2 sg 1572866 pd 0.01
+ES t 74.41
+DM id 291 tid 291 eid 291 etid 291 c cMessage n ADV_IND k 4 pe 223
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "timer advertising" pe 198
+ES t 79.4
+
+E # 224 t 74.4 m 4 ce 222 msg 287
+CM id 296 tid 296 eid 296 etid 296 c cMessage n CONN_REQ k 2 pe -1
+CL id 296 tid 296 eid 296 etid 296 c BTMessage n CONN_REQ k 2 l 352 pe 224 cid 297
+BS id 297 tid 296 eid 297 etid 296 c BTMessage n CONN_REQ k 2 l 352 pe 224
+SH sm 4 sg 1572866 pd 0.01
+ES t 74.41
+DM id 296 tid 296 eid 296 etid 296 c cMessage n CONN_REQ k 2 pe 224
+DM id 287 tid 286 eid 287 etid 286 c cMessage n ADV_IND k 4 pe 224
+CM id 298 tid 298 eid 298 etid 298 c cMessage n START_TX k 5 pe -1
+CL id 298 tid 298 eid 298 etid 298 c BTMessage n START_TX k 5 l 80 pe 224 cid 299
+BS id 299 tid 298 eid 299 etid 298 c BTMessage n START_TX k 5 l 80 pe 224
+SH sm 4 sg 1572866 pd 0.01
+ES t 75.66
+DM id 298 tid 298 eid 298 etid 298 c cMessage n START_TX k 5 pe 224
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer conn_mester" pe 219
+ES t 77.65
+
+E # 225 t 74.4 m 6 ce 222 msg 288
+
+E # 226 t 74.4 m 2 ce 222 msg 289
+DM id 289 tid 286 eid 289 etid 286 c cMessage n ADV_IND k 4 pe 226
+
+E # 227 t 74.4 m 8 ce 222 msg 290
+
+E # 228 t 74.41 m 6 ce 223 msg 292
+
+E # 229 t 74.41 m 8 ce 223 msg 293
+
+E # 230 t 74.41 m 4 ce 223 msg 294
+
+E # 231 t 74.41 m 7 ce 223 msg 295
+DM id 295 tid 291 eid 295 etid 291 c cMessage n ADV_IND k 4 pe 231
+
+E # 232 t 74.41 m 7 ce 224 msg 297
+CE id 12 tid 12 eid 12 etid 12 c cMessage n "timer advertising" pe 222
+DM id 297 tid 296 eid 297 etid 296 c cMessage n CONN_REQ k 2 pe 232
+
+E # 233 t 75.66 m 7 ce 224 msg 299
+CM id 300 tid 300 eid 300 etid 300 c cMessage n START_TX k 5 pe -1
+CL id 300 tid 300 eid 300 etid 300 c BTMessage n START_TX k 5 l 80 pe 233 cid 301
+BS id 301 tid 300 eid 301 etid 300 c BTMessage n START_TX k 5 l 80 pe 233
+SH sm 7 sg 1572865 pd 0.01
+ES t 75.67
+DM id 300 tid 300 eid 300 etid 300 c cMessage n START_TX k 5 pe 233
+CL id 279 tid 8 eid 279 etid 8 c BTMessage n DATA k 6 l 10930944 pe 220 cid 302
+BS id 302 tid 8 eid 302 etid 8 c BTMessage n DATA k 6 l 10930944 pe 233
+SH sm 7 sg 1572865 pd 0.01 td 10.93
+ES t 86.6
+DM id 299 tid 298 eid 299 etid 298 c cMessage n START_TX k 5 pe 233
+
+E # 234 t 75.67 m 4 ce 233 msg 301
+CE id 5 tid 5 eid 5 etid 5 c cMessage n "timer conn_mester" pe 224
+DM id 301 tid 300 eid 301 etid 300 c cMessage n START_TX k 5 pe 234
+
+E # 235 t 79.38 m 6 ce 216 msg 278
+CL id 278 tid 8 eid 278 etid 8 c BTMessage n DATA k 6 l 10930944 pe 235 cid 303
+CM id 304 tid 304 eid 304 etid 304 c cMessage n ACK pe -1
+CL id 304 tid 304 eid 304 etid 304 c BTMessage n ACK l 80 pe 235 cid 305
+BS id 305 tid 304 eid 305 etid 304 c BTMessage n ACK l 80 pe 235
+SH sm 6 sg 1572867 pd 0.01
+ES t 79.39
+DM id 278 tid 8 eid 278 etid 8 c cMessage n DATA k 6 pe 235
+DM id 304 tid 304 eid 304 etid 304 c cMessage n ACK pe 235
+
+E # 236 t 79.39 m 8 ce 235 msg 305
+CM id 306 tid 306 eid 306 etid 306 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 306 tid 306 eid 306 etid 306 c BTMessage n TERMINATE_TX k 5 l 80 pe 236 cid 307
+BS id 307 tid 306 eid 307 etid 306 c BTMessage n TERMINATE_TX k 5 l 80 pe 236
+SH sm 8 sg 1572866 pd 0.01
+ES t 79.4
+DM id 306 tid 306 eid 306 etid 306 c cMessage n TERMINATE_TX k 5 pe 236
+DM id 305 tid 304 eid 305 etid 304 c cMessage n ACK pe 236
+
+E # 237 t 79.4 m 2 ce 223 msg 1
+CM id 308 tid 308 eid 308 etid 308 c cMessage n ADV_IND k 4 pe -1
+CL id 308 tid 308 eid 308 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237 cid 309
+BS id 309 tid 308 eid 309 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237
+SH sm 2 sg 1572865 pd 0.01
+ES t 79.41
+CL id 308 tid 308 eid 308 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237 cid 310
+BS id 310 tid 308 eid 310 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237
+SH sm 2 sg 1572864 pd 0.01
+ES t 79.41
+CL id 308 tid 308 eid 308 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237 cid 311
+BS id 311 tid 308 eid 311 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237
+SH sm 2 sg 1572866 pd 0.01
+ES t 79.41
+CL id 308 tid 308 eid 308 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237 cid 312
+BS id 312 tid 308 eid 312 etid 308 c BTMessage n ADV_IND k 4 l 288 pe 237
+SH sm 2 sg 1572867 pd 0.01
+ES t 79.41
+DM id 308 tid 308 eid 308 etid 308 c cMessage n ADV_IND k 4 pe 237
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "timer advertising" pe 237
+ES t 84.4
+
+E # 238 t 79.4 m 6 ce 236 msg 307
+CM id 313 tid 313 eid 313 etid 313 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 313 tid 313 eid 313 etid 313 c BTMessage n TERMINATE_TX k 5 l 80 pe 238 cid 314
+BS id 314 tid 313 eid 314 etid 313 c BTMessage n TERMINATE_TX k 5 l 80 pe 238
+SH sm 6 sg 1572867 pd 0.01
+ES t 79.41
+DM id 313 tid 313 eid 313 etid 313 c cMessage n TERMINATE_TX k 5 pe 238
+DM id 307 tid 306 eid 307 etid 306 c cMessage n TERMINATE_TX k 5 pe 238
+CM id 315 tid 315 eid 315 etid 315 c cMessage n ADV_IND k 4 pe -1
+CL id 315 tid 315 eid 315 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238 cid 316
+BS id 316 tid 315 eid 316 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238
+SH sm 6 sg 1572864 pd 0.01
+ES t 79.41
+CL id 315 tid 315 eid 315 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238 cid 317
+BS id 317 tid 315 eid 317 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238
+SH sm 6 sg 1572867 pd 0.01
+ES t 79.41
+CL id 315 tid 315 eid 315 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238 cid 318
+BS id 318 tid 315 eid 318 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238
+SH sm 6 sg 1572866 pd 0.01
+ES t 79.41
+CL id 315 tid 315 eid 315 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238 cid 319
+BS id 319 tid 315 eid 319 etid 315 c BTMessage n ADV_IND k 4 l 288 pe 238
+SH sm 6 sg 1572865 pd 0.01
+ES t 79.41
+DM id 315 tid 315 eid 315 etid 315 c cMessage n ADV_IND k 4 pe 238
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer advertising" pe 218
+ES t 84.4
+
+E # 239 t 79.41 m 6 ce 237 msg 309
+DM id 309 tid 308 eid 309 etid 308 c cMessage n ADV_IND k 4 pe 239
+
+E # 240 t 79.41 m 4 ce 237 msg 310
+
+E # 241 t 79.41 m 7 ce 237 msg 311
+
+E # 242 t 79.41 m 8 ce 237 msg 312
+
+E # 243 t 79.41 m 8 ce 238 msg 314
+DM id 314 tid 313 eid 314 etid 313 c cMessage n TERMINATE_TX k 5 pe 243
+CM id 320 tid 320 eid 320 etid 320 c cMessage n ADV_IND k 4 pe -1
+CL id 320 tid 320 eid 320 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243 cid 321
+BS id 321 tid 320 eid 321 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243
+SH sm 8 sg 1572868 pd 0.01
+ES t 79.42
+CL id 320 tid 320 eid 320 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243 cid 322
+BS id 322 tid 320 eid 322 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243
+SH sm 8 sg 1572865 pd 0.01
+ES t 79.42
+CL id 320 tid 320 eid 320 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243 cid 323
+BS id 323 tid 320 eid 323 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243
+SH sm 8 sg 1572864 pd 0.01
+ES t 79.42
+CL id 320 tid 320 eid 320 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243 cid 324
+BS id 324 tid 320 eid 324 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243
+SH sm 8 sg 1572866 pd 0.01
+ES t 79.42
+CL id 320 tid 320 eid 320 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243 cid 325
+BS id 325 tid 320 eid 325 etid 320 c BTMessage n ADV_IND k 4 l 288 pe 243
+SH sm 8 sg 1572867 pd 0.01
+ES t 79.42
+DM id 320 tid 320 eid 320 etid 320 c cMessage n ADV_IND k 4 pe 243
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 214
+ES t 84.41
+
+E # 244 t 79.41 m 2 ce 238 msg 316
+DM id 316 tid 315 eid 316 etid 315 c cMessage n ADV_IND k 4 pe 244
+
+E # 245 t 79.41 m 8 ce 238 msg 317
+DM id 317 tid 315 eid 317 etid 315 c cMessage n ADV_IND k 4 pe 245
+
+E # 246 t 79.41 m 7 ce 238 msg 318
+
+E # 247 t 79.41 m 4 ce 238 msg 319
+
+E # 248 t 79.42 m 9 ce 243 msg 321
+DM id 321 tid 320 eid 321 etid 320 c cMessage n ADV_IND k 4 pe 248
+
+E # 249 t 79.42 m 4 ce 243 msg 322
+
+E # 250 t 79.42 m 2 ce 243 msg 323
+DM id 323 tid 320 eid 323 etid 320 c cMessage n ADV_IND k 4 pe 250
+
+E # 251 t 79.42 m 6 ce 243 msg 324
+DM id 324 tid 320 eid 324 etid 320 c cMessage n ADV_IND k 4 pe 251
+
+E # 252 t 79.42 m 7 ce 243 msg 325
+
+E # 253 t 84.4 m 2 ce 237 msg 1
+CM id 326 tid 326 eid 326 etid 326 c cMessage n ADV_IND k 4 pe -1
+CL id 326 tid 326 eid 326 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253 cid 327
+BS id 327 tid 326 eid 327 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253
+SH sm 2 sg 1572865 pd 0.01
+ES t 84.41
+CL id 326 tid 326 eid 326 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253 cid 328
+BS id 328 tid 326 eid 328 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253
+SH sm 2 sg 1572864 pd 0.01
+ES t 84.41
+CL id 326 tid 326 eid 326 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253 cid 329
+BS id 329 tid 326 eid 329 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253
+SH sm 2 sg 1572867 pd 0.01
+ES t 84.41
+CL id 326 tid 326 eid 326 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253 cid 330
+BS id 330 tid 326 eid 330 etid 326 c BTMessage n ADV_IND k 4 l 288 pe 253
+SH sm 2 sg 1572866 pd 0.01
+ES t 84.41
+DM id 326 tid 326 eid 326 etid 326 c cMessage n ADV_IND k 4 pe 253
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "timer advertising" pe 253
+ES t 89.4
+
+E # 254 t 84.4 m 6 ce 238 msg 10
+CM id 331 tid 331 eid 331 etid 331 c cMessage n ADV_IND k 4 pe -1
+CL id 331 tid 331 eid 331 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254 cid 332
+BS id 332 tid 331 eid 332 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254
+SH sm 6 sg 1572866 pd 0.01
+ES t 84.41
+CL id 331 tid 331 eid 331 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254 cid 333
+BS id 333 tid 331 eid 333 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254
+SH sm 6 sg 1572864 pd 0.01
+ES t 84.41
+CL id 331 tid 331 eid 331 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254 cid 334
+BS id 334 tid 331 eid 334 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254
+SH sm 6 sg 1572867 pd 0.01
+ES t 84.41
+CL id 331 tid 331 eid 331 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254 cid 335
+BS id 335 tid 331 eid 335 etid 331 c BTMessage n ADV_IND k 4 l 288 pe 254
+SH sm 6 sg 1572865 pd 0.01
+ES t 84.41
+DM id 331 tid 331 eid 331 etid 331 c cMessage n ADV_IND k 4 pe 254
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer advertising" pe 254
+ES t 89.4
+
+E # 255 t 84.41 m 8 ce 243 msg 14
+CM id 336 tid 336 eid 336 etid 336 c cMessage n ADV_IND k 4 pe -1
+CL id 336 tid 336 eid 336 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255 cid 337
+BS id 337 tid 336 eid 337 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255
+SH sm 8 sg 1572866 pd 0.01
+ES t 84.42
+CL id 336 tid 336 eid 336 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255 cid 338
+BS id 338 tid 336 eid 338 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255
+SH sm 8 sg 1572868 pd 0.01
+ES t 84.42
+CL id 336 tid 336 eid 336 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255 cid 339
+BS id 339 tid 336 eid 339 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255
+SH sm 8 sg 1572864 pd 0.01
+ES t 84.42
+CL id 336 tid 336 eid 336 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255 cid 340
+BS id 340 tid 336 eid 340 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255
+SH sm 8 sg 1572867 pd 0.01
+ES t 84.42
+CL id 336 tid 336 eid 336 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255 cid 341
+BS id 341 tid 336 eid 341 etid 336 c BTMessage n ADV_IND k 4 l 288 pe 255
+SH sm 8 sg 1572865 pd 0.01
+ES t 84.42
+DM id 336 tid 336 eid 336 etid 336 c cMessage n ADV_IND k 4 pe 255
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 255
+ES t 89.41
+
+E # 256 t 84.41 m 6 ce 253 msg 327
+DM id 327 tid 326 eid 327 etid 326 c cMessage n ADV_IND k 4 pe 256
+
+E # 257 t 84.41 m 4 ce 253 msg 328
+
+E # 258 t 84.41 m 8 ce 253 msg 329
+DM id 329 tid 326 eid 329 etid 326 c cMessage n ADV_IND k 4 pe 258
+
+E # 259 t 84.41 m 7 ce 253 msg 330
+
+E # 260 t 84.41 m 7 ce 254 msg 332
+
+E # 261 t 84.41 m 2 ce 254 msg 333
+DM id 333 tid 331 eid 333 etid 331 c cMessage n ADV_IND k 4 pe 261
+
+E # 262 t 84.41 m 8 ce 254 msg 334
+DM id 334 tid 331 eid 334 etid 331 c cMessage n ADV_IND k 4 pe 262
+
+E # 263 t 84.41 m 4 ce 254 msg 335
+
+E # 264 t 84.42 m 6 ce 255 msg 337
+DM id 337 tid 336 eid 337 etid 336 c cMessage n ADV_IND k 4 pe 264
+
+E # 265 t 84.42 m 9 ce 255 msg 338
+DM id 338 tid 336 eid 338 etid 336 c cMessage n ADV_IND k 4 pe 265
+
+E # 266 t 84.42 m 2 ce 255 msg 339
+DM id 339 tid 336 eid 339 etid 336 c cMessage n ADV_IND k 4 pe 266
+
+E # 267 t 84.42 m 7 ce 255 msg 340
+
+E # 268 t 84.42 m 4 ce 255 msg 341
+
+E # 269 t 86.6 m 4 ce 233 msg 302
+CL id 302 tid 8 eid 302 etid 8 c BTMessage n DATA k 6 l 10930944 pe 269 cid 342
+CM id 343 tid 343 eid 343 etid 343 c cMessage n ACK pe -1
+CL id 343 tid 343 eid 343 etid 343 c BTMessage n ACK l 80 pe 269 cid 344
+BS id 344 tid 343 eid 344 etid 343 c BTMessage n ACK l 80 pe 269
+SH sm 4 sg 1572866 pd 0.01
+ES t 86.61
+DM id 302 tid 8 eid 302 etid 8 c cMessage n DATA k 6 pe 269
+DM id 343 tid 343 eid 343 etid 343 c cMessage n ACK pe 269
+
+E # 270 t 86.61 m 7 ce 269 msg 344
+CM id 345 tid 345 eid 345 etid 345 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 345 tid 345 eid 345 etid 345 c BTMessage n TERMINATE_TX k 5 l 80 pe 270 cid 346
+BS id 346 tid 345 eid 346 etid 345 c BTMessage n TERMINATE_TX k 5 l 80 pe 270
+SH sm 7 sg 1572865 pd 0.01
+ES t 86.62
+DM id 345 tid 345 eid 345 etid 345 c cMessage n TERMINATE_TX k 5 pe 270
+DM id 344 tid 343 eid 344 etid 343 c cMessage n ACK pe 270
+
+E # 271 t 86.62 m 4 ce 270 msg 346
+CM id 347 tid 347 eid 347 etid 347 c cMessage n TERMINATE_TX k 5 pe -1
+CL id 347 tid 347 eid 347 etid 347 c BTMessage n TERMINATE_TX k 5 l 80 pe 271 cid 348
+BS id 348 tid 347 eid 348 etid 347 c BTMessage n TERMINATE_TX k 5 l 80 pe 271
+SH sm 4 sg 1572866 pd 0.01
+ES t 86.63
+DM id 347 tid 347 eid 347 etid 347 c cMessage n TERMINATE_TX k 5 pe 271
+DM id 346 tid 345 eid 346 etid 345 c cMessage n TERMINATE_TX k 5 pe 271
+CM id 349 tid 349 eid 349 etid 349 c cMessage n ADV_IND k 4 pe -1
+CL id 349 tid 349 eid 349 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271 cid 350
+BS id 350 tid 349 eid 350 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271
+SH sm 4 sg 1572867 pd 0.01
+ES t 86.63
+CL id 349 tid 349 eid 349 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271 cid 351
+BS id 351 tid 349 eid 351 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271
+SH sm 4 sg 1572865 pd 0.01
+ES t 86.63
+CL id 349 tid 349 eid 349 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271 cid 352
+BS id 352 tid 349 eid 352 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271
+SH sm 4 sg 1572864 pd 0.01
+ES t 86.63
+CL id 349 tid 349 eid 349 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271 cid 353
+BS id 353 tid 349 eid 353 etid 349 c BTMessage n ADV_IND k 4 l 288 pe 271
+SH sm 4 sg 1572866 pd 0.01
+ES t 86.63
+DM id 349 tid 349 eid 349 etid 349 c cMessage n ADV_IND k 4 pe 271
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer advertising" pe 234
+ES t 91.62
+
+E # 272 t 86.63 m 7 ce 271 msg 348
+DM id 348 tid 347 eid 348 etid 347 c cMessage n TERMINATE_TX k 5 pe 272
+CM id 354 tid 354 eid 354 etid 354 c cMessage n ADV_IND k 4 pe -1
+CL id 354 tid 354 eid 354 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272 cid 355
+BS id 355 tid 354 eid 355 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272
+SH sm 7 sg 1572867 pd 0.01
+ES t 86.64
+CL id 354 tid 354 eid 354 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272 cid 356
+BS id 356 tid 354 eid 356 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272
+SH sm 7 sg 1572864 pd 0.01
+ES t 86.64
+CL id 354 tid 354 eid 354 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272 cid 357
+BS id 357 tid 354 eid 357 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272
+SH sm 7 sg 1572866 pd 0.01
+ES t 86.64
+CL id 354 tid 354 eid 354 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272 cid 358
+BS id 358 tid 354 eid 358 etid 354 c BTMessage n ADV_IND k 4 l 288 pe 272
+SH sm 7 sg 1572865 pd 0.01
+ES t 86.64
+DM id 354 tid 354 eid 354 etid 354 c cMessage n ADV_IND k 4 pe 272
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer advertising" pe 232
+ES t 91.63
+
+E # 273 t 86.63 m 8 ce 271 msg 350
+DM id 350 tid 349 eid 350 etid 349 c cMessage n ADV_IND k 4 pe 273
+
+E # 274 t 86.63 m 6 ce 271 msg 351
+DM id 351 tid 349 eid 351 etid 349 c cMessage n ADV_IND k 4 pe 274
+
+E # 275 t 86.63 m 2 ce 271 msg 352
+DM id 352 tid 349 eid 352 etid 349 c cMessage n ADV_IND k 4 pe 275
+
+E # 276 t 86.63 m 7 ce 271 msg 353
+DM id 353 tid 349 eid 353 etid 349 c cMessage n ADV_IND k 4 pe 276
+
+E # 277 t 86.64 m 8 ce 272 msg 355
+DM id 355 tid 354 eid 355 etid 354 c cMessage n ADV_IND k 4 pe 277
+
+E # 278 t 86.64 m 2 ce 272 msg 356
+DM id 356 tid 354 eid 356 etid 354 c cMessage n ADV_IND k 4 pe 278
+
+E # 279 t 86.64 m 6 ce 272 msg 357
+DM id 357 tid 354 eid 357 etid 354 c cMessage n ADV_IND k 4 pe 279
+
+E # 280 t 86.64 m 4 ce 272 msg 358
+DM id 358 tid 354 eid 358 etid 354 c cMessage n ADV_IND k 4 pe 280
+
+E # 281 t 89.4 m 2 ce 253 msg 1
+CM id 359 tid 359 eid 359 etid 359 c cMessage n ADV_IND k 4 pe -1
+CL id 359 tid 359 eid 359 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281 cid 360
+BS id 360 tid 359 eid 360 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281
+SH sm 2 sg 1572864 pd 0.01
+ES t 89.41
+CL id 359 tid 359 eid 359 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281 cid 361
+BS id 361 tid 359 eid 361 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281
+SH sm 2 sg 1572867 pd 0.01
+ES t 89.41
+CL id 359 tid 359 eid 359 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281 cid 362
+BS id 362 tid 359 eid 362 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281
+SH sm 2 sg 1572866 pd 0.01
+ES t 89.41
+CL id 359 tid 359 eid 359 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281 cid 363
+BS id 363 tid 359 eid 363 etid 359 c BTMessage n ADV_IND k 4 l 288 pe 281
+SH sm 2 sg 1572865 pd 0.01
+ES t 89.41
+DM id 359 tid 359 eid 359 etid 359 c cMessage n ADV_IND k 4 pe 281
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "timer advertising" pe 281
+ES t 94.4
+
+E # 282 t 89.4 m 6 ce 254 msg 10
+CM id 364 tid 364 eid 364 etid 364 c cMessage n ADV_IND k 4 pe -1
+CL id 364 tid 364 eid 364 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282 cid 365
+BS id 365 tid 364 eid 365 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282
+SH sm 6 sg 1572864 pd 0.01
+ES t 89.41
+CL id 364 tid 364 eid 364 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282 cid 366
+BS id 366 tid 364 eid 366 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282
+SH sm 6 sg 1572867 pd 0.01
+ES t 89.41
+CL id 364 tid 364 eid 364 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282 cid 367
+BS id 367 tid 364 eid 367 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282
+SH sm 6 sg 1572865 pd 0.01
+ES t 89.41
+CL id 364 tid 364 eid 364 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282 cid 368
+BS id 368 tid 364 eid 368 etid 364 c BTMessage n ADV_IND k 4 l 288 pe 282
+SH sm 6 sg 1572866 pd 0.01
+ES t 89.41
+DM id 364 tid 364 eid 364 etid 364 c cMessage n ADV_IND k 4 pe 282
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer advertising" pe 282
+ES t 94.4
+
+E # 283 t 89.41 m 8 ce 255 msg 14
+CM id 369 tid 369 eid 369 etid 369 c cMessage n ADV_IND k 4 pe -1
+CL id 369 tid 369 eid 369 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283 cid 370
+BS id 370 tid 369 eid 370 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283
+SH sm 8 sg 1572866 pd 0.01
+ES t 89.42
+CL id 369 tid 369 eid 369 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283 cid 371
+BS id 371 tid 369 eid 371 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283
+SH sm 8 sg 1572867 pd 0.01
+ES t 89.42
+CL id 369 tid 369 eid 369 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283 cid 372
+BS id 372 tid 369 eid 372 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283
+SH sm 8 sg 1572865 pd 0.01
+ES t 89.42
+CL id 369 tid 369 eid 369 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283 cid 373
+BS id 373 tid 369 eid 373 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283
+SH sm 8 sg 1572868 pd 0.01
+ES t 89.42
+CL id 369 tid 369 eid 369 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283 cid 374
+BS id 374 tid 369 eid 374 etid 369 c BTMessage n ADV_IND k 4 l 288 pe 283
+SH sm 8 sg 1572864 pd 0.01
+ES t 89.42
+DM id 369 tid 369 eid 369 etid 369 c cMessage n ADV_IND k 4 pe 283
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 283
+ES t 94.41
+
+E # 284 t 89.41 m 4 ce 281 msg 360
+DM id 360 tid 359 eid 360 etid 359 c cMessage n ADV_IND k 4 pe 284
+
+E # 285 t 89.41 m 8 ce 281 msg 361
+DM id 361 tid 359 eid 361 etid 359 c cMessage n ADV_IND k 4 pe 285
+
+E # 286 t 89.41 m 7 ce 281 msg 362
+DM id 362 tid 359 eid 362 etid 359 c cMessage n ADV_IND k 4 pe 286
+
+E # 287 t 89.41 m 6 ce 281 msg 363
+DM id 363 tid 359 eid 363 etid 359 c cMessage n ADV_IND k 4 pe 287
+
+E # 288 t 89.41 m 2 ce 282 msg 365
+DM id 365 tid 364 eid 365 etid 364 c cMessage n ADV_IND k 4 pe 288
+
+E # 289 t 89.41 m 8 ce 282 msg 366
+DM id 366 tid 364 eid 366 etid 364 c cMessage n ADV_IND k 4 pe 289
+
+E # 290 t 89.41 m 4 ce 282 msg 367
+DM id 367 tid 364 eid 367 etid 364 c cMessage n ADV_IND k 4 pe 290
+
+E # 291 t 89.41 m 7 ce 282 msg 368
+DM id 368 tid 364 eid 368 etid 364 c cMessage n ADV_IND k 4 pe 291
+
+E # 292 t 89.42 m 6 ce 283 msg 370
+DM id 370 tid 369 eid 370 etid 369 c cMessage n ADV_IND k 4 pe 292
+
+E # 293 t 89.42 m 7 ce 283 msg 371
+DM id 371 tid 369 eid 371 etid 369 c cMessage n ADV_IND k 4 pe 293
+
+E # 294 t 89.42 m 4 ce 283 msg 372
+DM id 372 tid 369 eid 372 etid 369 c cMessage n ADV_IND k 4 pe 294
+
+E # 295 t 89.42 m 9 ce 283 msg 373
+DM id 373 tid 369 eid 373 etid 369 c cMessage n ADV_IND k 4 pe 295
+
+E # 296 t 89.42 m 2 ce 283 msg 374
+DM id 374 tid 369 eid 374 etid 369 c cMessage n ADV_IND k 4 pe 296
+
+E # 297 t 90.3 m 2 ce 175 msg 0
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe 297
+ES t 120.3
+
+E # 298 t 90.3 m 4 ce 177 msg 4
+BS id 4 tid 4 eid 4 etid 4 c cMessage n "periodic actions" pe 298
+ES t 120.3
+
+E # 299 t 90.3 m 6 ce 179 msg 9
+BS id 9 tid 9 eid 9 etid 9 c cMessage n "periodic actions" pe 299
+ES t 120.3
+
+E # 300 t 90.3 m 7 ce 180 msg 11
+BS id 11 tid 11 eid 11 etid 11 c cMessage n "periodic actions" pe 300
+ES t 120.3
+
+E # 301 t 90.3 m 8 ce 181 msg 13
+BS id 13 tid 13 eid 13 etid 13 c cMessage n "periodic actions" pe 301
+ES t 120.3
+
+E # 302 t 90.3 m 9 ce 182 msg 15
+
+E # 303 t 91.62 m 4 ce 271 msg 5
+CM id 375 tid 375 eid 375 etid 375 c cMessage n ADV_IND k 4 pe -1
+CL id 375 tid 375 eid 375 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303 cid 376
+BS id 376 tid 375 eid 376 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303
+SH sm 4 sg 1572864 pd 0.01
+ES t 91.63
+CL id 375 tid 375 eid 375 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303 cid 377
+BS id 377 tid 375 eid 377 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303
+SH sm 4 sg 1572865 pd 0.01
+ES t 91.63
+CL id 375 tid 375 eid 375 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303 cid 378
+BS id 378 tid 375 eid 378 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303
+SH sm 4 sg 1572867 pd 0.01
+ES t 91.63
+CL id 375 tid 375 eid 375 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303 cid 379
+BS id 379 tid 375 eid 379 etid 375 c BTMessage n ADV_IND k 4 l 288 pe 303
+SH sm 4 sg 1572866 pd 0.01
+ES t 91.63
+DM id 375 tid 375 eid 375 etid 375 c cMessage n ADV_IND k 4 pe 303
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer advertising" pe 303
+ES t 96.62
+
+E # 304 t 91.63 m 7 ce 272 msg 12
+CM id 380 tid 380 eid 380 etid 380 c cMessage n ADV_IND k 4 pe -1
+CL id 380 tid 380 eid 380 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304 cid 381
+BS id 381 tid 380 eid 381 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304
+SH sm 7 sg 1572867 pd 0.01
+ES t 91.64
+CL id 380 tid 380 eid 380 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304 cid 382
+BS id 382 tid 380 eid 382 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304
+SH sm 7 sg 1572864 pd 0.01
+ES t 91.64
+CL id 380 tid 380 eid 380 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304 cid 383
+BS id 383 tid 380 eid 383 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304
+SH sm 7 sg 1572865 pd 0.01
+ES t 91.64
+CL id 380 tid 380 eid 380 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304 cid 384
+BS id 384 tid 380 eid 384 etid 380 c BTMessage n ADV_IND k 4 l 288 pe 304
+SH sm 7 sg 1572866 pd 0.01
+ES t 91.64
+DM id 380 tid 380 eid 380 etid 380 c cMessage n ADV_IND k 4 pe 304
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer advertising" pe 304
+ES t 96.63
+
+E # 305 t 91.63 m 2 ce 303 msg 376
+DM id 376 tid 375 eid 376 etid 375 c cMessage n ADV_IND k 4 pe 305
+
+E # 306 t 91.63 m 6 ce 303 msg 377
+DM id 377 tid 375 eid 377 etid 375 c cMessage n ADV_IND k 4 pe 306
+
+E # 307 t 91.63 m 8 ce 303 msg 378
+DM id 378 tid 375 eid 378 etid 375 c cMessage n ADV_IND k 4 pe 307
+
+E # 308 t 91.63 m 7 ce 303 msg 379
+DM id 379 tid 375 eid 379 etid 375 c cMessage n ADV_IND k 4 pe 308
+
+E # 309 t 91.64 m 8 ce 304 msg 381
+DM id 381 tid 380 eid 381 etid 380 c cMessage n ADV_IND k 4 pe 309
+
+E # 310 t 91.64 m 2 ce 304 msg 382
+DM id 382 tid 380 eid 382 etid 380 c cMessage n ADV_IND k 4 pe 310
+
+E # 311 t 91.64 m 4 ce 304 msg 383
+DM id 383 tid 380 eid 383 etid 380 c cMessage n ADV_IND k 4 pe 311
+
+E # 312 t 91.64 m 6 ce 304 msg 384
+DM id 384 tid 380 eid 384 etid 380 c cMessage n ADV_IND k 4 pe 312
+
+E # 313 t 94.4 m 2 ce 281 msg 1
+
+E # 314 t 94.4 m 6 ce 282 msg 10
+CM id 385 tid 385 eid 385 etid 385 c cMessage n ADV_IND k 4 pe -1
+CL id 385 tid 385 eid 385 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314 cid 386
+BS id 386 tid 385 eid 386 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314
+SH sm 6 sg 1572864 pd 0.01
+ES t 94.41
+CL id 385 tid 385 eid 385 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314 cid 387
+BS id 387 tid 385 eid 387 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314
+SH sm 6 sg 1572867 pd 0.01
+ES t 94.41
+CL id 385 tid 385 eid 385 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314 cid 388
+BS id 388 tid 385 eid 388 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314
+SH sm 6 sg 1572865 pd 0.01
+ES t 94.41
+CL id 385 tid 385 eid 385 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314 cid 389
+BS id 389 tid 385 eid 389 etid 385 c BTMessage n ADV_IND k 4 l 288 pe 314
+SH sm 6 sg 1572866 pd 0.01
+ES t 94.41
+DM id 385 tid 385 eid 385 etid 385 c cMessage n ADV_IND k 4 pe 314
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "timer advertising" pe 314
+ES t 99.4
+
+E # 315 t 94.41 m 8 ce 283 msg 14
+CM id 390 tid 390 eid 390 etid 390 c cMessage n ADV_IND k 4 pe -1
+CL id 390 tid 390 eid 390 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315 cid 391
+BS id 391 tid 390 eid 391 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315
+SH sm 8 sg 1572864 pd 0.01
+ES t 94.42
+CL id 390 tid 390 eid 390 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315 cid 392
+BS id 392 tid 390 eid 392 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315
+SH sm 8 sg 1572865 pd 0.01
+ES t 94.42
+CL id 390 tid 390 eid 390 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315 cid 393
+BS id 393 tid 390 eid 393 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315
+SH sm 8 sg 1572868 pd 0.01
+ES t 94.42
+CL id 390 tid 390 eid 390 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315 cid 394
+BS id 394 tid 390 eid 394 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315
+SH sm 8 sg 1572867 pd 0.01
+ES t 94.42
+CL id 390 tid 390 eid 390 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315 cid 395
+BS id 395 tid 390 eid 395 etid 390 c BTMessage n ADV_IND k 4 l 288 pe 315
+SH sm 8 sg 1572866 pd 0.01
+ES t 94.42
+DM id 390 tid 390 eid 390 etid 390 c cMessage n ADV_IND k 4 pe 315
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "timer advertising" pe 315
+ES t 99.41
+
+E # 316 t 94.41 m 2 ce 314 msg 386
+DM id 386 tid 385 eid 386 etid 385 c cMessage n ADV_IND k 4 pe 316
+
+E # 317 t 94.41 m 8 ce 314 msg 387
+DM id 387 tid 385 eid 387 etid 385 c cMessage n ADV_IND k 4 pe 317
+
+E # 318 t 94.41 m 4 ce 314 msg 388
+DM id 388 tid 385 eid 388 etid 385 c cMessage n ADV_IND k 4 pe 318
+
+E # 319 t 94.41 m 7 ce 314 msg 389
+DM id 389 tid 385 eid 389 etid 385 c cMessage n ADV_IND k 4 pe 319
+
+E # 320 t 94.42 m 2 ce 315 msg 391
+DM id 391 tid 390 eid 391 etid 390 c cMessage n ADV_IND k 4 pe 320
+
+E # 321 t 94.42 m 4 ce 315 msg 392
+DM id 392 tid 390 eid 392 etid 390 c cMessage n ADV_IND k 4 pe 321
+
+E # 322 t 94.42 m 9 ce 315 msg 393
+DM id 393 tid 390 eid 393 etid 390 c cMessage n ADV_IND k 4 pe 322
+
+E # 323 t 94.42 m 7 ce 315 msg 394
+DM id 394 tid 390 eid 394 etid 390 c cMessage n ADV_IND k 4 pe 323
+
+E # 324 t 94.42 m 6 ce 315 msg 395
+DM id 395 tid 390 eid 395 etid 390 c cMessage n ADV_IND k 4 pe 324
+
+E # 325 t 96.62 m 4 ce 303 msg 5
+CM id 396 tid 396 eid 396 etid 396 c cMessage n ADV_IND k 4 pe -1
+CL id 396 tid 396 eid 396 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325 cid 397
+BS id 397 tid 396 eid 397 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325
+SH sm 4 sg 1572866 pd 0.01
+ES t 96.63
+CL id 396 tid 396 eid 396 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325 cid 398
+BS id 398 tid 396 eid 398 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325
+SH sm 4 sg 1572864 pd 0.01
+ES t 96.63
+CL id 396 tid 396 eid 396 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325 cid 399
+BS id 399 tid 396 eid 399 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325
+SH sm 4 sg 1572865 pd 0.01
+ES t 96.63
+CL id 396 tid 396 eid 396 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325 cid 400
+BS id 400 tid 396 eid 400 etid 396 c BTMessage n ADV_IND k 4 l 288 pe 325
+SH sm 4 sg 1572867 pd 0.01
+ES t 96.63
+DM id 396 tid 396 eid 396 etid 396 c cMessage n ADV_IND k 4 pe 325
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer advertising" pe 325
+ES t 101.62
+
+E # 326 t 96.63 m 7 ce 304 msg 12
+CM id 401 tid 401 eid 401 etid 401 c cMessage n ADV_IND k 4 pe -1
+CL id 401 tid 401 eid 401 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326 cid 402
+BS id 402 tid 401 eid 402 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326
+SH sm 7 sg 1572866 pd 0.01
+ES t 96.64
+CL id 401 tid 401 eid 401 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326 cid 403
+BS id 403 tid 401 eid 403 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326
+SH sm 7 sg 1572865 pd 0.01
+ES t 96.64
+CL id 401 tid 401 eid 401 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326 cid 404
+BS id 404 tid 401 eid 404 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326
+SH sm 7 sg 1572867 pd 0.01
+ES t 96.64
+CL id 401 tid 401 eid 401 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326 cid 405
+BS id 405 tid 401 eid 405 etid 401 c BTMessage n ADV_IND k 4 l 288 pe 326
+SH sm 7 sg 1572864 pd 0.01
+ES t 96.64
+DM id 401 tid 401 eid 401 etid 401 c cMessage n ADV_IND k 4 pe 326
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer advertising" pe 326
+ES t 101.63
+
+E # 327 t 96.63 m 7 ce 325 msg 397
+DM id 397 tid 396 eid 397 etid 396 c cMessage n ADV_IND k 4 pe 327
+
+E # 328 t 96.63 m 2 ce 325 msg 398
+DM id 398 tid 396 eid 398 etid 396 c cMessage n ADV_IND k 4 pe 328
+
+E # 329 t 96.63 m 6 ce 325 msg 399
+DM id 399 tid 396 eid 399 etid 396 c cMessage n ADV_IND k 4 pe 329
+
+E # 330 t 96.63 m 8 ce 325 msg 400
+DM id 400 tid 396 eid 400 etid 396 c cMessage n ADV_IND k 4 pe 330
+
+E # 331 t 96.64 m 6 ce 326 msg 402
+DM id 402 tid 401 eid 402 etid 401 c cMessage n ADV_IND k 4 pe 331
+
+E # 332 t 96.64 m 4 ce 326 msg 403
+DM id 403 tid 401 eid 403 etid 401 c cMessage n ADV_IND k 4 pe 332
+
+E # 333 t 96.64 m 8 ce 326 msg 404
+DM id 404 tid 401 eid 404 etid 401 c cMessage n ADV_IND k 4 pe 333
+
+E # 334 t 96.64 m 2 ce 326 msg 405
+DM id 405 tid 401 eid 405 etid 401 c cMessage n ADV_IND k 4 pe 334
+
+E # 335 t 99.4 m 6 ce 314 msg 10
+
+E # 336 t 99.41 m 8 ce 315 msg 14
+
+E # 337 t 101.62 m 4 ce 325 msg 5
+CM id 406 tid 406 eid 406 etid 406 c cMessage n ADV_IND k 4 pe -1
+CL id 406 tid 406 eid 406 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337 cid 407
+BS id 407 tid 406 eid 407 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337
+SH sm 4 sg 1572865 pd 0.01
+ES t 101.63
+CL id 406 tid 406 eid 406 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337 cid 408
+BS id 408 tid 406 eid 408 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337
+SH sm 4 sg 1572866 pd 0.01
+ES t 101.63
+CL id 406 tid 406 eid 406 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337 cid 409
+BS id 409 tid 406 eid 409 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337
+SH sm 4 sg 1572867 pd 0.01
+ES t 101.63
+CL id 406 tid 406 eid 406 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337 cid 410
+BS id 410 tid 406 eid 410 etid 406 c BTMessage n ADV_IND k 4 l 288 pe 337
+SH sm 4 sg 1572864 pd 0.01
+ES t 101.63
+DM id 406 tid 406 eid 406 etid 406 c cMessage n ADV_IND k 4 pe 337
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "timer advertising" pe 337
+ES t 106.62
+
+E # 338 t 101.63 m 7 ce 326 msg 12
+CM id 411 tid 411 eid 411 etid 411 c cMessage n ADV_IND k 4 pe -1
+CL id 411 tid 411 eid 411 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338 cid 412
+BS id 412 tid 411 eid 412 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338
+SH sm 7 sg 1572866 pd 0.01
+ES t 101.64
+CL id 411 tid 411 eid 411 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338 cid 413
+BS id 413 tid 411 eid 413 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338
+SH sm 7 sg 1572867 pd 0.01
+ES t 101.64
+CL id 411 tid 411 eid 411 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338 cid 414
+BS id 414 tid 411 eid 414 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338
+SH sm 7 sg 1572864 pd 0.01
+ES t 101.64
+CL id 411 tid 411 eid 411 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338 cid 415
+BS id 415 tid 411 eid 415 etid 411 c BTMessage n ADV_IND k 4 l 288 pe 338
+SH sm 7 sg 1572865 pd 0.01
+ES t 101.64
+DM id 411 tid 411 eid 411 etid 411 c cMessage n ADV_IND k 4 pe 338
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "timer advertising" pe 338
+ES t 106.63
+
+E # 339 t 101.63 m 6 ce 337 msg 407
+DM id 407 tid 406 eid 407 etid 406 c cMessage n ADV_IND k 4 pe 339
+
+E # 340 t 101.63 m 7 ce 337 msg 408
+DM id 408 tid 406 eid 408 etid 406 c cMessage n ADV_IND k 4 pe 340
+
+E # 341 t 101.63 m 8 ce 337 msg 409
+DM id 409 tid 406 eid 409 etid 406 c cMessage n ADV_IND k 4 pe 341
+
+E # 342 t 101.63 m 2 ce 337 msg 410
+DM id 410 tid 406 eid 410 etid 406 c cMessage n ADV_IND k 4 pe 342
+
+E # 343 t 101.64 m 6 ce 338 msg 412
+DM id 412 tid 411 eid 412 etid 411 c cMessage n ADV_IND k 4 pe 343
+
+E # 344 t 101.64 m 8 ce 338 msg 413
+DM id 413 tid 411 eid 413 etid 411 c cMessage n ADV_IND k 4 pe 344
+
+E # 345 t 101.64 m 2 ce 338 msg 414
+DM id 414 tid 411 eid 414 etid 411 c cMessage n ADV_IND k 4 pe 345
+
+E # 346 t 101.64 m 4 ce 338 msg 415
+DM id 415 tid 411 eid 415 etid 411 c cMessage n ADV_IND k 4 pe 346
+
+E # 347 t 106.62 m 4 ce 337 msg 5
+
+E # 348 t 106.63 m 7 ce 338 msg 12
+
+E # 349 t 120.3 m 2 ce 297 msg 0
+
+E # 350 t 120.3 m 4 ce 298 msg 4
+
+E # 351 t 120.3 m 6 ce 299 msg 9
+
+E # 352 t 120.3 m 7 ce 300 msg 11
+
+E # 353 t 120.3 m 8 ce 301 msg 13
+SE e 0 c 13 m "No more events -- simulation ended at event #354, t=120.3."

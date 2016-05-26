@@ -1,0 +1,31 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1030 rid rgg2-1-20150605-13:35:02-9568 b 1000
+KF p -1 c "" s ""
+MC id 1 c cModule t prova1.net.randomgeometricgraph.RandomGeometricGraph n RandomGeometricGraph cm 1
+MS id 1 d ""
+MC id 2 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[0]
+MS id 2 d i=misc/node_vs;is=vs
+MC id 3 c RandomGeometricNode t prova1.node.models.RandomGeometricNode pid 1 n rgnv[1]
+MS id 3 d i=misc/node_vs;is=vs
+MB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe -1
+CM id 1 tid 1 eid 1 etid 1 c cMessage n timeout pe -1
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "periodic actions" pe 0
+ES t 0.3
+ME
+MB sm 1 tm 3 m initialize(0)
+CM id 2 tid 2 eid 2 etid 2 c cMessage n "periodic actions" pe -1
+CM id 3 tid 3 eid 3 etid 3 c cMessage n timeout pe -1
+BS id 2 tid 2 eid 2 etid 2 c cMessage n "periodic actions" pe 0
+ES t 0.3
+CM id 4 tid 4 eid 4 etid 4 c cMessage n DATA k 6 pe -1
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "timer Start" pe 0
+ES t 1
+ME
+
+E # 1 t 0.3 m 2 ce 0 msg 0
+
+E # 2 t 0.3 m 3 ce 0 msg 2
+
+E # 3 t 1 m 3 ce 0 msg 3
+SE e 0 c 13 m "No more events -- simulation ended at event #4, t=1."

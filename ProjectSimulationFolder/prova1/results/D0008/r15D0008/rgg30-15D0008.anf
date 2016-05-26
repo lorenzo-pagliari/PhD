@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/prova1/results/D0008/r15D0008/rgg30/rgg30-15D0008-*.vec"/>
+    <inputs name="/prova1/results/D0008/r15D0008/rgg30/rgg30-15D0008-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="\">
+      <items xsi:type="scave:Add" filterPattern="name(arrivalPerc:histogram:count) OR name(arrivalTime:histogram:max) "/>
+      <items xsi:type="scave:BarChart" name="g1">
+        <groupByFields>name</groupByFields>
+        <barFields>measurement</barFields>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1"/>
+  </chartSheets>
+</scave:Analysis>
