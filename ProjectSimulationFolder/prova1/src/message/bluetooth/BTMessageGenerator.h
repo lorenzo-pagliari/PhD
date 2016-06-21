@@ -16,7 +16,7 @@ class BTMessageGenerator {
 
 protected:
     static BTMessage *createMessage(OPCode, const char *, int, UnityMeasureCode);
-    static const char *createTag(cMessage *);
+//    static const char *createTag(cPacket *);
     static int calculatePduSize(int, UnityMeasureCode);
 
 public:

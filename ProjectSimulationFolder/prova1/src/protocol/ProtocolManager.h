@@ -8,8 +8,11 @@
 #ifndef PROTOCOLMANAGER_H_
 #define PROTOCOLMANAGER_H_
 
+#include <omnetpp.h>
 #include <DynamicFanout.h>
 #include <AdvertiseLimit.h>
+
+using namespace omnetpp;
 
 class ProtocolManager {
 
@@ -27,9 +30,9 @@ public:
     int getAdvertiseLimit() const {return advertiseLimit->getValue();}
 
     //update methods
-    void updateParameters(cSimpleModule *,BatteryManager *);
-    void updateDynamicFanout(cSimpleModule *,BatteryManager *);
-    void updateAdvertiseLimit(cSimpleModule *,BatteryManager *);
+    void updateParameters(omnetpp::cSimpleModule *,BatteryManager *);
+    void updateDynamicFanout(omnetpp::cSimpleModule *,BatteryManager *);
+    void updateAdvertiseLimit(omnetpp::cSimpleModule *,BatteryManager *);
 };
 
 #endif /* PROTOCOLMANAGER_H_ */

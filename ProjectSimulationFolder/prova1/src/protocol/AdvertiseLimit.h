@@ -15,7 +15,7 @@ public:
     AdvertiseLimit();
     virtual ~AdvertiseLimit();
 
-    void updateValue(cSimpleModule *,BatteryManager *);
+    void updateValue(omnetpp::cSimpleModule *,BatteryManager *);
 
 private:
     void checkValue();

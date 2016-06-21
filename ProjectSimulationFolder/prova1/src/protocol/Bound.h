@@ -22,7 +22,7 @@ public:
 
     virtual int getValue() const {return value;}
 
-    virtual void updateValue(cSimpleModule *,BatteryManager *)=0;
+    virtual void updateValue(omnetpp::cSimpleModule *,BatteryManager *)=0;
 };
 
 #endif /* BOUND_H_ */

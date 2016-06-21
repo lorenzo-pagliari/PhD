@@ -17,7 +17,7 @@ DynamicFanout::~DynamicFanout() {
 }
 
 //====================BOUND METHOD===================
-void DynamicFanout::updateValue(cSimpleModule *node,BatteryManager *battery){
+void DynamicFanout::updateValue(omnetpp::cSimpleModule *node,BatteryManager *battery){
 
     int numNeighborDevices = node->gateSize("gate");
     double batFactor;

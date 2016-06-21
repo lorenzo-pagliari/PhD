@@ -5,8 +5,7 @@
  *      Author: Lorenzo
  */
 
-#include <RandomGeometricNode.h>
-#include <omnetpp.h>
+#include "RandomGeometricNode.h"
 
 Define_Module(RandomGeometricNode);
 
@@ -64,49 +63,50 @@ void RandomGeometricNode::setYcoordinate(double y){
 
 void RandomGeometricNode::initialize() {
 
-    arrivalSignal = registerSignal("arrival");
-    arrivalTimeSignal = registerSignal("arrivalTime");
+//    arrivalSignal = registerSignal("arrival");
+//    arrivalTimeSignal = registerSignal("arrivalTime");
+//
+//    this->xCoord = par("xCoord");
+//    this->yCoord = par("yCoord");
+//    printf("nodo %s creato in %d-%d\n",this->getIndex(), this->getXcoordinate(),this->getYcoordinate());
+//    batteryManager = new BatteryManager(uniform(15, 100));
+//    protocolManager = new ProtocolManager();
+//    periodicActionsTimer = new cMessage("periodic actions");
+//    timer = new cMessage("timeout");
+//    btFsaManager = new BTFsaManager();
 
-    this->xCoord = par("xCoord");
-    this->yCoord = par("yCoord");
+//    nodeInitializazion();
 
-    batteryManager = new BatteryManager(uniform(15, 100));
-    protocolManager = new ProtocolManager();
-    periodicActionsTimer = new cMessage("periodic actions");
-    timer = new cMessage("timeout");
-    btFsaManager = new BTFsaManager();
-
-    nodeInitializazion();
-
-    scheduleAt(simTime()+0.3,periodicActionsTimer);
+//    scheduleAt(simTime()+0.3,periodicActionsTimer);
 
     //This way is for forced parameter setting in .ini file
     //if(par("startTx")){
 
     //This way, get a new starting node for each repetition
-    if(getIndex() == getAncestorPar("startIndex").longValue()){
-        //50xriga = 205 caratteri
-        /*
-        message = BTMessageGenerator::createDataMessage(
-                "Ciao come stai ? Tutto bene ? Io, si grazie, e tu?"
-                "Anche io tutto ok grazie....anche se con sto tempo"
-                "mi fa un pò freddo....eh sì in effetti sta pioggia"
-                "ha un pò stufato....ci manca l'afa da 40gradi all'ombra");
-        */
-
-        message = BTMessageGenerator::createDataMessage("Oggi c'è il sole, che bello", 1, MB);
-
-        /*
-         * starting state
-         * is equivalent to the call to advertising(),
-         * but in this way is possible to see the visual
-         * effect of the first broadcasting
-         */
-        start();
-
-    }else{
-        initiating();
-    }
+//    if(getIndex() == getAncestorPar("startIndex").longValue()){
+//        //50xriga = 205 caratteri
+//        /*
+//        message = BTMessageGenerator::createDataMessage(
+//                "Ciao come stai ? Tutto bene ? Io, si grazie, e tu?"
+//                "Anche io tutto ok grazie....anche se con sto tempo"
+//                "mi fa un pò freddo....eh sì in effetti sta pioggia"
+//                "ha un pò stufato....ci manca l'afa da 40gradi all'ombra");
+//        */
+//
+//        message = BTMessageGenerator::createDataMessage("Oggi c'è il sole, che bello", 1, MB);
+//
+//        /*
+//         * starting state
+//         * is equivalent to the call to advertising(),
+//         * but in this way is possible to see the visual
+//         * effect of the first broadcasting
+//         */
+//        start();
+//
+//    }else{
+//        initiating();
+//    }
+    initiating();
 }
 
 void RandomGeometricNode::nodeInitializazion()
@@ -457,7 +457,7 @@ void RandomGeometricNode::switchState(BTState destState)
 //===================UTILITY METHODS===============
 
 void RandomGeometricNode::updateDisplayString(const char *par, int index, const char *value){
-    if(ev.isGUI())
+    if(getEnvir()->isGUI())
         getDisplayString().setTagArg(par,index,value);
 }
 
@@ -465,7 +465,7 @@ void RandomGeometricNode::updateIconDisplayString()
 {
     const char *color;
 
-    if(ev.isGUI()){
+    if(getEnvir()->isGUI()){
         switch(btFsaManager->getState())
         {
             case STANDBY: color = ""; break;
@@ -485,7 +485,7 @@ void RandomGeometricNode::updateIconDisplayString()
 void RandomGeometricNode::updateTagDisplayString()
 {
     char buff[40];
-    if(ev.isGUI()){
+    if(getEnvir()->isGUI()){
         sprintf(buff, "B: %d%% DF: %d AL: %d", batteryManager->getBatteryLevel(),protocolManager->getDynamicFanout(), protocolManager->getAdvertiseLimit());
         updateDisplayString("t", 0, buff);
     }
@@ -606,7 +606,7 @@ void RandomGeometricNode::periodicActions(){
     //UPDATE BATTERY
     decreaseBatteryLevelIdle();
 
-    //if battery >= 10% i can still work && I'll do the calculations of paramtere
+    //if battery >= 10% i can still work && I'll do the calculations of parameter
     if(busy || (batteryManager->getBatteryLevel() >= 10)){
 
         updateParameters();

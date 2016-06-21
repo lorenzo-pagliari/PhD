@@ -10,15 +10,15 @@
 
 
 //=============CREATE TAG & CREATE MESSAGE=====================================
-const char * BTMessageGenerator::createTag(cMessage *m){
-
-    char buff[50];
-    sprintf(buff, "%s%ld",m->getName(),m->getId());
-
-    std::string s(buff);
-
-    return s.c_str();
-}
+//const char * BTMessageGenerator::createTag(cPacket *m){
+//
+//    char buff[50];
+//    sprintf(buff, "%s%ld",m->getName(),m->getId());
+//
+//    std::string s(buff);
+//
+//    return s.c_str();
+//}
 
 int BTMessageGenerator::calculatePduSize(int pduSize, UnityMeasureCode unityMeasure){
 
@@ -95,14 +95,15 @@ BTMessage * BTMessageGenerator::createMessage(OPCode oc, const char *pdu, int pd
             m = new BTMessage("TERMINATE_TX",5); //0=red color
             break;
 
-        default: throw cRuntimeError("Unknown Operational Code");
+//        default: throw cRuntimeError("Unknown Operational Code");
     }
 
 
     totByte = nPck * (nByteHandF + nBytePdu);
 
     m->setOpcode(oc);
-    m->setTag(createTag(m));
+//    m->setTag(createTag(m));
+    m->setTag("tag");
     m->setPdu(pdu);
     m->setByteLength(totByte);
 

@@ -15,7 +15,7 @@ AdvertiseLimit::~AdvertiseLimit() {
 }
 
 //====================BOUND METHOD===================
-void AdvertiseLimit::updateValue(cSimpleModule *node, BatteryManager *battery){
+void AdvertiseLimit::updateValue(omnetpp::cSimpleModule *node, BatteryManager *battery){
 
     int numNeighborDevices = node->gateSize("gate");
     double batFactor;

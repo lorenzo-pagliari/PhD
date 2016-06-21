@@ -1,0 +1,3 @@
+package blegossipprj;
+
+@license(LGPL);

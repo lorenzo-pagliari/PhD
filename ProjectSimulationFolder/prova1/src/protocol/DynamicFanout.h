@@ -15,7 +15,7 @@ public:
     DynamicFanout();
     virtual ~DynamicFanout();
 
-    void updateValue(cSimpleModule *,BatteryManager *);
+    void updateValue(omnetpp::cSimpleModule *,BatteryManager *);
 
 private:
     void checkValue();

@@ -8,11 +8,13 @@
 #ifndef RandomGeometricNode_H_
 #define RandomGeometricNode_H_
 
-#include <csimplemodule.h>
+#include <omnetpp.h>
 #include <ProtocolManager.h>
 #include <BatteryManager.h>
 #include <BTFsaManager.h>
 #include <BTMessageGenerator.h>
+
+using namespace omnetpp;
 
 class RandomGeometricNode: public cSimpleModule{
 
