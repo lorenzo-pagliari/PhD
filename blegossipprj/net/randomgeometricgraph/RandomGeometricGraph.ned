@@ -39,11 +39,11 @@ network RandomGeometricGraph {
         }
         
     submodules:
+        sc: StatisticsCollector;
         rgnv[netSize]: RandomGeometricNode;
 //        n1: RandomGeometricNode;
 //        n2: RandomGeometricNode;
 //        n3: RandomGeometricNode;
-		sc: StatisticsCollector;
     connections:
         
 		for i = 0..netSize-2, for j=i+1..netSize-1 {

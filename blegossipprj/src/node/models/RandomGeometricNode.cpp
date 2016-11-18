@@ -258,7 +258,7 @@ void RandomGeometricNode::handleMessage(cMessage *msg)
 
                              //signal to save statistic on the arrival time
                              //full transmission completed
-//                             emit(arrivalTimeSignal, btmsg->getArrivalTime().dbl());
+                             emit(arrivalTimeSignal, btmsg->getArrivalTime().dbl());
 
                              //trasmission ended
                              temp = BTMessageGenerator::createTerminateTxMessage("");
@@ -578,7 +578,7 @@ void RandomGeometricNode::start(){
 
     //signal to save statistic on the arrival time
     //full transmission completed
-//    emit(arrivalTimeSignal, 0);
+    emit(arrivalTimeSignal, 0.0);
 }
 
 void RandomGeometricNode::standby(){

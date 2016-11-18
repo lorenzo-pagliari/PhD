@@ -28,10 +28,10 @@ simple RandomGeometricNode like INode //extends Coordinate2D
         double xCoord = uniform(0, areaLength);
         double yCoord = uniform(0, areaWidth);
 
-		@signal[arrival](type="bool");
-        @signal[arrivalTime](type="long");
-//        @statistic[arrivalPerc](title="arrival perc"; source="arrival"; record=histogram; interpolationmode=none);
-//        @statistic[arrivalTime](title="arrival time"; source="arrivalTime"; record=histogram; interpolationmode=none);
+		@signal[arrival](type=bool);
+        @signal[arrivalTime](type=double);
+        @statistic[arrivalPerc](title="arrival perc"; source=count(arrival); record=histogram; interpolationmode=none);
+        @statistic[arrivalTime](title="arrival time"; source=arrivalTime; record=histogram; interpolationmode=none);
 		
         @display("i=misc/node_vs;is=vs");
 

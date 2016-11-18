@@ -20,7 +20,7 @@ simple StatisticsCollector
     parameters:
 //        @signal[arrival](type="bool");
 //        @signal[arrivalTime](type="long");
-        @statistic[arrivalPerc](title="arrival perc"; source=count(arrival); record=histogram; interpolationmode=none);
-//        @statistic[arrivalTime](title="arrival time"; source="arrivalTime"; record=histogram; interpolationmode=none);
+//        @statistic[arrivalPerc](title="arrival perc"; source=count(arrival); record=histogram; interpolationmode=none);
+//        @statistic[arrivalTime](title="arrival time"; source=arrivalTime; record=histogram; interpolationmode=none);
 		
 }

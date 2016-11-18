@@ -30,19 +30,11 @@ INCLUDE_PATH = \
     -Inet \
     -Inet/randomgeometricgraph \
     -Iresults \
-    -Iresults/D0001 \
-    -Iresults/D0001/r50D0001 \
-    -Iresults/D0001/r50D0001/rgg100 \
-    -Iresults/D0008 \
-    -Iresults/D0008/r10D0008 \
-    -Iresults/D0008/r10D0008/General \
-    -Iresults/D0008/r10D0008/rgg5 \
-    -Iresults/D0008/r15D0008 \
-    -Iresults/D0008/r15D0008/General \
-    -Iresults/D0008/r15D0008/rgg5 \
-    -Iresults/noD \
-    -Iresults/noD/r10D002 \
-    -Iresults/noD/r10D002/General \
+    -Iresults/test \
+    -Iresults/test/D0008 \
+    -Iresults/test/D0008/r15D0008 \
+    -Iresults/test/D0008/r15D0008/General \
+    -Iresults/test/D0008/r15D0008/rgg5 \
     -Isrc \
     -Isrc/battery \
     -Isrc/bluetooth \
@@ -73,6 +65,7 @@ OBJS = \
     $O/src/bluetooth/BTFsaManager.o \
     $O/src/coordinate/bidimensional/Coordinate2D.o \
     $O/src/message/bluetooth/BTMessageGenerator.o \
+    $O/src/node/listeners/StatisticsListener.o \
     $O/src/node/models/RandomGeometricNode.o \
     $O/src/node/statistics/StatisticsCollector.o \
     $O/src/protocol/AdvertiseLimit.o \
@@ -180,19 +173,11 @@ clean:
 	$(Q)-rm -f net/*_m.cpp net/*_m.h net/*_sm.cpp net/*_sm.h
 	$(Q)-rm -f net/randomgeometricgraph/*_m.cpp net/randomgeometricgraph/*_m.h net/randomgeometricgraph/*_sm.cpp net/randomgeometricgraph/*_sm.h
 	$(Q)-rm -f results/*_m.cpp results/*_m.h results/*_sm.cpp results/*_sm.h
-	$(Q)-rm -f results/D0001/*_m.cpp results/D0001/*_m.h results/D0001/*_sm.cpp results/D0001/*_sm.h
-	$(Q)-rm -f results/D0001/r50D0001/*_m.cpp results/D0001/r50D0001/*_m.h results/D0001/r50D0001/*_sm.cpp results/D0001/r50D0001/*_sm.h
-	$(Q)-rm -f results/D0001/r50D0001/rgg100/*_m.cpp results/D0001/r50D0001/rgg100/*_m.h results/D0001/r50D0001/rgg100/*_sm.cpp results/D0001/r50D0001/rgg100/*_sm.h
-	$(Q)-rm -f results/D0008/*_m.cpp results/D0008/*_m.h results/D0008/*_sm.cpp results/D0008/*_sm.h
-	$(Q)-rm -f results/D0008/r10D0008/*_m.cpp results/D0008/r10D0008/*_m.h results/D0008/r10D0008/*_sm.cpp results/D0008/r10D0008/*_sm.h
-	$(Q)-rm -f results/D0008/r10D0008/General/*_m.cpp results/D0008/r10D0008/General/*_m.h results/D0008/r10D0008/General/*_sm.cpp results/D0008/r10D0008/General/*_sm.h
-	$(Q)-rm -f results/D0008/r10D0008/rgg5/*_m.cpp results/D0008/r10D0008/rgg5/*_m.h results/D0008/r10D0008/rgg5/*_sm.cpp results/D0008/r10D0008/rgg5/*_sm.h
-	$(Q)-rm -f results/D0008/r15D0008/*_m.cpp results/D0008/r15D0008/*_m.h results/D0008/r15D0008/*_sm.cpp results/D0008/r15D0008/*_sm.h
-	$(Q)-rm -f results/D0008/r15D0008/General/*_m.cpp results/D0008/r15D0008/General/*_m.h results/D0008/r15D0008/General/*_sm.cpp results/D0008/r15D0008/General/*_sm.h
-	$(Q)-rm -f results/D0008/r15D0008/rgg5/*_m.cpp results/D0008/r15D0008/rgg5/*_m.h results/D0008/r15D0008/rgg5/*_sm.cpp results/D0008/r15D0008/rgg5/*_sm.h
-	$(Q)-rm -f results/noD/*_m.cpp results/noD/*_m.h results/noD/*_sm.cpp results/noD/*_sm.h
-	$(Q)-rm -f results/noD/r10D002/*_m.cpp results/noD/r10D002/*_m.h results/noD/r10D002/*_sm.cpp results/noD/r10D002/*_sm.h
-	$(Q)-rm -f results/noD/r10D002/General/*_m.cpp results/noD/r10D002/General/*_m.h results/noD/r10D002/General/*_sm.cpp results/noD/r10D002/General/*_sm.h
+	$(Q)-rm -f results/test/*_m.cpp results/test/*_m.h results/test/*_sm.cpp results/test/*_sm.h
+	$(Q)-rm -f results/test/D0008/*_m.cpp results/test/D0008/*_m.h results/test/D0008/*_sm.cpp results/test/D0008/*_sm.h
+	$(Q)-rm -f results/test/D0008/r15D0008/*_m.cpp results/test/D0008/r15D0008/*_m.h results/test/D0008/r15D0008/*_sm.cpp results/test/D0008/r15D0008/*_sm.h
+	$(Q)-rm -f results/test/D0008/r15D0008/General/*_m.cpp results/test/D0008/r15D0008/General/*_m.h results/test/D0008/r15D0008/General/*_sm.cpp results/test/D0008/r15D0008/General/*_sm.h
+	$(Q)-rm -f results/test/D0008/r15D0008/rgg5/*_m.cpp results/test/D0008/r15D0008/rgg5/*_m.h results/test/D0008/r15D0008/rgg5/*_sm.cpp results/test/D0008/r15D0008/rgg5/*_sm.h
 	$(Q)-rm -f src/*_m.cpp src/*_m.h src/*_sm.cpp src/*_sm.h
 	$(Q)-rm -f src/battery/*_m.cpp src/battery/*_m.h src/battery/*_sm.cpp src/battery/*_sm.h
 	$(Q)-rm -f src/bluetooth/*_m.cpp src/bluetooth/*_m.h src/bluetooth/*_sm.cpp src/bluetooth/*_sm.h
@@ -211,7 +196,7 @@ cleanall: clean
 
 depend:
 	$(qecho) Creating dependencies...
-	$(Q)$(MAKEDEPEND) $(INCLUDE_PATH) -f Makefile -P\$$O/ -- $(MSG_CC_FILES) $(SM_CC_FILES)  ./*.cpp iniFile/*.cpp iniFile/D00001/*.cpp iniFile/D00005/*.cpp iniFile/D0001/*.cpp iniFile/D0008/*.cpp iniFile/D001/*.cpp iniFile/D002/*.cpp iniFile/noD/*.cpp iniFile/test/*.cpp iniFile/test/D0008/*.cpp net/*.cpp net/randomgeometricgraph/*.cpp results/*.cpp results/D0001/*.cpp results/D0001/r50D0001/*.cpp results/D0001/r50D0001/rgg100/*.cpp results/D0008/*.cpp results/D0008/r10D0008/*.cpp results/D0008/r10D0008/General/*.cpp results/D0008/r10D0008/rgg5/*.cpp results/D0008/r15D0008/*.cpp results/D0008/r15D0008/General/*.cpp results/D0008/r15D0008/rgg5/*.cpp results/noD/*.cpp results/noD/r10D002/*.cpp results/noD/r10D002/General/*.cpp src/*.cpp src/battery/*.cpp src/bluetooth/*.cpp src/coordinate/*.cpp src/coordinate/bidimensional/*.cpp src/message/*.cpp src/message/bluetooth/*.cpp src/node/*.cpp src/node/listeners/*.cpp src/node/models/*.cpp src/node/statistics/*.cpp src/protocol/*.cpp
+	$(Q)$(MAKEDEPEND) $(INCLUDE_PATH) -f Makefile -P\$$O/ -- $(MSG_CC_FILES) $(SM_CC_FILES)  ./*.cpp iniFile/*.cpp iniFile/D00001/*.cpp iniFile/D00005/*.cpp iniFile/D0001/*.cpp iniFile/D0008/*.cpp iniFile/D001/*.cpp iniFile/D002/*.cpp iniFile/noD/*.cpp iniFile/test/*.cpp iniFile/test/D0008/*.cpp net/*.cpp net/randomgeometricgraph/*.cpp results/*.cpp results/test/*.cpp results/test/D0008/*.cpp results/test/D0008/r15D0008/*.cpp results/test/D0008/r15D0008/General/*.cpp results/test/D0008/r15D0008/rgg5/*.cpp src/*.cpp src/battery/*.cpp src/bluetooth/*.cpp src/coordinate/*.cpp src/coordinate/bidimensional/*.cpp src/message/*.cpp src/message/bluetooth/*.cpp src/node/*.cpp src/node/listeners/*.cpp src/node/models/*.cpp src/node/statistics/*.cpp src/protocol/*.cpp
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 $O/src/battery/BatteryManager.o: src/battery/BatteryManager.cpp \
@@ -226,6 +211,8 @@ $O/src/message/bluetooth/BTMessageGenerator.o: src/message/bluetooth/BTMessageGe
 	src/message/UnityMeasureCode.h \
 	src/message/bluetooth/BTMessageGenerator.h \
 	src/message/bluetooth/btmessage_m.h
+$O/src/node/listeners/StatisticsListener.o: src/node/listeners/StatisticsListener.cpp \
+	src/node/listeners/StatisticsListener.h
 $O/src/node/models/RandomGeometricNode.o: src/node/models/RandomGeometricNode.cpp \
 	src/battery/BatteryManager.h \
 	src/bluetooth/BTFsaManager.h \
@@ -240,6 +227,7 @@ $O/src/node/models/RandomGeometricNode.o: src/node/models/RandomGeometricNode.cp
 	src/protocol/DynamicFanout.h \
 	src/protocol/ProtocolManager.h
 $O/src/node/statistics/StatisticsCollector.o: src/node/statistics/StatisticsCollector.cpp \
+	src/node/listeners/StatisticsListener.h \
 	src/node/statistics/StatisticsCollector.h
 $O/src/protocol/AdvertiseLimit.o: src/protocol/AdvertiseLimit.cpp \
 	src/battery/BatteryManager.h \
