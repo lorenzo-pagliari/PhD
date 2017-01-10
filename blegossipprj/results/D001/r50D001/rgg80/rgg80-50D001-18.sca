@@ -1,14 +1,14 @@
 version 2
-run rgg80-18-20170110-12:02:08-5232
+run rgg80-18-20170110-16:27:18-5312
 attr configname rgg80
-attr datetime 20170110-12:02:08
+attr datetime 20170110-16:27:18
 attr experiment rgg80
 attr inifile iniFile/D001/omnetpp_50D001.ini
 attr iterationvars ""
 attr iterationvars2 $repetition=18
 attr measurement ""
 attr network blegossipprj.net.randomgeometricgraph.RandomGeometricGraph
-attr processid 5232
+attr processid 5312
 attr repetition 18
 attr replication #18
 attr resultdir ../../results/D001/r50D001
