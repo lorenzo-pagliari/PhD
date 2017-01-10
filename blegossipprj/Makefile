@@ -45,10 +45,26 @@ INCLUDE_PATH = \
     -Iresults/D001/r50D001/rgg80 \
     -Iresults/D002 \
     -Iresults/D002/r15D002 \
+    -Iresults/D002/r15D002/rgg10 \
+    -Iresults/D002/r15D002/rgg100 \
+    -Iresults/D002/r15D002/rgg1000 \
     -Iresults/D002/r15D002/rgg2 \
+    -Iresults/D002/r15D002/rgg200 \
+    -Iresults/D002/r15D002/rgg30 \
+    -Iresults/D002/r15D002/rgg5 \
+    -Iresults/D002/r15D002/rgg50 \
+    -Iresults/D002/r15D002/rgg500 \
+    -Iresults/D002/r15D002/rgg80 \
     -Iresults/D002/r50D002 \
     -Iresults/D002/r50D002/General \
+    -Iresults/D002/r50D002/rgg10 \
+    -Iresults/D002/r50D002/rgg100 \
     -Iresults/D002/r50D002/rgg2 \
+    -Iresults/D002/r50D002/rgg200 \
+    -Iresults/D002/r50D002/rgg30 \
+    -Iresults/D002/r50D002/rgg5 \
+    -Iresults/D002/r50D002/rgg50 \
+    -Iresults/D002/r50D002/rgg500 \
     -Iresults/D002/r50D002/rgg80 \
     -Iresults/test \
     -Iresults/test/D0008 \
@@ -208,10 +224,26 @@ clean:
 	$(Q)-rm -f results/D001/r50D001/rgg80/*_m.cpp results/D001/r50D001/rgg80/*_m.h results/D001/r50D001/rgg80/*_sm.cpp results/D001/r50D001/rgg80/*_sm.h
 	$(Q)-rm -f results/D002/*_m.cpp results/D002/*_m.h results/D002/*_sm.cpp results/D002/*_sm.h
 	$(Q)-rm -f results/D002/r15D002/*_m.cpp results/D002/r15D002/*_m.h results/D002/r15D002/*_sm.cpp results/D002/r15D002/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg10/*_m.cpp results/D002/r15D002/rgg10/*_m.h results/D002/r15D002/rgg10/*_sm.cpp results/D002/r15D002/rgg10/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg100/*_m.cpp results/D002/r15D002/rgg100/*_m.h results/D002/r15D002/rgg100/*_sm.cpp results/D002/r15D002/rgg100/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg1000/*_m.cpp results/D002/r15D002/rgg1000/*_m.h results/D002/r15D002/rgg1000/*_sm.cpp results/D002/r15D002/rgg1000/*_sm.h
 	$(Q)-rm -f results/D002/r15D002/rgg2/*_m.cpp results/D002/r15D002/rgg2/*_m.h results/D002/r15D002/rgg2/*_sm.cpp results/D002/r15D002/rgg2/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg200/*_m.cpp results/D002/r15D002/rgg200/*_m.h results/D002/r15D002/rgg200/*_sm.cpp results/D002/r15D002/rgg200/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg30/*_m.cpp results/D002/r15D002/rgg30/*_m.h results/D002/r15D002/rgg30/*_sm.cpp results/D002/r15D002/rgg30/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg5/*_m.cpp results/D002/r15D002/rgg5/*_m.h results/D002/r15D002/rgg5/*_sm.cpp results/D002/r15D002/rgg5/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg50/*_m.cpp results/D002/r15D002/rgg50/*_m.h results/D002/r15D002/rgg50/*_sm.cpp results/D002/r15D002/rgg50/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg500/*_m.cpp results/D002/r15D002/rgg500/*_m.h results/D002/r15D002/rgg500/*_sm.cpp results/D002/r15D002/rgg500/*_sm.h
+	$(Q)-rm -f results/D002/r15D002/rgg80/*_m.cpp results/D002/r15D002/rgg80/*_m.h results/D002/r15D002/rgg80/*_sm.cpp results/D002/r15D002/rgg80/*_sm.h
 	$(Q)-rm -f results/D002/r50D002/*_m.cpp results/D002/r50D002/*_m.h results/D002/r50D002/*_sm.cpp results/D002/r50D002/*_sm.h
 	$(Q)-rm -f results/D002/r50D002/General/*_m.cpp results/D002/r50D002/General/*_m.h results/D002/r50D002/General/*_sm.cpp results/D002/r50D002/General/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg10/*_m.cpp results/D002/r50D002/rgg10/*_m.h results/D002/r50D002/rgg10/*_sm.cpp results/D002/r50D002/rgg10/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg100/*_m.cpp results/D002/r50D002/rgg100/*_m.h results/D002/r50D002/rgg100/*_sm.cpp results/D002/r50D002/rgg100/*_sm.h
 	$(Q)-rm -f results/D002/r50D002/rgg2/*_m.cpp results/D002/r50D002/rgg2/*_m.h results/D002/r50D002/rgg2/*_sm.cpp results/D002/r50D002/rgg2/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg200/*_m.cpp results/D002/r50D002/rgg200/*_m.h results/D002/r50D002/rgg200/*_sm.cpp results/D002/r50D002/rgg200/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg30/*_m.cpp results/D002/r50D002/rgg30/*_m.h results/D002/r50D002/rgg30/*_sm.cpp results/D002/r50D002/rgg30/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg5/*_m.cpp results/D002/r50D002/rgg5/*_m.h results/D002/r50D002/rgg5/*_sm.cpp results/D002/r50D002/rgg5/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg50/*_m.cpp results/D002/r50D002/rgg50/*_m.h results/D002/r50D002/rgg50/*_sm.cpp results/D002/r50D002/rgg50/*_sm.h
+	$(Q)-rm -f results/D002/r50D002/rgg500/*_m.cpp results/D002/r50D002/rgg500/*_m.h results/D002/r50D002/rgg500/*_sm.cpp results/D002/r50D002/rgg500/*_sm.h
 	$(Q)-rm -f results/D002/r50D002/rgg80/*_m.cpp results/D002/r50D002/rgg80/*_m.h results/D002/r50D002/rgg80/*_sm.cpp results/D002/r50D002/rgg80/*_sm.h
 	$(Q)-rm -f results/test/*_m.cpp results/test/*_m.h results/test/*_sm.cpp results/test/*_sm.h
 	$(Q)-rm -f results/test/D0008/*_m.cpp results/test/D0008/*_m.h results/test/D0008/*_sm.cpp results/test/D0008/*_sm.h
@@ -236,7 +268,7 @@ cleanall: clean
 
 depend:
 	$(qecho) Creating dependencies...
-	$(Q)$(MAKEDEPEND) $(INCLUDE_PATH) -f Makefile -P\$$O/ -- $(MSG_CC_FILES) $(SM_CC_FILES)  ./*.cpp iniFile/*.cpp iniFile/D00001/*.cpp iniFile/D00005/*.cpp iniFile/D0001/*.cpp iniFile/D0008/*.cpp iniFile/D001/*.cpp iniFile/D002/*.cpp iniFile/noD/*.cpp iniFile/test/*.cpp iniFile/test/D0008/*.cpp net/*.cpp net/randomgeometricgraph/*.cpp results/*.cpp results/D00001/*.cpp results/D00001/r50D00001/*.cpp results/D00001/r50D00001/rgg2/*.cpp results/D0008/*.cpp results/D0008/r15D0008/*.cpp results/D0008/r15D0008/General/*.cpp results/D0008/r15D0008/rgg2/*.cpp results/D001/*.cpp results/D001/r15D001/*.cpp results/D001/r15D001/General/*.cpp results/D001/r15D001/rgg2/*.cpp results/D001/r50D001/*.cpp results/D001/r50D001/rgg80/*.cpp results/D002/*.cpp results/D002/r15D002/*.cpp results/D002/r15D002/rgg2/*.cpp results/D002/r50D002/*.cpp results/D002/r50D002/General/*.cpp results/D002/r50D002/rgg2/*.cpp results/D002/r50D002/rgg80/*.cpp results/test/*.cpp results/test/D0008/*.cpp results/test/D0008/r15D0008/*.cpp results/test/D0008/r15D0008/General/*.cpp results/test/D0008/r15D0008/rgg5/*.cpp src/*.cpp src/battery/*.cpp src/bluetooth/*.cpp src/coordinate/*.cpp src/coordinate/bidimensional/*.cpp src/message/*.cpp src/message/bluetooth/*.cpp src/node/*.cpp src/node/listeners/*.cpp src/node/models/*.cpp src/node/statistics/*.cpp src/protocol/*.cpp
+	$(Q)$(MAKEDEPEND) $(INCLUDE_PATH) -f Makefile -P\$$O/ -- $(MSG_CC_FILES) $(SM_CC_FILES)  ./*.cpp iniFile/*.cpp iniFile/D00001/*.cpp iniFile/D00005/*.cpp iniFile/D0001/*.cpp iniFile/D0008/*.cpp iniFile/D001/*.cpp iniFile/D002/*.cpp iniFile/noD/*.cpp iniFile/test/*.cpp iniFile/test/D0008/*.cpp net/*.cpp net/randomgeometricgraph/*.cpp results/*.cpp results/D00001/*.cpp results/D00001/r50D00001/*.cpp results/D00001/r50D00001/rgg2/*.cpp results/D0008/*.cpp results/D0008/r15D0008/*.cpp results/D0008/r15D0008/General/*.cpp results/D0008/r15D0008/rgg2/*.cpp results/D001/*.cpp results/D001/r15D001/*.cpp results/D001/r15D001/General/*.cpp results/D001/r15D001/rgg2/*.cpp results/D001/r50D001/*.cpp results/D001/r50D001/rgg80/*.cpp results/D002/*.cpp results/D002/r15D002/*.cpp results/D002/r15D002/rgg10/*.cpp results/D002/r15D002/rgg100/*.cpp results/D002/r15D002/rgg1000/*.cpp results/D002/r15D002/rgg2/*.cpp results/D002/r15D002/rgg200/*.cpp results/D002/r15D002/rgg30/*.cpp results/D002/r15D002/rgg5/*.cpp results/D002/r15D002/rgg50/*.cpp results/D002/r15D002/rgg500/*.cpp results/D002/r15D002/rgg80/*.cpp results/D002/r50D002/*.cpp results/D002/r50D002/General/*.cpp results/D002/r50D002/rgg10/*.cpp results/D002/r50D002/rgg100/*.cpp results/D002/r50D002/rgg2/*.cpp results/D002/r50D002/rgg200/*.cpp results/D002/r50D002/rgg30/*.cpp results/D002/r50D002/rgg5/*.cpp results/D002/r50D002/rgg50/*.cpp results/D002/r50D002/rgg500/*.cpp results/D002/r50D002/rgg80/*.cpp results/test/*.cpp results/test/D0008/*.cpp results/test/D0008/r15D0008/*.cpp results/test/D0008/r15D0008/General/*.cpp results/test/D0008/r15D0008/rgg5/*.cpp src/*.cpp src/battery/*.cpp src/bluetooth/*.cpp src/coordinate/*.cpp src/coordinate/bidimensional/*.cpp src/message/*.cpp src/message/bluetooth/*.cpp src/node/*.cpp src/node/listeners/*.cpp src/node/models/*.cpp src/node/statistics/*.cpp src/protocol/*.cpp
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 $O/src/battery/BatteryManager.o: src/battery/BatteryManager.cpp \

@@ -1,3 +1,0 @@
-Miscellaneous options for gcc linker
-
--static-libgcc -static-libstdc++

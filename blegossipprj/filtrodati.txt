@@ -1,1 +1,1 @@
-name(arrivalPerc:histogram:count) OR name(arrivalTime:histogram:max) 
+name(arrivalPercentage:count) OR name(arrivalTime:max) 
