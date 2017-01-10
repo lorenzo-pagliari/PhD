@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/blegossipprj/results/D002/r50D002/rgg2/rgg2-50D002-*.vec"/>
+    <inputs name="/blegossipprj/results/D002/r50D002/rgg2/rgg2-50D002-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="d1">
+      <items xsi:type="scave:Add" filterPattern="name(arrivalPerc:histogram:count) OR name(arrivalTime:histogram:max) "/>
+      <items xsi:type="scave:BarChart" name="">
+        <barFields>name</barFields>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1"/>
+  </chartSheets>
+</scave:Analysis>
