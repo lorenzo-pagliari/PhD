@@ -16,28 +16,29 @@
 package node.models;
 
 import node.INode;
-import coordinate.bidimensional.Coordinate2D;
+//import coordinate.bidimensional.Coordinate2D;
 
-simple RandomGeometricNode like INode //extends Coordinate2D
+simple RandomGeometricNode_02 like INode //extends Coordinate2D
 {
     parameters:
+        int d = default(0);
         int batteryLevel = default(100);
         bool startTx = default(false);
-        int areaLength = default(10);
-        int areaWidth = default(10);
-        double xCoord = uniform(0, areaLength);
-        double yCoord = uniform(0, areaWidth);
-
+        int areaMinHeight = default(0);
+        int areaMaxHeight = default(10);
+        int areaMinWidth = default(0);
+        int areaMaxWidth = default(10);
+        double xCoord = uniform(areaMinWidth, areaMaxWidth);
+        double yCoord = uniform(areaMinHeight, areaMaxHeight);
+	
+		@class(RandomGeometricNode);
 		@signal[arrival](type=bool);
         @signal[arrivalTime](type=double);
-//        @statistic[arrivalPerc](title="arrival perc"; source=count(arrival); record=histogram; interpolationmode=none);
-//        @statistic[arrivalTime](title="arrival time"; source=arrivalTime; record=histogram; interpolationmode=none);
 		
         @display("i=misc/node_vs;is=vs");
-
     //      display radius non è utile perchè anche lui
     //		si basa sui pixel
-    //      	@display("r=15");
+//          	@display("r=200");
     gates:
         inout gate[];
 }

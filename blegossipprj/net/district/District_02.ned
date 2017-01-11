@@ -13,15 +13,23 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-//package blegossipprj.coordinate.bidimensional;
-package coordinate.bidimensional;
+// Created: 2017-0-11 for project blegossipprj
 
-import coordinate.ICoordinate;
+package blegossipprj.net.district;
 
-simple Coordinate2D like ICoordinate
+import node.models.RandomGeometricNode_02;
+
+module District_02
 {
     parameters:
-        double xCoord;
-        double yCoord;
-        @display("i=misc/node");
+        int ID = default(0);
+        double xCoord = default(0);
+        double yCoord = default(0);
+        int width = default(20);
+        int height = default(20);
+        
+        int numbNodes = default(1);
+        
+   submodules:
+       
 }

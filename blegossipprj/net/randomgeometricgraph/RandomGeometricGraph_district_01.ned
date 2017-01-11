@@ -15,22 +15,17 @@
 
 package blegossipprj.net.randomgeometricgraph;
 
-import node.models.RandomGeometricNode;
-import node.statistics.StatisticsCollector;
 
-network RandomGeometricGraph
+import node.statistics.StatisticsCollector;
+import blegossipprj.net.district.District;
+
+network RandomGeometricGraph_district_01
 {
     parameters:
-        int radius = default(3);
+        int radius = default(15);
         int netSize = default(10);
         int startIndex = intuniform(0,netSize-1);
-
-//        @signal[arrival](type="bool");
-//        @signal[arrivalTime](type="double");
-//        @statistic[arrivalPerc](title="arrival perc"; source="arrival"; record=histogram; interpolationmode=none);
-//        @statistic[arrivalTime](title="arrival time"; source="arrivalTime"; record=histogram; interpolationmode=none);
-
-//        @display("bgg=10");
+        int numberOfDistricts = default(1);
 
     types:
         channel BTChannel extends ned.DatarateChannel
@@ -41,15 +36,19 @@ network RandomGeometricGraph
 
     submodules:
         sc: StatisticsCollector;
-        rgnv[netSize]: RandomGeometricNode;
-    //        n1: RandomGeometricNode;
-    //        n2: RandomGeometricNode;
-    //        n3: RandomGeometricNode;
+        dv[numberOfDistricts]: District {
+//            @display("p=,,matrix");
+			numbNodes = netSize/numberOfDistricts;
+			ID = index;
+			radius = radius;
+			xCoord = 0 + this.width*index;
+			yCoord = 0;
+		}
     connections:
 
-        for i=0..netSize-2, for j=i+1..netSize-1 {
-            rgnv[i].gate++ <--> BTChannel <--> rgnv[j].gate++ if (radius > sqrt((rgnv[i].xCoord - rgnv[j].xCoord)*(rgnv[i].xCoord - rgnv[j].xCoord) + 
-            																	(rgnv[i].yCoord - rgnv[j].yCoord)*(rgnv[i].yCoord - rgnv[j].yCoord)));
-        }
+//        for i=0..netSize-2, for j=i+1..netSize-1 {
+//            rgnv[i].gate++ <--> BTChannel <--> rgnv[j].gate++ if (radius > sqrt((rgnv[i].xCoord - rgnv[j].xCoord)*(rgnv[i].xCoord - rgnv[j].xCoord) + 
+//            																	(rgnv[i].yCoord - rgnv[j].yCoord)*(rgnv[i].yCoord - rgnv[j].yCoord)));
+//        }
 
 }

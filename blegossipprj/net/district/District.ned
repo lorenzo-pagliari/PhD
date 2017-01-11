@@ -13,43 +13,45 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package blegossipprj.net.randomgeometricgraph;
+// Created: 2017-0-11 for project blegossipprj
 
-import node.models.RandomGeometricNode;
-import node.statistics.StatisticsCollector;
+package blegossipprj.net.district;
 
-network RandomGeometricGraph
+import node.models.RandomGeometricNode_02;
+
+module District
 {
     parameters:
-        int radius = default(3);
-        int netSize = default(10);
-        int startIndex = intuniform(0,netSize-1);
-
-//        @signal[arrival](type="bool");
-//        @signal[arrivalTime](type="double");
-//        @statistic[arrivalPerc](title="arrival perc"; source="arrival"; record=histogram; interpolationmode=none);
-//        @statistic[arrivalTime](title="arrival time"; source="arrivalTime"; record=histogram; interpolationmode=none);
-
-//        @display("bgg=10");
-
-    types:
+        int ID = default(0);
+        int radius;
+        double xCoord = default(0);
+        double yCoord = default(0);
+        int width = default(20);
+        int height = default(20);
+        
+        int numbNodes = default(1);
+    
+   
+   types:
         channel BTChannel extends ned.DatarateChannel
         {
             datarate = 1Mbps;
             delay = 10ms;
         }
-
-    submodules:
-        sc: StatisticsCollector;
-        rgnv[netSize]: RandomGeometricNode;
-    //        n1: RandomGeometricNode;
-    //        n2: RandomGeometricNode;
-    //        n3: RandomGeometricNode;
-    connections:
-
-        for i=0..netSize-2, for j=i+1..netSize-1 {
+        
+        
+   submodules:
+       rgnv[numbNodes]: RandomGeometricNode_02{
+           areaMinWidth = xCoord;
+           areaMaxWidth = xCoord + width;
+           areaMinHeight = yCoord;
+           areaMaxHeight = yCoord + height;           
+       };
+       
+	connections:
+	    
+	    for i=0..numbNodes-2, for j=i+1..numbNodes-1 {
             rgnv[i].gate++ <--> BTChannel <--> rgnv[j].gate++ if (radius > sqrt((rgnv[i].xCoord - rgnv[j].xCoord)*(rgnv[i].xCoord - rgnv[j].xCoord) + 
             																	(rgnv[i].yCoord - rgnv[j].yCoord)*(rgnv[i].yCoord - rgnv[j].yCoord)));
-        }
-
+        }   
 }

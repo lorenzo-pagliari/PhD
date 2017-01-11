@@ -1,0 +1,16 @@
+<city>
+	<district>
+		<id>0</id>
+		<xCoord>0</xCoord>
+		<yCoord>0</yCoord>
+		<width>30</width>
+		<height>30</height>
+	</district>
+	<district>
+		<id>0</id>
+		<xCoord>32</xCoord>
+		<yCoord>0</yCoord>
+		<width>30</width>
+		<height>30</height>
+	</district>
+</city>

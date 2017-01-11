@@ -69,13 +69,21 @@ void RandomGeometricNode::initialize() {
     this->xCoord = par("xCoord");
     this->yCoord = par("yCoord");
 
+    char buff[40];
+    if(getEnvir()->isGUI()){
+        sprintf(buff, "%f%",this->xCoord*10);
+        updateDisplayString("p", 0, buff);
+        sprintf(buff, "%f%",this->yCoord*10);
+        updateDisplayString("p", 1, buff);
+    }
+
     batteryManager = new BatteryManager(uniform(15, 100));
     protocolManager = new ProtocolManager();
     periodicActionsTimer = new cMessage("periodic actions");
     timer = new cMessage("timeout");
     btFsaManager = new BTFsaManager();
 
-    nodeInitializazion();
+    nodeInitialization();
 
     scheduleAt(simTime()+0.3,periodicActionsTimer);
 
@@ -108,7 +116,7 @@ void RandomGeometricNode::initialize() {
     }
 }
 
-void RandomGeometricNode::nodeInitializazion()
+void RandomGeometricNode::nodeInitialization()
 {
     btFsaManager->standby();
     protocolManager->updateParameters(this,batteryManager);

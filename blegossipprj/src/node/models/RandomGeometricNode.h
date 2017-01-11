@@ -52,7 +52,7 @@ public:
     void setYcoordinate(double);
 
 private:
-    void nodeInitializazion();
+    void nodeInitialization();
 
     //Trasmission & Receive methods
 protected:

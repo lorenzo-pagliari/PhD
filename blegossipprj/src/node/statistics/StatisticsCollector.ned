@@ -22,5 +22,6 @@ simple StatisticsCollector
 //        @signal[arrivalTime](type="long");
 //        @statistic[arrivalPerc](title="arrival perc"; source=count(arrival); record=histogram; interpolationmode=none);
 //        @statistic[arrivalTime](title="arrival time"; source=arrivalTime; record=histogram; interpolationmode=none);
-		
+
+        @display("i=block/cogwheel;is=s");
 }
